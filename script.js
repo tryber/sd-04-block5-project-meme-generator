@@ -19,10 +19,5 @@ window.onload = function(){
 
   imgInput.addEventListener('change', addImage);
 
-  btn.addEventListener('click', function(){
-
-
-  });
-
 
 };
