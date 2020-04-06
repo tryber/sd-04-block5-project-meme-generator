@@ -28,8 +28,8 @@ html, body{
   font-weight: bold;
   max-width: 500px;
   position: absolute;
-  text-shadow: 1px 1px 1px black;
   text-align: center;
+  text-shadow: 1px 1px 1px black;  
   word-wrap: break-word;
 }
 
