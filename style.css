@@ -1,17 +1,19 @@
 #text {
   font-family: Arial;
   position: absolute;
+  word-break: break-all;
   font-size: 50px;
   font-weight: 800;
   color:  white;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-  width: 100%;
+  right: 10px;
+  left: 10px;
   top: 75%;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
-#text-input {
 
-}
 #meme-image-container {
   position: relative;
   border: 1px solid black;
