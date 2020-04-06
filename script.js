@@ -1,3 +1,5 @@
+window.onload = function(){
+
 let textInput = document.querySelector("#text-input");
 let textMeme = document.querySelector("#text-meme");
 
@@ -12,3 +14,4 @@ textInput.addEventListener("keyup", function () {
   let txt = textInput.value;
   textMeme.innerText = txt.toUpperCase();
 });
+}
