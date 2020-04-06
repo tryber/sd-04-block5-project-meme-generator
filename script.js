@@ -18,7 +18,6 @@ window.onload = function(){
   };
 
   imgInput.addEventListener('change', addImage);
-  
   // Bonus 4
   let btnOne = document.querySelector('#button1');
 
@@ -38,5 +37,4 @@ window.onload = function(){
     container.style.border = "6px groove green";
   });
   
-
 };
