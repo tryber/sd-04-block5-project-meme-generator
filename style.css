@@ -1,11 +1,12 @@
+body {
+  background-color: pink;
+}
+
 .meme-image {
   position: absolute;
 }
 
 .meme-image-container {
+  background-color: white;
   border: 1px solid black;
-}
-
-body {
-  background-color: pink;
 }
