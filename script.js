@@ -15,6 +15,4 @@ function addImage(event) {
     img.alt = 'Imagem do meme escolhido';
     img.id = 'meme-image';
     container.appendChild(img);
-    img.style.display = 'inline';
-    //txt.style.display = 'block'
 }
