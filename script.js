@@ -5,7 +5,6 @@ window.onload = function(){
   let btn =  document.querySelector('#btnGerar');
   let container = document.querySelector('#meme-image-container');
   let memeText = document.querySelector('#meme-text');
-  let memeImg = previewContainer.querySelector('.meme-img');
   
   
   textInput.addEventListener('keyup', function(){
@@ -13,12 +12,5 @@ window.onload = function(){
   
   });
   
-  
-  // btn.addEventListener('click', function(){
-  
-  // });
-
-
-
 
 };
