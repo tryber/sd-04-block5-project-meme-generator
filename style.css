@@ -1,0 +1,8 @@
+#meme-image {
+visibility: visible;
+}
+
+#meme-image-container {
+    border: 3px dashed rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
