@@ -1,16 +1,7 @@
-html {
-  left: auto;
-  top: auto;
-  right: auto;
-  bottom: auto;
-  overflow-x: auto;
-  overflow-y: auto;
-  width : 1366px;
-  height: 768px;
-}
-
 body {
   background-color: rgba(241, 184, 99, 0.685);
+  width : 1366px;
+  height: 768px;
 
 }
 #text-meme {
