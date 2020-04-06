@@ -1,4 +1,4 @@
-let memeText = document.getElementById("memeText")
+let memeText = document.getElementById("meme-text")
 let textInput = document.getElementById("text-input")
 let memeImg = document.getElementById("meme-image")
 let imageInput = document.getElementById("meme-insert")
