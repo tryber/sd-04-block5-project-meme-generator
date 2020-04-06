@@ -9,4 +9,4 @@ let img = document.getElementById('meme-image');
 imgInput.addEventListener('input', () => {
     console.log(imgInput.files[0].name);
     img.src = URL.createObjectURL(event.target.files[0]);
-})
+});
