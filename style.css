@@ -1,13 +1,3 @@
-html {
-  left: auto;
-  top: auto;
-  right: auto;
-  x: auto;
-  y: auto;
-  width: auto;
-  height: auto;
-}
-
 body {
   background-color: grey;
 }
@@ -16,10 +6,10 @@ body {
   Background-color: white;
   border: 1px solid black;
   display: flex;
-  height: 400px;
-  margin: auto;
+  height: 500px;
+  margin-top: 15px;
   position: relative;
-  width: 400px;
+  width: 500px;
 }
 
 #text-meme {
@@ -27,9 +17,17 @@ body {
   color: red;
   display: flex;
   font-size: 40px;
-  height: 130px;
   position: absolute;
   text-align: center;
-  width: 350px;
-  word-break: break-all;
+  top: 75%;
+  width: 100%;
+  word: break-all;
+}
+
+#meme-image {
+  height: 750px;
+  visibility: visible;
+  width: 750px;	    
+  min-height: 300px;
+  min-width: 300px;
 }
