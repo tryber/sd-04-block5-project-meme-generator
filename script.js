@@ -1,6 +1,6 @@
 window.onload = function () {
 
-    let textInput = this.document.getElementById("text-input");
+    let textInput = this.document.getElementById("text-to-meme");
     let textMeme = this.document.getElementById("text-meme");
     let memeInput = this.document.getElementById("meme-insert");
     let memeImage = this.document.getElementById("meme-image");
@@ -9,8 +9,7 @@ window.onload = function () {
         textMeme.innerHTML = textInput.value;
     })
 
-    memeInput.addEventListener("change", function() {
+    memeInput.addEventListener("change", function () {
         memeImage.src = URL.createObjectURL(this.files[0]);
     })
 }
-
