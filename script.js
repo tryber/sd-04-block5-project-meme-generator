@@ -28,9 +28,17 @@ window.onload = function () {
     button3.addEventListener("click", function() {
         meme.style.border = "6px groove green"
     })
+
+    
 }
 
 function reset() {
     document.getElementById("meme-image-container").style.border = "1px solid black"
 }
+
+function openImage(image) {
+    document.getElementById("meme-image").src = image
+}
+
+
 
