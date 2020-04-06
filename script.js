@@ -4,9 +4,7 @@ window.onload = function() {
   container.appendChild(text);
   let inputText = document.getElementById("text-input");
   // input text dynamically over the image
-  inputText.addEventListener("input", function(){
-    text.innerHTML = inputText.value;
-  })
+  inputText.addEventListener("input", () => { text.innerHTML = inputText.value })
 
 }
 
