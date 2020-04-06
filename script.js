@@ -18,6 +18,25 @@ window.onload = function(){
   };
 
   imgInput.addEventListener('change', addImage);
+  
+  // Bonus 4
+  let btnOne = document.querySelector('#button1');
 
+  btnOne.addEventListener('click', function(){
+    container.style.border = "3px dashed red";
+  });
+
+  let btnTwo = document.querySelector('#button2');
+
+  btnTwo.addEventListener('click', function(){
+    container.style.border = "5px double blue";
+  });
+
+  let btnThree = document.querySelector('#button3');
+
+  btnThree.addEventListener('click', function(){
+    container.style.border = "6px groove green";
+  });
+  
 
 };
