@@ -10,4 +10,12 @@ form button {
 section {
   background-color: white;
   border: black 1px solid;
+  display: inline-block;
 }
+
+section p {
+  position: absolute;
+  color: red;
+   
+}
+
