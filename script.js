@@ -12,6 +12,7 @@ window.onload = function(){
  
   function addImage(event){
     let image = document.createElement('img');
+    image.id = "meme-image";
     image.src = URL.createObjectURL(event.target.files[0]);
     container.appendChild(image);
   };
