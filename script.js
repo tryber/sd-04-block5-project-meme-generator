@@ -32,14 +32,14 @@ let btn6 = document.getElementById('meme-3');
 let btn7 = document.getElementById('meme-4');
 
 btn4.addEventListener('click', ()=>{
-    img.src='./imgs/meme1.jpeg';
+    img.src='https://imgflip.com/s/meme/Distracted-Boyfriend.jpg';
 });
 btn5.addEventListener('click', ()=>{
-    img.src='./imgs/meme2.jpeg';
+    img.src='https://imgflip.com/s/meme/Woman-Yelling-At-Cat.jpg';
 });
 btn6.addEventListener('click', ()=>{
-    img.src='./imgs/meme3.jpeg';
+    img.src='https://imgflip.com/s/meme/Running-Away-Balloon.jpg';
 });
 btn7.addEventListener('click', ()=>{
-    img.src='./imgs/meme4.jpeg';
+    img.src='https://imgflip.com/s/meme/Disaster-Girl.jpg';
 });

@@ -1,16 +1,20 @@
+.main-content {
+    display: grid;
+    justify-content: center;
+}
 .meme-image-container {
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(0,0,0);
-    height: 750px;
+    height: 500px;
     margin-top: 15px;
     position: relative;
-    width: 750px;
+    width: 500px;
 }
 
 .meme-image {
-    height: 750px;
+    height: 500px;
     visibility: visible;
-    width: 750px;
+    width: 500px;
 }
 
 .meme-text {
