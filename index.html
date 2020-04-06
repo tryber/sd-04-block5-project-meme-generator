@@ -3,10 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style src="style.css"></style>
+  <title>Gerador de Memes</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
 </head>
 <body>
-<script src="script.js"></script>
+  <header>
+    <h1>Bem vindo ao Meme Generator!!</h1>
+  </header>
+
+  <form>
+    <input id="text-imput"> Insira o texto para o seu meme</input><br>
+    <input id="meme-insert" type="file"> Selecione sua imagem</input><br>
+    <button id='upload-image'>Upload</button>
+  </form>
+
+  <section id="meme-image-contair">
+    <p></p>
+    <img id="meme-image"></img>
+  </section>
+
 </body>
 </html>
