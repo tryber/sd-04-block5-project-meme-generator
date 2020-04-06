@@ -5,11 +5,11 @@ window.onload = function(){
   let btn =  document.querySelector('#btnGerar');
   let container = document.querySelector('#meme-image-container');
   let memeText = document.querySelector('#meme-text');
-  
+  //
   textInput.addEventListener('keyup', function(){
     memeText.innerHTML = textInput.value;
   });
- 
+  //
   function addImage(event){
     let image = document.createElement('img');
     image.id = "meme-image";
