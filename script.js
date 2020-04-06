@@ -1,7 +1,7 @@
 function submitText() {
-  let text = document.getElementsByTagName("p")[0];
-  let textInput = document.querySelector("#text-input").value;
+  let text = document.getElementById("meme-text");
+  let textInput = document.getElementById("text-input").value;
   text.innerHTML = textInput;
 }
 
-document.querySelector("#text-input").addEventListener('input', submitText);
+document.getElementById("text-input").addEventListener('input', submitText);
