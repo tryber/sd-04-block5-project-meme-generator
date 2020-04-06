@@ -3,17 +3,21 @@ header{
 	clear: both;
 }
 body{
-	background-color: gray;
+	background-color: rgb(179, 179, 179);
 }
 #meme-image-container{
-	float: right;
+	position: absolute;
+	right: 50px;
 	width: 500px;
 	height: 500px;
-	margin-right: 50px;
 	background-color: white;
 	border: 1px solid black;
 }
 #meme-image-container img{
-	margin: 0;
-	padding: 0;
+	position: relative;
+}
+#meme-image-container p{
+	position: relative;
+	word-wrap: break-word;
+	z-index: 1;
 }

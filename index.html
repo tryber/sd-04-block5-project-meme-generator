@@ -17,13 +17,16 @@
 	</div>
 	<div>
 		<label for="meme-insert">Select image:</label>
+		<br>
 		<input onchange="addImageToContainer(event)" type="file" id="meme-insert" accept="image/*">
+		<br><br>
+		<label for="text-input">Insert text (use &ltbr&gt to break the line):</label>
 		<br>
-		<label for="text-input">Insert text:</label>
-		<input type="text" id="text-input">
-		<br>
+		<input oninput="addTextToContainer(event, 0)" type="text" id="text-input" maxlength="60">
+		<br><br>
 		<label for="color-input">Select text color:</label>
-		<input type="color" id="color-input">
+		<br>
+		<input oninput="changeTextColor(event)" type="color" id="color-input">
 	</div>
 	<script src="script.js"></script>
 </body>
