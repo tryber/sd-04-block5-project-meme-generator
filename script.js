@@ -11,9 +11,9 @@ imgInput.addEventListener('input', () => {
     img.src = URL.createObjectURL(event.target.files[0]);
 });
 
-let btn1 = document.getElementById('btn1');
-let btn2 = document.getElementById('btn2');
-let btn3 = document.getElementById('btn3');
+let btn1 = document.getElementById('button1');
+let btn2 = document.getElementById('button2');
+let btn3 = document.getElementById('button3');
 let div = document.getElementById('meme-image-container');
 
 btn1.addEventListener('click', ()=>{
@@ -26,10 +26,10 @@ btn3.addEventListener('click', ()=>{
     div.style.border='6px groove green';
 });
 
-let btn4 = document.getElementById('m1img');
-let btn5 = document.getElementById('m2img');
-let btn6 = document.getElementById('m3img');
-let btn7 = document.getElementById('m4img');
+let btn4 = document.getElementById('meme-1');
+let btn5 = document.getElementById('meme-2');
+let btn6 = document.getElementById('meme-3');
+let btn7 = document.getElementById('meme-4');
 
 btn4.addEventListener('click', ()=>{
     img.src='./imgs/meme1.jpg';
