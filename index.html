@@ -2,20 +2,25 @@
 <html>
   <head>
     <title>My awesome meme</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <h1>My awesome meme</h1>
+
     <form>
       <label for="text-input">Type your text of your meme</label>
-      <input id="text-input" type="text" maxlength="60"></input><br>
+      <input id="text-input" type="text" maxlength="60" />
+      <br />
       <label for="meme-insert">Select your image</label>
-      <input id='meme-insert' type="file"></input><br>
+      <input id='meme-insert' type="file" /><br>
     </form>
+
     <div id="meme-image-container" class="meme-image-container">
       <p id='text-meme' class='text-meme'></p>
-      <img id='meme-image' class='meme-image'></img>
+      <img id='meme-image' class='meme-image'src="" alt="" />
     </div>
-    <script src='script.js'></script>
+
+    <script src="script.js"></script>
   </body>
 </html>
