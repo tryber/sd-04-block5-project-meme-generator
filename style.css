@@ -14,6 +14,7 @@ html, body{
   font-size: 35px;
   height: 500px;
   margin-top: 20px;
+  position: relative;
   width: 500px;
 }
 
@@ -23,13 +24,15 @@ html, body{
 }
 
 .meme-text{
-  bottom: 60px;
+  bottom: 2%;
   color: yellow;
   font-weight: bold;
+  left: 50%;
   max-width: 500px;
   position: absolute;
   text-align: center;
   text-shadow: 1px 1px 1px black;
+  transform: translate(-50%);
   word-wrap: break-word;
 }
 

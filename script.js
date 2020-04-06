@@ -16,8 +16,9 @@ window.onload = function(){
     image.src = URL.createObjectURL(event.target.files[0]);
     container.appendChild(image);
   };
-
   imgInput.addEventListener('change', addImage);
+
+
   // Bonus 4
   let btnOne = document.querySelector('#button1');
 
@@ -36,5 +37,6 @@ window.onload = function(){
   btnThree.addEventListener('click', function(){
     container.style.border = "6px groove green";
   });
-  
+
+  //Bonus 5
 };
