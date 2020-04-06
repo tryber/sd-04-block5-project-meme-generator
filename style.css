@@ -1,11 +1,15 @@
 #textToDisplay {
     position: absolute;
-    bottom: 8px;
-    left: 16px;
+    bottom: 50px;
+    left: 160px;
     color: white; 
   }
   #meme-image-container {
     position: relative;
     text-align: center;
-    
+    background-color: rgb(255, 255, 255);
+     }
+  #meme-image-container {
+    border-color: black;
+    border-style: solid;
   }
