@@ -17,19 +17,18 @@ window.onload = function () {
         memeImage.src = URL.createObjectURL(this.files[0]);
     })
 
-    button1.addEventListener("click", function() {
+    button1.addEventListener("click", function () {
         meme.style.border = "3px dashed red"
     })
 
-    button2.addEventListener("click", function() {
+    button2.addEventListener("click", function () {
         meme.style.border = "5px double blue"
     })
 
-    button3.addEventListener("click", function() {
+    button3.addEventListener("click", function () {
         meme.style.border = "6px groove green"
     })
 
-    
 }
 
 function reset() {
@@ -39,6 +38,3 @@ function reset() {
 function openImage(image) {
     document.getElementById("meme-image").src = image
 }
-
-
-
