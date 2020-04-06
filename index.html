@@ -1,45 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
-    
-  </head>
 
-  <body>
+</head>
+
+<body>
     <div id="main-content">
-      <header>
-        <center>
-          <h1>MEME Generator v0.01</h1>
-        </center>
-      </header>
+        <header>
+            <h1>MEME Generator v0.01</h1>
+        </header>
 
-      <!--Input e imagem - meme genenator-->
-      <section>
-        <center>
-          <input type="text" id="text-input" placeholder="Escolha o texto" /><br />
-          <input type="file" id="meme-insert" class="input-caixa" onchange="visualizarImagem()" name="meme-image" accept="image/*">
-        </center>
-      </section>
+        <form action="">
+            <input type="text" id="text-input" placeholder="Escolha o texto" /><br />
+            <button id="gm-btn">Escolha a imagem!</button>
+        </form>
 
-      <figure>
         <div id="meme-image-container" class="meme-image-container">
-            <center>
-                <p id="meme-texto" class="meme-texto"></p>
-                <img id="meme-image" class="meme-image" src=""></img>
-            </center>
+            <p id="meme-texto" class="meme-texto"></p>
+            <img id="meme-image" class="meme-image" src=""></img>
         </div>
-      </figure>
-      <footer>
-        <center>
-          Mais Informações:<a href="https://github.com/tryber/sd-04-block5-project-meme-generator"
-            >Meme Generator</a
-          >
-        </center>
-      </footer>
     </div>
     <script src="script.js"></script>
-  </body>
+</body>
+
 </html>
