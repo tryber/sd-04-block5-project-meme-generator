@@ -12,9 +12,3 @@ textInput.addEventListener("keyup", function () {
   let txt = textInput.value;
   textMeme.innerText = txt.toUpperCase();
 });
-
-  window.screenX = 'auto';
-  window.screenLeft = 'auto';
-  window.screenTop = 'auto';
-  window.screenY = 'auto';
-   
