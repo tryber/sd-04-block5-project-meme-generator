@@ -1,11 +1,10 @@
-p {
+#text {
   color: black;
   width: 5px;
   position: absolute;
 }
 #text-input {
-  margin-top:  50px;
-  
+
 }
 #meme-image-container {
   position: relative;
