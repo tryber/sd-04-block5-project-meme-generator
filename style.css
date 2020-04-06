@@ -7,8 +7,13 @@ body{
 }
 #meme-image-container{
 	float: right;
-	padding: 250px;
+	width: 500px;
+	height: 500px;
 	margin-right: 50px;
 	background-color: white;
 	border: 1px solid black;
+}
+#meme-image-container img{
+	margin: 0;
+	padding: 0;
 }
