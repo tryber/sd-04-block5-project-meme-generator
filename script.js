@@ -13,7 +13,7 @@ window.onload = function () {
         textMeme.innerHTML = textInput.value;
     })
 
-    memeInput.addEventListener("change", function () {
+    memeInput.addEventListener("input", function () {
         memeImage.src = URL.createObjectURL(this.files[0]);
     })
 
