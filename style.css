@@ -1,3 +1,13 @@
+html {
+  left: auto;
+  top: auto;
+  right: auto;
+  x: auto;
+  y: auto;
+  width: auto;
+  height: auto;
+}
+
 body {
   background-color: grey;
 }
