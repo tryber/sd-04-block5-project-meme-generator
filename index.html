@@ -8,6 +8,7 @@
 
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap">
+  <script src="script.js"></script>
 </head>
 
 <body>
@@ -18,16 +19,17 @@
     <section id="meme-viewer" class="page-section flex-container">
       <div id="meme-gen-controls" class="flex-item">
         <form>
+          <label for="text-imput">Texto de cima</label>
           <input type="text" id="text-input">
         </form>
       </div>
       <div id="meme-container" class="flex-item flex-container center">
         <div id="meme-image-container" class="meme-image-container">
-          <div class="meme-text upper-text">
+          <div id="upper-text" class="meme-text upper-text">
             sadasdasdasdasd
           </div>
           <img src="./meme-bg-1.jpg" alt="meme backgorund" class="meme-background">
-          <div class="meme-text lower-text">
+          <div id="lower-text" class="meme-text lower-text">
             dasdasdasdsda
           </div>
         </div>
