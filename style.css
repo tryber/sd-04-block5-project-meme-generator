@@ -2,11 +2,6 @@ body {
   background-color: grey;
 }
 
-form button {
-  border: hotpink;
-  border: 10px;
-}
-
 section {
   Background-color: white;
   border: 1px solid black;
@@ -19,17 +14,12 @@ section {
 
 section p {
   bottom: 0;
+  color: red;
   display: flex;
+  font-size: 40px;
   height: 130px;
   position: absolute;
+  text-align: center;
   width: 350px;
   word-break: break-all;
-  font-size: 40px;
-  color: red;
-  text-align: center;
 }
-
-section img{
- 
-}
-
