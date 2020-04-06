@@ -1,4 +1,4 @@
-#meme-image-container {
+.meme-image-container {
     background-color: rgb(255, 255, 255);
     border: 1px solid black;
     height: 750px;
@@ -7,17 +7,17 @@
     width: 750px;
 }
 
-#meme-image {
+.meme-image {
     height: 750px;
     visibility: visible;
     width: 750px;
 }
 
-#meme-text {
+.meme-text {
     color: yellow;
     font-family: Arial;
     font-size: 42px;
-    font-weight: bolders;
+    font-weight: bolder;
     position: absolute;
     text-align: center;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
