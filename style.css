@@ -18,14 +18,14 @@ body {
 }
 
 #meme-image-container {
+  background-color: rgb(255, 255, 255);
   border: 1px solid rgb(0, 0, 0);
-  min-height: 100px;
   margin-top: 15px;
-  width: 500px;
+  width: 450px;
+  height: 250px;
   /* display: flex; */
-  align-items: center;
   font-weight: bold;
-  color: rgb(179, 138, 52);
+  position: relative;
   
 }
 
@@ -34,15 +34,22 @@ body {
   font-weight: bold;
   font-size: 32px;
   position: absolute;
+  left: 300px;
+  top: 0;
   z-index: 2;
 }
 
 #meme-image {
   display: none;
-  max-width: 500px;
+  width: 450px;
   position: absolute;
   z-index: 1;
+
 }
+
+/* #meme-borders {
+    
+} */
 
 button {
   background-color: rgb(34, 85, 179);
@@ -54,3 +61,5 @@ button {
 button:hover {
   background-color: rgb(99, 154, 255);
 }
+
+
