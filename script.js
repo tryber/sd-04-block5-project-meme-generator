@@ -4,4 +4,4 @@ function submitText() {
   text.innerHTML = textInput;
 }
 
-document.querySelector("#text-input").addEventListener('keyup', submitText);
+document.querySelector("#text-input").addEventListener('input', submitText);
