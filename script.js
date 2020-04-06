@@ -34,14 +34,14 @@ let btn6 = document.getElementById('meme-3');
 let btn7 = document.getElementById('meme-4');
 
 btn4.addEventListener('click', function(){
-    img.src='./imgs/meme1.jpg';
+    img.src='./imgs/meme1.jpeg';
 });
 btn5.addEventListener('click', function(){
-    img.src='./imgs/meme2.jpg';
+    img.src='./imgs/meme2.jpeg';
 });
 btn6.addEventListener('click', function(){
-    img.src='./imgs/meme3.jpg';
+    img.src='./imgs/meme3.jpeg';
 });
 btn7.addEventListener('click', function(){
-    img.src='./imgs/meme4.jpg';
+    img.src='./imgs/meme4.jpeg';
 });
