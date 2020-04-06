@@ -3,9 +3,21 @@ body {
   font-size: 24px;
 }
 
-header {
+.flex-container {
   display: flex;
+}
+
+.flex-item {
+ flex: 1; 
+}
+
+.flex-item.center {
+  justify-content: center;
+}
+
+header {
   align-items: center;
+  display: flex;
 }
 
 h1 {
@@ -18,5 +30,39 @@ main {
 }
 
 .page-section {
-  display: flex;
+  padding-bottom: 20px;
+}
+
+.meme-image-container {
+  border-radius: 12px;
+  color: white;
+  font-weight: 800;
+  max-width: 500px;
+  position: relative;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.meme-background {
+  border-radius: 12px;
+  max-width: 500px;
+}
+
+.meme-text {
+  filter: drop-shadow(2px 4px 6px black);
+  ;
+  padding: 5px 10px 10px 10px;
+  position: absolute;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;  
+}
+
+.upper-text {
+  left: 0;
+  top: 0;
+}
+
+.lower-text {
+  bottom: 0;
+  left: 0;
 }
