@@ -1,15 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&display=swap');
+
 body {
-    padding: 16px;
-    margin: 8px;
+  background-color: rgb(206, 255, 99);
+  padding: 16px;
+  margin: 8px;
+  font-size: 24px;
+  font-family: 'Baloo Thambi 2', cursive;
+  color: rgb(179, 138, 52);
 }
 
+#text-input {
+  margin-bottom: 16px;
+}
+
+#meme-insert {
+  margin-bottom: 16px;
+}
 
 #meme-image-container {
-    border: 1px solid rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+  min-height: 100px;
+  margin-top: 15px;
+  width: 500px;
+  /* display: flex; */
+  align-items: center;
+  font-weight: bold;
+  color: rgb(179, 138, 52);
+  
 }
 
 .meme-text {
-    margin-right: 16px;
+  margin-left: 16px;
+  font-weight: bold;
+  font-size: 32px;
+  position: absolute;
+  z-index: 2;
 }
 
+#meme-image {
+  display: none;
+  max-width: 500px;
+  position: absolute;
+  z-index: 1;
+}
 
+button {
+  background-color: rgb(34, 85, 179);
+  color: rgb(255, 255, 255);
+  padding: 8px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+button:hover {
+  background-color: rgb(99, 154, 255);
+}
