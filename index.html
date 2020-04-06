@@ -5,17 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meme Generator</title>
     <style>
+
         #meme-image{
-            max-width:500px;
-            max-height:500px;
+            max-width: 500px;
+            max-height: 500px;
         }
+
         #meme-image-container{
-            position:relative
+            position: relative;
+            width: 500px;
+            height: 500px;
+            border: solid 1px;
         }
+
         #memeTextContainer{
             position: absolute;
-            left:15px;
-            bottom:8px;
+            left: 15px;
+            bottom: 8px;
         }
 
     </style>
@@ -30,7 +36,7 @@
     </div>
     <div> 
         <input type="text" id="text-input" /><br>
-        <input type='file' id="meme-insert" />
+        <input type='file' id="meme-insert" maxlength="60"/>
     </div>
    
 
