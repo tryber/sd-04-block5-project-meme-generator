@@ -1,3 +1,11 @@
-h1 {
+#textToDisplay {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white; 
+  }
+  #meme-image-container {
+    position: relative;
     text-align: center;
-}
+    
+  }
