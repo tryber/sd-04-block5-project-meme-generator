@@ -11,16 +11,18 @@
   <h1>Meme Generator... =P</h1>
   <article>
     <section>
-      <label for="text-input">Texto: </label>
-      <input type="text" id="text-input">
-      <label for="meme-insert">Imagem: </label>
-      <input type="file" id="meme-insert">
-      
-      
+      <form>
+        <label for="text-input">Texto: </label>
+        <input type="text" id="text-input" maxlength="60">
+        <br><br>
+        <label for="meme-insert">Imagem: </label>
+        <input type="file" id="meme-insert" onchange="addImageContainer(event)" accept="image/*">
+        <br><br>
+      </form>
 
-
-
-      <div id="meme-image-container"
+      <div id="meme-image-container" class="meme-image-container">
+        <img id="meme-image" class="meme-image" src="" alt=""/>
+      </div>
     </section>
   </article>
 </body>

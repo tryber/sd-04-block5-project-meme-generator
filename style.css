@@ -7,3 +7,22 @@ h1 {
   width: 100%;
   text-align: center;
 }
+
+.meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  font-size: 50px;
+  width: 500px;
+  margin-top: 30px;
+  height: 500px;
+}
+
+.meme-image {
+  height: 500px;
+  width: 500px;
+}
+
+.meme-image-container img{
+  height: 500px;
+  width: 500px;
+}
