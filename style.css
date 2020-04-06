@@ -1,12 +1,31 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
 div#meme-image-container {
     border: 1px solid #000;
-    width: 40%;
-    height: 300px;
-    position: relative;
+    width: 45%;
+    height: 450px;
+    box-sizing: border-box;
 }
 
 div#meme-image-container img {
     display: none;
     width: 100%;
-    height: inherit;
+    height: 100%;
+}
+
+div#meme-image-container, div#meme-image-container img {
+    position: relative;
+}
+
+div#meme-image-container p {
+    position: absolute;
+    display: none;
+    bottom: 30px;
+    font-family: 'Titillium Web', Helvetica, sans-serif;
+    background-color: rgba(0 , 0 , 0 , 0.5);
+    width: 100%;
+    text-indent: 25px;
+    color: #fff;
+    font-size: 1.7em;
 }
