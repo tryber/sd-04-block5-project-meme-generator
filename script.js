@@ -12,10 +12,5 @@ window.onload = function (){
     img.height = 1366;
     img.width = 768;
   }
-  
-  
-
-  
   //Adicionando a imagem na página
-
 }
