@@ -1,0 +1,15 @@
+body {
+    padding: 16px;
+    margin: 8px;
+}
+
+
+#meme-image-container {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.meme-text {
+    margin-right: 16px;
+}
+
+
