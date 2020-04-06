@@ -7,18 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Meme Generator</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <form>
     <label for="img-input">Escolha a imagem do meme:</label><br>
-    <input type="file" name="img-input" id="img-input"><br><br>
+    <input type="file" name="meme-insert" id="meme-insert"><br><br>
     <label for="text-input">Digite o texto do meme:</label><br>
     <input type="text" name="text-input" id="text-input">
   </form>
 
   <div id="meme-image-container">
-    <img id="meme-img" alt="meme">
+    <img src="dog-mask.png" id="meme-image" alt="meme">
 
     <p id="meme-text"></p>
   </div>
