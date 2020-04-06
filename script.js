@@ -4,24 +4,22 @@ window.onload = function(){
   let imgInput = document.querySelector('#meme-insert');
   let btn =  document.querySelector('#btnGerar');
   let container = document.querySelector('#meme-image-container');
-  let memeText = document.querySelector('#meme-text');  
+  let memeText = document.querySelector('#meme-text');
   
   textInput.addEventListener('keyup', function(){
     memeText.innerHTML = textInput.value;
-  
   });
  
   function addImage(event){
     let image = document.createElement('img');
     image.src = URL.createObjectURL(event.target.files[0]);
-
     container.appendChild(image);
   };
 
   imgInput.addEventListener('change', addImage);
 
   btn.addEventListener('click', function(){
-    
+
 
   });
 

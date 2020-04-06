@@ -10,16 +10,16 @@
   <header>
     <h1>leandromarten1 - Meme Generator</h1>
   </header>
-  <section id="setting"> 
+  <section id="setting" class='setting'> 
     <form>
       <label>Texto do MEME:</label><br>
-      <input autocomplete="off" type="text" id="text-input"><br><br>
+      <input autocomplete="off" type="text" id="text-input" maxlength="60"><br><br>
       <label>Imagem Escolhida:</label><br>
       <input type="file" id="meme-insert"><br><br>
       <button id="btnGerar">Gerar MEME</button>
     </form>
   </section>
-  <section id="meme-image-container">
+  <section id="meme-image-container" class='meme-image-container'>
     <!-- <img src="https://picsum.photos/200" class="meme-img" id="meme-img"> -->
     <p id="meme-text" class="meme-text"></p>
   </section>

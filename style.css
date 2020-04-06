@@ -3,12 +3,12 @@ html, body{
   padding: 0;
 }
 
-#setting{
+.setting{
   display: block;
   padding: 10px;
 }
 
-#meme-image-container{
+.meme-image-container{
   border: 1px solid black;
   margin-top: 20px;
   width: 500px;
@@ -17,12 +17,12 @@ html, body{
   background-color: white;
 }
 
-#meme-image-container img{
+.meme-image-container img{
   width: 500px;
   height: 500px;
 }
 
-#meme-text{
+.meme-text{
   color: yellow;
   text-shadow: 1px 1px 1px black;
   text-align: center;
@@ -32,7 +32,7 @@ html, body{
   bottom: 40px;
 }
 
-#meme-img{
+.meme-img{
   width: 500px;
   height: 500px;
 }
