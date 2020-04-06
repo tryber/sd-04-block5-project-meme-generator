@@ -29,7 +29,8 @@ html, body{
   font-weight: bold;
   position: absolute;
   max-width: 500px;
-  bottom: 40px;
+  bottom: 60px;
+  word-wrap: break-word;
 }
 
 .meme-img{
