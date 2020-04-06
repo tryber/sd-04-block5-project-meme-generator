@@ -1,6 +1,6 @@
 window.onload = function () {
 
-    let textInput = this.document.getElementById("text-to-meme");
+    let textInput = this.document.getElementById("text-input");
     let textMeme = this.document.getElementById("text-meme");
     let memeInput = this.document.getElementById("meme-insert");
     let memeImage = this.document.getElementById("meme-image");
