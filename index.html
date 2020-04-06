@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-  
   <meta charset="UTF-8">
   <title>My awesome meme </title>
   <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
   <h1>My awesome meme </h1>
+  <form>
   <label for="text-input">Coloque seu texto aqui:</label>
   <input id="text-input" maxlength="60"></input><br>
   <label for="meme-input">Insira sua imagem</label>
   <input id="meme-insert" type="file"></input><br>
   <button id='upload-image'>Upload</button>
+  </form>
 
-    
+  <form> 
   <div id="meme-image-container">
     <p id="text-meme" src=''></p>
     <img id="meme-image"></img>
   </div>
+  </form> 
 <script src="script.js"></script>
 </body>
 </html>
