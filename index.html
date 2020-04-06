@@ -8,19 +8,19 @@
 <body>
   <h1>My awesome meme!</h1>
   <form>
-  <label for="text-input">Coloque seu texto aqui:</label>
-  <input id="text-input" maxlength="60"></input><br>
-  <label for="meme-input">Insira sua imagem</label>
-  <input id="meme-insert" type="file"></input><br>
-  <button id='upload-image'>Upload</button>
+  <label for="text-input"> Coloque seu texto aqui:</label>
+  <input id="text-input" class="text-input" maxlength="60"></input><br>
+  <label for="meme-input"> Insira sua imagem</label>
+  <input id="meme-insert" class="meme-insert" type="file"></input><br>
+  <button id='upload-image' class="upload-image">Upload</button>
   </form>
 
-  <form> 
-  <div id="meme-image-container">
-    <p id="text-meme"></p>
-    <img id="meme-image" src='' alt=''></img>
+  <form>
+  <div id="meme-image-container" class="meme-image-container">
+    <p id="text-meme" class="text-meme"></p>
+    <img id="meme-image" class = "meme-image"src='' alt=''></img>
   </div>
-  </form> 
+  </form>
 <script src="script.js"></script>
 </body>
 </html>
