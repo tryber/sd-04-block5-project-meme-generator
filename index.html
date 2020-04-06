@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <title>Project Meme Generator - leandromarten1</title>
 </head>
 <body>
   <header>
     <h1>leandromarten1 - Meme Generator</h1>
   </header>
-  <section>
+  <section id="setting"> 
     <form>
       <label>Texto do MEME:</label><br>
       <input type="text" id="text-input"><br><br>
@@ -19,11 +20,13 @@
     </form>
   </section>
   <section id="meme-image-container">
-    <!-- IMAGEM VAI AQUI -->
+    <img src="" class="meme-img" id="meme-img">
+    <p id="meme-text" class="meme-text"></p>
   </section>
   
   <footer>
     
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
