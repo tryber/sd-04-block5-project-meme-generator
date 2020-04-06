@@ -10,11 +10,11 @@ html, body{
 
 .meme-image-container{
   background-color: white;
-  border: 1px solid black; 
-  font-size: 35px; 
-  height: 500px; 
+  border: 1px solid black;
+  font-size: 35px;
+  height: 500px;
   margin-top: 20px;
-  width: 500px;  
+  width: 500px;
 }
 
 .meme-image-container img{
@@ -29,11 +29,11 @@ html, body{
   max-width: 500px;
   position: absolute;
   text-shadow: 1px 1px 1px black;
-  text-align: center; 
+  text-align: center;
   word-wrap: break-word;
 }
 
 .meme-img{
   height: 500px;
-  width: 500px;  
+  width: 500px;
 }
