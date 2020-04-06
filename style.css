@@ -1,3 +1,13 @@
+html {
+  left: auto;
+  top: auto;
+  right: auto;
+  x: auto;
+  y: auto;
+  width: auto;
+  height: auto;
+}
+
 body {
   background-color: grey;
 }
@@ -6,10 +16,10 @@ body {
   Background-color: white;
   border: 1px solid black;
   display: flex;
-  height: 500px;
-  margin-top: 15px;
+  height: 400px;
+  margin: auto;
   position: relative;
-  width: 500px;
+  width: 400px;
 }
 
 #text-meme {
@@ -19,13 +29,10 @@ body {
   font-size: 40px;
   position: absolute;
   text-align: center;
-  top: 75%;
-  width: 100%;
-  word: break-all;
+  top: 75%
 }
 
 #meme-image {
-  height: 750px;
   visibility: visible;
   width: 750px;	    
   min-height: 300px;
