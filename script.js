@@ -8,8 +8,12 @@ userImage.addEventListener('change', addImage); // evento para o input file.
 function addImage(event) {
     if(!img){
         img = document.createElement('img');
+    } else {
+
     }
     img.src = URL.createObjectURL(event.target.files[0]);
+    img.alt = 'Imagem do meme escolhido';
+    img.id = 'meme-image';
     container.appendChild(img);
     img.style.display = 'inline';
     //txt.style.display = 'block'

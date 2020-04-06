@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
 
 div#meme-image-container {
-    border: 1px solid #000;
+    border: 1px solid black;
+    background-color: white;
     width: 45%;
     height: 450px;
     box-sizing: border-box;
