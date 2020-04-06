@@ -21,9 +21,7 @@
 
 .text-meme {
     color: white;
-    font-family: Arial;
-    font-size: 42px;
-    font-weight: bolder;
+    font-size: 30px;
     position: absolute;
     text-align: center;
     text-shadow: -1px 1px black, 1px -1px black;
