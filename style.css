@@ -3,7 +3,7 @@ body {
 }
 
 #meme-image-container {
-  Background-color: white;
+  Background-color: rgb(255, 255, 255);
   border: 1px solid black;
   display: flex;
   height: 500px;
