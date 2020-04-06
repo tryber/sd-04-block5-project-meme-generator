@@ -5,22 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meme Generator</title>
     <style>
-        
+        #meme-image{
+            max-width:500px;
+            max-height:500px;
+        }
+        #meme-image-container{
+            position:relative
+        }
+        #memeTextContainer{
+            position: absolute;
+            left:15px;
+            bottom:8px;
+        }
+
     </style>
 </head>
 <body>
-    <div>
-        <input type="text" id="textInput"/><br>
-        <input type='file' id="imageInput" />
-        <img src = # id="memeImg"/>
-        <p id="memeText"></p>
+    <div id = "meme-image-container">
+        
+        <img src = # id="meme-image"/>
+        <div id="memeTextContainer">
+            <p id="memeText"></p>
+        </div>
     </div>
+    <div> 
+        <input type="text" id="text-input" /><br>
+        <input type='file' id="meme-insert" />
+    </div>
+   
 
     <script>
         let memeText = document.getElementById("memeText")
-        let textInput = document.getElementById("textInput")
-        let memeImg = document.getElementById("memeImg")
-        let imageInput = document.getElementById("imageInput")
+        let textInput = document.getElementById("text-input")
+        let memeImg = document.getElementById("meme-image")
+        let imageInput = document.getElementById("meme-insert")
         imageInput.addEventListener("change", function(){
             memeImg.src = URL.createObjectURL(imageInput.files[0])
         })
