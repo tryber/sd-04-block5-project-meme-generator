@@ -1,7 +1,7 @@
-body {
-  margin: 10px;
-  padding: 0;
-}
+section {
+  margin: auto;
+
+  }
 
 .meme-image-container {
   background-color: rgb(255 , 255 , 255);
@@ -22,7 +22,7 @@ body {
 }
 
 .text-meme {
-  color: yellow;
+  color: red;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 45px;
   font-weight: bolder;
