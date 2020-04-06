@@ -9,6 +9,7 @@ body {
   height: 500px;
   position: relative;
   width: 500px;
+  margin-top: 15px;
 }
 
 #text-meme {
