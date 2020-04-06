@@ -17,12 +17,12 @@ input {
 }
 
 p {
-  -webkit-text-stroke-color: white;
-  -webkit-text-stroke-width: 1px;
   font-size: 72px;
   font-weight: bold;
   margin: 0;
   padding: 5px;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 1px;
 }
 
 .container {
@@ -37,8 +37,8 @@ p {
 }
 
 .footer {
-  -webkit-text-stroke-width: 0;
   font-size: 12px;
+  -webkit-text-stroke-width: 0;
 }
 
 .item {
@@ -56,8 +56,6 @@ p {
 }
 
 .item-text {
-  -webkit-text-stroke-color: white;
-  -webkit-text-stroke-width: 1px;
   font-size: 36px;
   font-weight: bold;
   max-height: 400px;
@@ -65,4 +63,6 @@ p {
   overflow-wrap: break-word;
   position: absolute;
   top: 180px;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 1px;
 }
