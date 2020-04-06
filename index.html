@@ -12,15 +12,14 @@
       <form>
         <h1>Que tal criar seu próprio meme?</h1></label>
         <label for="text">Digite o texto do seu meme:
-          <input type="text" id="text-input" name='text' size='4' maxlength="60">
+          <input type="text" id="text-input" name='text' size='4' maxlength="60"><br>
         <label for='meme'>Adicione a Imagem para seu meme!</label>
-          <input type="file" id='meme-insert' name='meme' size='4'>
-        <input type="button" id="button" value="Faça o Meme">
+          <input type="file" id='meme-insert' name='meme' multiple accept="image/*" size='4'>
       <form>
       </header>
       <div id='meme-image-container'>
-        <img id="meme-image" src="#" alt="your image" height=200 width=100>
-
+        <a id="meme-image" src="#" alt="your image">
+        <h2 id='text'></h2>
 
       </div>
   </body>

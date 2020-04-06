@@ -82,7 +82,7 @@ Você deve criar um site que permita o upload de uma imagem e a inserção de um
 - O elemento da imagem deve possuir um id chamado 'meme-image'.
 - O elemento onde é feito o upload da imagem deve ser identificado com o id 'meme-insert'
 - A imagem deve estar totalmente contida dentro do elemento identificado com 'meme-image-container'
-- O texto de quem usa deve ser inserido sobre a imagem escolhida.
+- O texto de quem usa deve ser inserido sobre a imagem escolhida.-
 
 ### 3 - O site deve ter uma moldura no container. A moldura deve ter 1 pixel de largura, deve ser preta e do tipo 'solid'. A área onde a imagem aparecerá deve ter fundo branco.
 - A imagem deve estar totalmente contida dentro do elemento identificado com 'meme-image-container'.
