@@ -8,7 +8,7 @@
   width: 1366px;
   margin: auto;
   border-style: solid black;
-  border: 1px black;
+  border-width: 1px black;
   background-color: white;  
 }
 #meme-image {
@@ -17,6 +17,5 @@
 #text {
   font-family: Impact;
   position: relative;
-  font-size: 50px;
-  text-align: center;
+  font-size: 60px;
 }
