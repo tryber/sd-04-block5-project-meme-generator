@@ -9,7 +9,7 @@ window.onload = function () {
     let button2 = this.document.getElementById("button2");
     let button3 = this.document.getElementById("button3");
 
-    textInput.addEventListener("keyup", function () {
+    textInput.addEventListener("input", function () {
         textMeme.innerHTML = textInput.value;
     })
 
