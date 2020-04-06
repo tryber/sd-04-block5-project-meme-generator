@@ -7,6 +7,7 @@ imageInput.addEventListener("change", function(e){
     let memeImage = document.createElement("img")
     memeImage.src = URL.createObjectURL(e.target.files[0])
     memeImage.id = "meme-image"
+    memeImage.className = "meme-image"
     imageContainer.append(memeImage)
 
 })

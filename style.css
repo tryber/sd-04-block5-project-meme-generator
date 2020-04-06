@@ -1,9 +1,12 @@
-#meme-image{
+body{
+    margin: 10px;
+}
+.meme-image{
     max-width: 500px;
     max-height: 500px;
 }
 
-#meme-image-container{
+.meme-image-container{
     position: relative;
     width: 500px;
     height: 500px;
@@ -14,7 +17,7 @@
     margin-top: 15px;
 }
 
-#meme-text{
+.meme-text{
     position: absolute;
     left: 15px;
     bottom: 8px;
