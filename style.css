@@ -1,10 +1,23 @@
 body {
   background-color: rgba(241, 184, 99, 0.685);
 }
+.text-meme {
+  color: red;
+  font: 25px arial;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  text-align: center;
+
+}
+
 .meme-image {
-  position: fixed;
+  text-align: center;
+
 }
 .meme-image-container {
   background-color: white;
   border: black 1px solid;
+  display: inline-block;
+  text-align: center;
 }
