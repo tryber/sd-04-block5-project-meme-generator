@@ -1,23 +1,24 @@
 body {
   background-color: rgba(241, 184, 99, 0.685);
 }
-.text-meme {
+#text-meme {
   color: red;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   position: absolute;
   text-align: center;
-  word-break: 390px;
+  width: 390px;
+  word-break: break-all;
   z-index: 2;
 }
 
-.meme-image {
+#meme-image {
   height: 400px;
   width: 400px;
-  z-index: 2;
+  z-index: 1;
 }
 
-.meme-image-container {
+#meme-image-container {
   align-content: center;
   background-color: white;
   border: black 1px solid;
