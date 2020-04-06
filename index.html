@@ -10,9 +10,10 @@
         <form>
             <label for="text-input">Digite aqui:</label>
             <input id="text-input" type="text" maxlength="60">
-            <br><br>
+            <br>
             <label for="meme-insert">Selecione alguma imagem</label>
-            <button id="meme-insert" type="">Upload</button>
+            <input type="file" id="meme-insert" name="meme-insert" accept="image/*">
+            <input type="submit">
         </form>
         <div id="meme-image-container">
             <p class="meme-text">Seu texto aparece aqui</p>
