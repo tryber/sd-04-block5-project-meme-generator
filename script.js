@@ -6,14 +6,13 @@ window.onload = function (){
     document.getElementById('text').innerHTML = text.value;
   })
   let image = document.getElementById('meme-insert');
-  text.addEventListener("change",save())
+  image.addEventListener("change",save)
   function save(){
     img.src = URL.createObjectURL(image.files[0]);
-    img.onload = imageIsLoaded;
-    img.height = 768;
-    img.width = 1366;
+    img.height = 1366;
+    img.width = 768;
   }
-  console.log(text.value)
+  
   
 
   

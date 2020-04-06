@@ -1,6 +1,5 @@
 #header {
   
-  position: fixed;
   width: 100%;
   background-color: bisque;
   margin: 3px;
@@ -16,5 +15,5 @@
 #text {
   font-family: Impact;
   position: relative;
-  bottom: 0em;
+  bottom: ;
 }
