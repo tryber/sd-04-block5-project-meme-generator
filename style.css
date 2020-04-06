@@ -1,8 +1,8 @@
-#meme-image {
+.meme-image {
   position: absolute;
 }
 
-#meme-image-container {
+.meme-image-container {
   border: 1px solid black;
 }
 

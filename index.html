@@ -10,16 +10,17 @@
 
 <body>
   <h2>Meme Generator</h2>
+  <form>
+    <label for="text">Qual texto você quer adicionar à imagem?</label><br><br>
+    <input type="text" id="text-input"><br><br>
+    <label for="text">Qual imagem você deseja inserir?</label><br><br>
+    <input type="file" id="meme-insert" class="meme-insert" name="imagem">
+  </form>
   <div id="meme-image-container" class="meme-image-container">
-    <form>
-      <label for="text">Qual texto você quer adicionar à imagem?</label><br><br>
-      <input type="text" id="text-input"><br><br>
-      <label for="text">Qual imagem você deseja inserir?</label><br><br>
-      <input type="file" id="meme-insert" class="meme-insert">
-    </form>
-    <img id="meme-image">
+    <p></p>
+    <img id="meme-image" src=" " alt="sua imagem" width=100>
   </div>
-
+  <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
