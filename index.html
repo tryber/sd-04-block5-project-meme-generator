@@ -1,67 +1,43 @@
 <!DOCTYPE html>
-
-
 <html lang="pt-br">
-
-    <head>
-
-        <meta charset="utf-8">
-        <title>Meme Generator</title>
-        <style>
-                body {
-                background-color: rgb(238 , 149 , 125);
-                font-family: 'Parisienne' , sans-serif;
-                font-size: 20px;
-                line-height: 1.5em;
-                }
-                #allContent {
-                background-color: grey;
-                margin: 30px 50px 30px 50px;
-                border-radius: 5px;
-                border-style: solid;
-                border-width: 5px;
-                border-color: black;
-                }
-                #mainTitle {
-                    text-align: center;
-                }
-
-                
-
-
-        </style>    
-            
-            
-
-    </head>
-
-
+  <head>
+    <title>Meme Generator</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script> 
+  </head>
     <body>
-        <div id="allContent">
-            <center>
-            <h1 id="mainTitle">-- Meme Generator --</h1>
-
-            <!--Div onde a imagem deve ser inserida!-->
-            <div id="meme-image-container">
-                
-                <img id="memeTest" src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg" width="400px">
-                <br>
-                <!--Caixa de texto pro meme!-->
-                Type your meme text here!<input id="text-input">
-
-
-
-
-
-            </div>
-            </center>
-
-
-
-
-
-
-
+        <h1>-- Meme Generator --</h1>
+        
+        
+        <!------------------------------------REQUISITO B DO 1 div meme container--------------------------------------------------------------->
+        <div id="meme-image-container">
+        <img id="meme-image" width="500">
         </div>
-    </body>
+        <!------------------------------------REQUISITO B DO 1 div meme container--------------------------------------------------------------->
+
+
+
+        <!------------------------------------UPLOADER MEME--------------------------------------------------------------->
+        <p><input type="file"  accept="image/*" name="image" id="meme-insert"  onchange="loadMeme(event)" ></p>
+        
+        <!------------------------------------UPLOADER MEME--------------------------------------------------------------->
+
+
+
+       
+        <!------------------------------------REQUISITO A DO 1 caixa de texto------------------style="display: none;"--------------------------------------------->
+        <form>
+        <label for="text-input">Type your meme text here:</label><br>
+        <input type="text"  id="text-input" name="text-input"><input type="submit" value="Submit"><br>
+        </form>
+         <!------------------------------------REQUISITO A DO 1 caixa de texto--------------------------------------------------------------->
+
+
+
+
+
+
+
+    </body>    
 </html>

@@ -1,0 +1,39 @@
+#meme-image-container{
+    border-width: 1px solid black;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    max-width: 400px;
+    height: auto;
+    margin-left: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-wrap: break-word;
+            }
+#uploader{
+    font-size: 20px;
+    padding: 5px;
+    background-color: white;
+    color: red;
+    border-radius: 50px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+#text-input{
+    padding: 5px;
+    background-color: white;
+    border-radius: 50px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    
+}
+#meme-image {
+    max-height: 100%;
+    max-width: 100%;
+    position: relative;
+}
