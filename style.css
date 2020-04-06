@@ -2,7 +2,7 @@ body {
   background-color: grey;
 }
 
-#meme-image-contair {
+#meme-image-container {
   Background-color: white;
   border: 1px solid black;
   display: flex;
