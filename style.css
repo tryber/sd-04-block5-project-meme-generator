@@ -3,8 +3,8 @@ body {
 }
 .text-meme {
   color: red;
-  font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
   position: absolute;
   text-align: center;
   word-break: 390px;
@@ -12,15 +12,15 @@ body {
 }
 
 .meme-image {
-  width: 400px;
   height: 400px;
+  width: 400px;
   z-index: 2;
 }
 
 .meme-image-container {
+  align-content: center;
   background-color: white;
   border: black 1px solid;
   display: inline-block;
-  align-content: center;
   position: relative;
 }
