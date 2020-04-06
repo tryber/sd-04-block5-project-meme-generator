@@ -1,0 +1,14 @@
+header{
+	text-align: center;
+	clear: both;
+}
+body{
+	background-color: gray;
+}
+#meme-image-container{
+	float: right;
+	padding: 250px;
+	margin-right: 50px;
+	background-color: white;
+	border: 1px solid black;
+}
