@@ -8,16 +8,18 @@
     </head>
     <body>
         <div>
-            <label for="text-input">Digite o texto do seu meme: </label>
-            <input id="text-input" type="text"><br>
+            <form>
+                <label for="text-input">Digite o texto do seu meme: </label>
+                <input id="text-input" type="text"><br>
 
-            <label for="user-image">Selecione sua imagem: </label>
-            <input id="user-image" type="file" onchange="addImage(event)">
+                <label for="user-image">Selecione sua imagem: </label>
+                <input id="user-image" type="file" onchange="addImage(event)">
 
-            <div id="meme-image-container">
-                <!--<img src="" alt="Imagem do meme escolhido.">-->
-                <p>Teste</p>
-            </div>
+                <div id="meme-image-container">
+                    <!--<img src="" alt="Imagem do meme escolhido.">-->
+                    <p>Teste</p>
+                </div>
+            </form>
         </div>
 
         <script src="script.js"></script>
