@@ -3,30 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Meme Generator</title>
     <link rel="stylesheet" href="style.css">
-<script src="script.js"></script>
-​
 </head>
 <body>
-​
-    <label for="file" style="cursor: pointer;">Insira uma imagem legal</label>
-​
-    <!--INPUT IMAGE-->
-    <input type="file" name="inpFile" id="meme-insert" accept="image/*" onchange="loadImage(event)">
-​
-    <!--CAIXA DE TEXTO1-->
-        <p>Texto:</p> 
-        <input type="text" id="text-input" placeholder="Digite aqui, algo engraçado" maxlength="60">
-    
-    <!--CONTAINER OF IMAGE-->
-    <div id="meme-image-container" class="imagePreview">
-​
-    <!--PHRASE INSIDE THE CONTAINER BOX-->
-        <img id="meme-image" class="preview-image"></img>
-        <span id="meme-text"></span>
-​
-    </div>
+    <form>
+      <form>
+        <label for="text-input"> Coloque seu texto aqui:</label>
+        <input id="text-input" class="text-input" type:"text" maxlength="60"></input><br>
+        <br>
+        <label for="meme-input"> Insira sua imagem</label>
+        <input type="file" id="meme-insert" class="meme-insert" ></input><br>
+        </form>
+        
+        <div id="meme-image-container" class="meme-image-container">
+
+          <p id="meme-text" class="meme-text"></p>
+          <img id="meme-image" class="meme-image" src="" alt="" />
+          
+        </div>
 
     <button id="meme-1"class="button-meme">Imagem 1</button>
       <button id="meme-2"class="button-meme">Imagem 2</button>
