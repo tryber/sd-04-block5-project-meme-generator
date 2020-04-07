@@ -1,8 +1,8 @@
-#text {
+#meme-text {
   font-family: Arial;
   position: absolute;
   word-break: break-all;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 800;
   color:  white;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
@@ -12,6 +12,8 @@
   text-align: center;
   margin: 0;
   padding: 0;
+  max-height: 85px;
+  line-height: 28px;
 }
 form {
   padding: 5px;
@@ -19,5 +21,15 @@ form {
 #meme-image-container {
   position: relative;
   border: 1px solid black;
-  height: 75vh;
+  height: 100%;
+  width: fit-content
+  
+}
+#meme-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  width: 300px;
+  min-height: 100px;  
 }
