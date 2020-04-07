@@ -1,10 +1,14 @@
-.meme-image {
+  .meme-image {
     height: 500px;
     visibility: visible;
     width: 500px;
   }
 
-  .meme-image-container {
+  #meme-image {
+    visibility: visible;
+  }
+
+  #meme-image-container {
     background-color: rgb(255 , 255 , 255);
     border-color: black;
     border-style: solid;
