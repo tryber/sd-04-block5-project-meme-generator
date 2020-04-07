@@ -9,8 +9,7 @@ memeInsert.addEventListener("change", function () {
 });
 
 textInput.addEventListener("keyup", function () {
-  let txt = textInput.value;
-  textMeme.innerText = txt.toUpperCase();
+  textMeme.innerText = textInput.value;
 });
 
 let button1 = document.querySelector('#button1');

@@ -14,18 +14,13 @@ h2 {
   font-size: 15px;
 }
 
-.form {
-  margin-top: auto;
-}
-
 .meme-image-container {
   background-color: rgb(255 , 255 , 255);
   border-color: black;
   border-style: solid;
   border-width: 1px;
   height: 500px;
-  margin-bottom: auto;
-  margin-right: 10%;
+  margin-top: 10px;
   position: relative;
   width: 500px;
 }
@@ -34,6 +29,7 @@ h2 {
   height: 500px;
   visibility: visible;
   width: 500px;
+  z-index: 1;
 }
 
 .meme-text {
@@ -46,4 +42,5 @@ h2 {
   text-align: center;
   width: 100%;
   word-break: break-all;
+  z-index: 2;
 }

@@ -1,41 +1,34 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
   <head>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
     <title>Meme Generator by Filipe de Castro</title>
   </head>
 
   <body>
-    <section class="section">
-    <header class="form">
-      <h1>Meme Generator</h1>
-      <h2>by Filipe de Castro</h2>
-    </header>
-
-    <form class="form">
-      <label for="text-input">Type your text of your meme</label>
-      <input autocomplete="off" id="text-input" type="text" maxlength="60">
+    <h1>Meme Generator</h1>
+    <form>
+      <label for="text-input">Type your text: </label>
+      <input id="text-input" type="text" maxlength="60" autocomplete="off" />
       <br />
       <label for="meme-insert">Select your image</label>
-      <input id="meme-insert" type="file"><br>
+      <input type="file" id="meme-insert" /><br />
     </form>
-
     <div id="meme-image-container" class="meme-image-container">
       <p id="meme-text" class="meme-text"></p>
-      <img id="meme-image" class='meme-image'src="" alt="">
+      <img id="meme-image" class="meme-image" src="" alt="" />
     </div>
 
-      <form class=form>
-      <button id="meme-1"class="btn-meme">Image 1</button>
-      <button id="meme-2"class="btn-meme">Image 2</button>
-      <button id="meme-3"class="btn-meme">Image 3</button>
-      <button id="meme-4"class="btn-meme">Image 4</button>
+    <button id="meme-1" class="btn-meme">Image 1</button>
+    <button id="meme-2" class="btn-meme">Image 2</button>
+    <button id="meme-3" class="btn-meme">Image 3</button>
+    <button id="meme-4" class="btn-meme">Image 4</button>
 
-      <button id="button1">Frame 1</button>
-      <button id="button2">Frame 2</button>
-      <button id="button3">Frame 3</button>
-    </form>
-    </section>
+    <button id="button1">Frame 1</button>
+    <button id="button2">Frame 2</button>
+    <button id="button3">Frame 3</button>
 
     <script src="script.js"></script>
   </body>
