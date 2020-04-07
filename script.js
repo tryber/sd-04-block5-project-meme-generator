@@ -30,6 +30,6 @@ button3.addEventListener('click', function(){
 });
 
 function openImage(image) {
-  document.getElementById("meme-image").src = image
+  document.querySelector("#meme-image").src = image
 };
 
