@@ -11,7 +11,6 @@ function addImage() {
     img.src = URL.createObjectURL(event.target.files[0]);
     container.appendChild(img);
     img.style.display = 'block';
-    txt.style.display = 'block';
 }
 
 function addText() {

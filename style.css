@@ -23,7 +23,6 @@ div#meme-image-container, img#meme-image {
 
 p#meme-text {
     position: absolute;
-    display: none;
     bottom: 30px;
     font-family: 'Titillium Web', Helvetica, sans-serif;
     background-color: rgba(0 , 0 , 0 , 0.65);
