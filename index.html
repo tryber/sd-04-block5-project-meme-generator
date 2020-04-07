@@ -5,41 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MEME GENERATOR</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
   </head>
   <body>
     <header>
       <div class="container">
-        <p>MEME GENERATOR</p>
+        <h1>MEME GENERATOR</h1>
       </div>
     </header>
-    <section>
-      <div class="container column">
-        <div class="item">
-          <input type="file" name="meme-insert" class="meme-insert" id="meme-insert">
-        </div>
-        <div class="meme-image-container">
-          <span class ="item-text" id="meme-text">MEMEFY!</span>
-          <img id="#meme-image" src="imgs/01-homer.jpg" alt="" />
-        </div>
+    <section class="container">
+      <form>
+        <label for="text-input">Insert Meme Text!</label>
+        <input
+          type="text"
+          id="text-input"
+          placeholder="MEMEFY!"
+          style="text-transform: uppercase;"
+        />
+        <br>
+        <label for="meme-insert">Select Image File!</label>
+        <input
+          type="file"
+          name="meme-insert"
+          class="meme-insert"
+          id="meme-insert"
+        />
+      </form>
+      <div id="meme-image-container" class="meme-image-container">
+        <p class="meme-text" id="meme-text">MEMEFY!</p>
+        <!-- <img id="#meme-image" src="imgs/01-homer.jpg" alt="" /> -->
       </div>
     </section>
-    <section>
-      <div class="container">
-        <div class="item">
-          <input
-            type="text"
-            id="text-input"
-            placeholder="MEMEFY!"
-            style="text-transform: uppercase;"
-          />
-        </div>
-      </div>
-    </section>
+
     <footer>
       <div class="container">
         <p class="footer">MEME GENERATOR BY PEDRO T. PIRES FOR TRYBE COURSE</p>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
