@@ -1,13 +1,7 @@
-  .meme-image {
-    height: 500px;
-    visibility: visible;
+  #preview__image{
     width: 500px;
-  }
-
-  #meme-image {
-    visibility: visible;
-  }
-
+    min-height:400px;
+}
   #meme-image-container{
     background-color: white;
     width: 500px;
@@ -19,8 +13,6 @@
     justify-content: center;
     font-weight: bold;
 }
-
-
   .meme-text {
     color: red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
