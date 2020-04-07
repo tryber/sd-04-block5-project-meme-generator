@@ -1,0 +1,22 @@
+body
+{
+    background-color: #FFECDE;
+}
+
+#input-text
+{
+    width: 30%;
+    line-height: 20px;
+}
+
+#meme-text
+{
+    position: absolute;
+}
+
+#meme-image-container
+{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+}

@@ -4,8 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memetizando</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <section>
+        <div>  
+            <label>Coloque aqui um texto para ser inserido na imagem do meme : </label>
+            <input type=text id="input-text"><br><br>
+        </div>
+        <div>  
+            <label>Faça o upload de uma imagem</label>
+            <input type=file id="meme-insert"><br><br>
+        </div>
+    </section>
+    <section>
+        <div id="meme-image-container">
+            <div id="meme-image">
+                <p id="meme-text"></p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js">
+        window.onload = function (){}
+    </script>
 </body>
 </html>
