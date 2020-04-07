@@ -28,9 +28,6 @@ window.onload = function () {
   let borderStyle = ["dashed", "double", "groove"];
   let borderColor = ["red", "blue", "green"];
 
-  // let button1 = document.getElementById("button1");
-  // let button2 = document.getElementById("button2");
-  // let button3 = document.getElementById("button3");
   for (let i = 0; i < borderSize.length; i += 1) {
 
     document.getElementById(`button${i + 1}`).addEventListener("click", changeBorder);
@@ -39,14 +36,15 @@ window.onload = function () {
       container.style.border = `${borderSize[i]}px ${borderStyle[i]} ${borderColor[i]}`;
     }
   }
-  console.log(document.getElementById("meme2").src)
-  
-  for (let i = 1; i <= 4; i += 1) {
 
-    document.getElementById(`meme-${i}`).addEventListener("click", thumbToContainer);
+  let sources = ["img/meme1.jpeg", "img/meme2.jpeg", "img/meme3.jpeg", "img/meme4.jpeg"];
+
+  for (let i = 0; i <= 3; i += 1) {
+
+    document.getElementById(`meme-${i+1}`).addEventListener("click", thumbToContainer);
 
     function thumbToContainer() {
-      image.src = document.getElementById(`meme-${i}`).src
+      image.src = sources[i];
     }
   }
 
