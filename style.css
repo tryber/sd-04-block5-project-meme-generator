@@ -8,21 +8,21 @@ h1 {
   width: 100%;
 }
 #meme-image {
-  height: 720px;
   margin: auto;
-  position: absolute;
+  height: 720px;
   width: 1280px;
+  position: absolute;
   z-index: 1;
 }
 #meme-image-container {
   background-color: rgb(255,255,255);
   border: 1px solid rgb(0, 0, 0);
-  height: 720px;
   margin: auto;
+  height: 720px;
+  max-width: 1280px;
   padding: 2px;  
   position: relative;
   top: 10px;
-  width: 1280px;
 }
 #meme-text {
   color: white;
@@ -31,7 +31,7 @@ h1 {
   position: absolute;
   text-shadow: 2px 2px 2px black;
   text-transform: uppercase;
-  top: 75%;
+  top: 80%;
   width: 100%;
   word-break: break-all;
   z-index: 2;
