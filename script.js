@@ -46,7 +46,7 @@ window.onload = function () {
     document.getElementById(`meme-${i}`).addEventListener("click", thumbToContainer);
 
     function thumbToContainer() {
-      image.src = document.getElementById(`meme${i}`).src
+      image.src = document.getElementById(`meme-${i}`).src
     }
   }
 
