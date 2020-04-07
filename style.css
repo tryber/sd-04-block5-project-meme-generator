@@ -50,17 +50,6 @@ p {
   flex: 1;
 }
 
-.item-big {
-  align-items: center;
-  background: rgb(255, 255, 255);
-  border: 1px solid black;
-  display: flex;
-  height: 450px;
-  justify-content: center;
-  object-fit: cover;
-  width: 450px;
-}
-
 .item-text {
   font-size: 36px;
   font-weight: bold;
@@ -71,6 +60,17 @@ p {
   -webkit-text-stroke-color: white;
   -webkit-text-stroke-width: 1px;
   top: 250px;
+}
+
+.meme-image-container {
+  align-items: center;
+  background: rgb(255, 255, 255);
+  border: 1px solid black;
+  display: flex;
+  height: 450px;
+  justify-content: center;
+  object-fit: cover;
+  width: 450px;
 }
 
 .meme-insert {
