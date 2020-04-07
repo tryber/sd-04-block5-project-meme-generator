@@ -25,14 +25,13 @@ h1 {
   width: 750px;
 }
 #meme-text {
-  bottom: 1px;
   color: white;
   font-family: Impact;
   font-size: 60px;
-  max-width: 768;
+  max-width: 750px;
   position: absolute;
   text-shadow: 2px 2px 2px black;
   text-transform: uppercase;
   z-index: 2;
+  word-break : break-all;
 }
-
