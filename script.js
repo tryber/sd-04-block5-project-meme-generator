@@ -19,7 +19,7 @@ inpFile.addEventListener("change",function(){
     }
 });
 
-topText.addEventListener("change", function(){
+topText.addEventListener("keyup", function(){
     ImageText = document.querySelector("#text-input").value;
     document.querySelector('#meme-text').innerHTML = ImageText;
 });
