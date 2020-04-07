@@ -11,18 +11,26 @@ div#meme-image-container {
 
 fieldset {
     font-weight: bold;
-    width: 40%;
-    height: 55px;
+    width: 37%;
+    height: 75px;
     border-radius: 4px;
     background-color: rgb(223, 226, 236);
     padding-top: 10px;
     position: relative;
 }
 
+fieldset#botoes {
+    float: left;
+}
+
 fieldset#super-memes img {
     border: 1px solid #000;
-    width: 20px;
-    height: 20px;
+    width: 65px;
+    height: 65px;
+}
+
+fieldset#super-memes img:hover {
+    border: 2px solid aqua;
 }
 
 button {
