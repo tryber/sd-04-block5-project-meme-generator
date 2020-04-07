@@ -1,4 +1,4 @@
-const inpFile = document.getElementById("meme-image");
+const inpFile = document.getElementById("meme-insert");
 const topText = document.querySelector("#text-input");
 const bottomText = document.querySelector("#text-input2");
 const container = document.getElementById("meme-image-container");
