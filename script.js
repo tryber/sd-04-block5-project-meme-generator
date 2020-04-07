@@ -37,3 +37,11 @@ button3.addEventListener('click', function(){
   document.getElementById('meme-image-container').style.borderColor = "green";
   document.getElementById('meme-image-container').style.borderWidth = "6px";
 });
+
+let memes = document.getElementsByClassName('meme');
+for (meme of memes){
+  meme.addEventListener('click',function(element){
+    let imgMeme = document.getElementById("meme-image");
+    imgMeme.src = element.target.src;
+  })}
+  
