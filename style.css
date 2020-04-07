@@ -20,9 +20,28 @@ h1 {
 }
 #meme-image-container {
   width: 400px;
-  height: 480px;
+  height: 420px;
   margin-top: 20px;
-  border: 1px solid black;
+  border: 2px solid rgb(202, 202, 202);
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  
+}
+#btn-choose {
+  margin-top: 8px;
+  margin-left: -210px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: 1px solid rgb(184, 184, 184);
+}
+#img{
+    width: 100%;
+    height: 100%;
+}
+#text-phrase{
+  position: absolute; 
+  color: rgb(10, 10, 10);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
 }

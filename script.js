@@ -1,18 +1,26 @@
 window.onload = function(){
-    if (typeof(Storage)!=="undefined") {
-        //criando variavel da caixa de texto
-        let textBox = document.getElementById("text-input");
 
-        // criando variavel da caixa de img
-        let imgBox = document.querySelector("#meme-image-container");
+
+    if (typeof(Storage)!=="undefined") {
+        let textBox = document.getElementById("text-input");
+        let arquivo = document.getElementById("meme-insert");
+        let containerImg = document.getElementById("img");
+        let intoText = document.getElementById("text-phrase");
+     
 
         // criando função inserir o texto
         function inserText() {
-            imgBox.innerHTML = textBox.value;
-          
+            intoText.innerHTML = textBox.value;
         };
-        //add o texto dentro da caixa de da img
+
+        // add o texto dentro da caixa de da img
         textBox.addEventListener("keyup",inserText);
+
+        // add a img dentro div #img
+        arquivo.addEventListener("input", function () {
+            containerImg.src = URL.createObjectURL(this.files[0]);
+            localStorage.setItem("foto",containerImg.value);
+        })
 
     }else{
         alert("Não suporte Storage");
