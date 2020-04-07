@@ -16,7 +16,8 @@
   position: absolute;
   width: 90%;
   word-wrap: break-word;
-  top: 50%;
+  top: 10%;
+  left: 3%;
 }
 
 #meme-image-container {
