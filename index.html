@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,25 +11,23 @@
 </head>
 <body>
 
-    <h1>Escolha sua imagem</h1>
+    <label for="file" style="cursor: pointer;">Insira uma imagem legal</label>
 
     <!--INPUT IMAGE-->
-    <input type="file" name="inpFile" id="inpFile" accept="image/*">
+    <input type="file" name="inpFile" id="inputImage" accept="image/*" onchange="loadImage(event)">
 
     <!--CONTAINER OF IMAGE-->
     <div id="meme-image-container" class="imagePreview">
 
     <!--PHRASE INSIDE THE CONTAINER BOX-->
-        <igm src="" alt="Imagem" id="preview-image" class="preview-image"></igm>
+        <img id="meme-image" class="preview-image"></img>
+        <span id="meme-phrase"></span>
 
-
-    <span class="image-preview__default-text"></span>
-    
     </div>
 
     <!--CAIXA DE TEXTO1-->
     <p>Texto:</p> 
-    <input type="text" id="phrase1" placeholder="Digite aqui, algo engraçado" maxlength="200">
+    <input type="text" id="text-input" placeholder="Digite aqui, algo engraçado" maxlength="60">
 
 
 </body>
