@@ -1,6 +1,6 @@
 #container{
     margin: auto;
-    margin-top: 5px;
+    margin-top: 10px;
     width: 500px;
     height: 550px;
     background-color: rgb(241, 241, 241);
@@ -54,6 +54,7 @@ img{
 #buttons{
     width: 80%;
     margin-top: 20px;
+    visibility: hidden;
 }
 
 #buttons legend{
