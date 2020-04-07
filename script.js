@@ -46,7 +46,7 @@ let btnMeme2 = document.querySelector('#meme-2');
 let btnMeme3 = document.querySelector('#meme-3');
 
 btnMeme1.addEventListener('click', function(){
-    img.src = 'meme.jpg';
+    img.src = 'meme1.jpg';
 })
 
 btnMeme2.addEventListener('click', function(){
@@ -55,6 +55,5 @@ btnMeme2.addEventListener('click', function(){
 
 btnMeme3.addEventListener('click', function(){
     img.src = 'meme3.jpg';
-
 })
 
