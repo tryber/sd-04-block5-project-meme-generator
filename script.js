@@ -1,6 +1,6 @@
 const inputImage = document.getElementById('meme-insert'); //imagem do input file.
 const container = document.getElementById('meme-image-container'); // container da imagem.
-const txt = document.querySelector('div#meme-image-container p'); // tag p da imagem.
+const txt = document.getElementById('meme-text'); // tag p da imagem.
 const img = document.getElementById('meme-image'); //
 
 inputImage.addEventListener('change', addImage); // evento para o input file.
