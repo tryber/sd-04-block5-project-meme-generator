@@ -36,4 +36,11 @@ window.onload = function() {
     memeContainer.classList.remove('border2');
     memeContainer.classList.add('border3');
   });
+
+  featuredImgs = document.querySelectorAll('.meme-thumb');
+  featuredImgs.forEach((img) => {
+    img.addEventListener('click', function(e) {
+      memeImage.src = img.src;
+    });
+  });
 };
