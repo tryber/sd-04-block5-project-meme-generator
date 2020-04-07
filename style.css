@@ -19,6 +19,19 @@ main {
    justify-content: center;
  }
 
+ .page-section {
+   padding-bottom: 20px;
+ }
+
+ .meme-viewer {
+   flex: 1;
+   justify-content: center;
+ }
+
+.meme-controls {
+  flex: 1;
+}
+
 .meme-image-container {
   background-color: rgb(255, 255, 255);
   border-radius: 12px;
