@@ -1,5 +1,3 @@
-window.onload = function(){
-
   let textInput = document.getElementById('text-input');
   let text = document.getElementById('meme-text');
   let imgInput = document.getElementById('meme-insert');
@@ -39,4 +37,3 @@ window.onload = function(){
       imgMeme.src = event.target.src;
     }
   )};
-}
