@@ -7,29 +7,28 @@ html, body {
 .meme-image-container {
   Background-color: rgb(255, 255, 255);
   border: 1px solid black;
-  height: 500px;
+  height: 550px;
   margin-top: 15px;
   position: relative;
-  width: 500px;
+  width: 550px;
 }
 
 .meme-text {
-  bottom: 2%;
+  bottom: 5%;
   color: red;
-  display: flex;
-  font-size: 42px;
-  left: 10%;
-  max-width: 400px;
+  font-size: 37px;
+  margin-left: 15px;
+  max-width: 450px;
   position: absolute;
   text-align: center;
-  top: 60%;
+  top: 70%;
   width: 100%;
   word-break: break-all;
 }
 
 .meme-image {
-  height: 500px;
-  width: 500px;
+  height: 550px;
+  width: 550px;
 }
 
 .small {
