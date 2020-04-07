@@ -8,7 +8,7 @@
 
 #meme-text {
   position: absolute;
-  top: 0px;
+  top: 0;
   z-index: 1;
 }
 
