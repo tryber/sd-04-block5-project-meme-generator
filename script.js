@@ -46,3 +46,7 @@ function addEventClick(elem){
         }
     })
 }
+
+function showThumbnail(e){
+    alert(e.value)
+}
