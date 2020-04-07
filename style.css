@@ -58,3 +58,15 @@ main {
   width: 100%;
   word-break: break-all;
 }
+
+.lower-text {
+  color: rgb(255, 255, 255);
+  filter: drop-shadow(2px 4px 6px black);
+  font-size: 30px;
+  font-weight: 800;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  word-break: break-all;
+}
