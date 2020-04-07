@@ -12,14 +12,14 @@ function openImage(jpeg) {
 memeImg.src = jpeg;
 }
 
-textInput.addEventListener("keyup", function () => {
+textInput.addEventListener("keyup", function () {
   textMeme.innerText = textInput.value;
 });
 
 let button1 = document.querySelector('#button1');
 button1.style.border = "3px dashed red";
 
-button1.addEventListener('click', e => {
+button1.addEventListener('click', function () {
   e.preventDefault();
   container.style.border = button1.style.border;
 });
@@ -27,7 +27,7 @@ button1.addEventListener('click', e => {
 let button2 = document.querySelector('#button2');
 button2.style.border = "5px double blue";
 
-button2.addEventListener('click', e => {
+button2.addEventListener('click', function () {
   e.preventDefault();
   container.style.border = button2.style.border;
 });
@@ -35,7 +35,7 @@ button2.addEventListener('click', e => {
 let button3 = document.querySelector('#button3');
 button3.style.border = "6px groove green";
 
-button3.addEventListener('click', e => {
+button3.addEventListener('click', function () {
   e.preventDefault();
   container.style.border = button3.style.border;
 });
