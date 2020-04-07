@@ -9,6 +9,24 @@ div#meme-image-container {
     box-sizing: border-box;
 }
 
+fieldset {
+    font-weight: bold;
+    width: 37%;
+    height: 80px;
+    background-color: rgb(223, 226, 236);
+    padding-top: 10px;
+    position: relative;
+}
+
+button {
+    height: 40px;
+    width: 140px;
+    margin: 5px;
+    color: white;
+    background-color: #000;
+    border-radius: 6px;
+}
+
 img#meme-image {
     display: none;
     width: 100%;
