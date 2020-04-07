@@ -12,7 +12,7 @@ let loadImage = function(event){
 window.onload = function() {
 
 let inputText = document.querySelector("#text-input");
-let memePhrase = document.querySelector("#meme-phrase");
+let memePhrase = document.querySelector("#meme-text");
 
 inputText.addEventListener('keyup',preencheFrase);
 
