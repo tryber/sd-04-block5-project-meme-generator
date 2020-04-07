@@ -29,4 +29,3 @@ window.onload = function () {
   but2.addEventListener("click", borderStyle2);
   but3.addEventListener("click", borderStyle3);
 };
-
