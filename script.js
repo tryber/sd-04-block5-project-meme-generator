@@ -1,6 +1,5 @@
 window.onload = function() {
-
-
+  
 //Select Elements
 const inputText = document.getElementById('text-input');
 const inputImage = document.getElementById('meme-insert');
