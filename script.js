@@ -1,20 +1,9 @@
-
-
-function botao (){
-
-let texto = document.querySelector("#text-input");
-
-let resultadoTxt = document.querySelector(".texto-digitado");
-
-let butt = document.querySelector("button");
-
-resultadoTxt.innerText = texto.value;
-
+function texto() {
+  let text = document.querySelector('#text-input')
+  let texDig = document.querySelector('.meme-text').innerText = text.value.toUpperCase()
 }
 
-let loadFile = function(event) {
+let carregar = function(event) {
 let image = document.querySelector('.meme-image');
 image.src = URL.createObjectURL(event.target.files[0]);
-};
-
-butt.addEventListener("click", botao);
+}

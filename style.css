@@ -12,6 +12,7 @@ section {
   background: white;
   border-radius: 10px;
   box-shadow: 3px 3px 10px;
+  height: 380px;
   margin: auto;
   padding: 15px;
   width: 500px;
@@ -24,10 +25,33 @@ footer {
   text-align: center;
 }
 
-.texto-digitado {
+.meme-image-container {
+  border: 1px solid black;
+  color: yellow;
+  position: relative;
+
+}
+
+.meme-text {
+  bottom: 20px;
+  left: 150px;
   position: absolute;
+
 }
 
 .meme-image {
-  position: relative
+  left: 110px;
+  position: relative;
+  width: 275px;
+
+}
+
+#meme-insert {
+  display: none;
+
+}
+
+.pointer {
+  cursor: pointer;
+
 }
