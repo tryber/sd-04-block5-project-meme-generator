@@ -14,6 +14,7 @@ window.onload = function(){
       console.log(imgInput.files[0].name);
       img.src = URL.createObjectURL(event.target.files[0]);
   });
+  /*
 
   let frameImg = document.getElementById("meme-image-container");
 
@@ -29,4 +30,5 @@ window.onload = function(){
   btn3.addEventListener("click", function(){
     frameImg.style.border = "6px groove green";
   });
+*/
 }
