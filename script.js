@@ -42,6 +42,29 @@ window.onload = function(){
     }
     b3.addEventListener('click', border3);
 
+    let b4 = document.getElementById('meme-1');
+    function meme1(){
+        meme.src="./imgs/meme1.jpg"
+    }
+    b4.addEventListener('click', meme1);
+
+    let b5 = document.getElementById('meme-2');
+    function meme2(){
+        meme.src="./imgs/meme2.jpg"
+    }
+    b5.addEventListener('click', meme2);
+
+    let b6 = document.getElementById('meme-3');
+    function meme3(){
+        meme.src="./imgs/meme3.jpg"
+    }
+    b6.addEventListener('click', meme3);
+
+    let b7 = document.getElementById('meme-4');
+    function meme4(){
+        meme.src="./imgs/meme4.jpg"
+    }
+    b7.addEventListener('click', meme4);
 
 
 

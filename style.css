@@ -27,3 +27,29 @@
     text-shadow: 2px 0 black;
 
 }
+#margins{
+    float: right;
+    margin-right: 33%;
+    vertical-align: top;
+    text-align: center;
+}
+#preMemes{
+    float: right;
+    margin-right: 30%;
+    vertical-align: top;
+    text-align: center;
+    margin-left: 10px;
+    }
+.memeMin{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    display: inline;
+    float: right;
+    margin: 5px 5px 5px 5px;
+}
+.memes{
+    height: 100px;
+    width: 100px;
+}
+
