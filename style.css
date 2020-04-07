@@ -4,7 +4,7 @@
 div#meme-image-container {
     border: 1px solid black;
     background-color: white;
-    width: 45%;
+    width: 630px;
     height: 450px;
     box-sizing: border-box;
 }
@@ -26,9 +26,11 @@ p#meme-text {
     display: none;
     bottom: 30px;
     font-family: 'Titillium Web', Helvetica, sans-serif;
-    background-color: rgba(0 , 0 , 0 , 0.5);
+    background-color: rgba(0 , 0 , 0 , 0.65);
     width: 100%;
+    max-height: inherit;
     text-indent: 25px;
     color: #fff;
     font-size: 1.7em;
+    z-index: 1;
 }
