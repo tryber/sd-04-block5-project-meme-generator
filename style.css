@@ -1,15 +1,27 @@
-header h1, nav {
+header h1, nav{
     text-align: center;
 }
-
 nav button  {
-    margin-top: 20px;
     width: 100px;
     height: 25px;
 }
-div img{
-    width: 801px;
-    height: 601px;
-    border-color: black;
-    border: 1px;
+
+#meme-image-container{
+    border: solid 1px black;
+    min-width: 800px;
+    min-height: 600px;
+    max-width: 1367px;
+    max-height: 768px;
+    background-color: white;
+    position: absolute;
+
+
+    
+}
+#meme-image{
+    max-width: 1366px;
+    max-height: 768px;
+    position: block;
+    margin-left: auto;
+    margin-right: auto;
 }

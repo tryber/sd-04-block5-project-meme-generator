@@ -11,16 +11,23 @@
     <header>
         <h1>Memes Generator</h1>
         <nav>
-            <input type="text">
-            <input type="submit"><br>
-            <h2>Posição do texto</h2>
-            <button id="position-top">Em cima</button>
-            <button id="positio-bottom">Em baixo</button>
+            <form action="">
+            <label for="meme-insert"><h3>Escolha uma imagem:</h3></label>
+            <input id="meme-insert" name="meme-insert" type="file"><br>
+            <button>Inserir Imagem</button>
+            <label for="meme-texts"><h3>Insira o texto do meme</h3><br></label>
+            <input id="text-imput" name="meme-text" type="text" ><br>
+            <h2>Isira o texto na posição do texto:</h2>
+            <button id="position-top">Top</button>
+            <button id="positio-bottom">Bottom</button>
+        </form>
         </nav>
         <hr>
     </header>
-    <div>
-        <img src="" alt="">
+    <div id="meme-image-container">
+        <img id="meme-image" src="" alt="">
+        <p id="text-top"asd></p>
+        <p id="text-bottom">asdasd</p>
     </div>
 </body>
 </html>
