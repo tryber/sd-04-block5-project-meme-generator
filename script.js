@@ -48,6 +48,6 @@ function borderCustomTwo(){
 
 function borderCustomThree(){
     let border = document.querySelector("#meme-image-container");
-    border.style.border = "6px groove rgb(0, 255, 0)"
+    border.style.border = "6px groove rgb(0, 128, 0)"
 }
 
