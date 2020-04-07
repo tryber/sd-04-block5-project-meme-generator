@@ -21,4 +21,14 @@ window.onload = function () {
     imgContainer.appendChild(newImg);
   });
 
+  const btnAll = document.querySelectorAll("button");
+  btnAll[0].addEventListener ("click", () => {
+    imgContainer.classList.add("button1");
+  });
+  btnAll[1].addEventListener ("click", () => {
+    imgContainer.classList.add("button2");
+  });
+  btnAll[2].addEventListener ("click", () => {
+    imgContainer.classList.add("button3");
+  });
 };
