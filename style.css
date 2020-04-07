@@ -1,23 +1,35 @@
-h1{
-	text-align: center;
+h1 {
 	clear: both;
+	text-align: center;
 }
-body{
+
+body {
 	background-color: rgb(179, 179, 179);
 }
-#meme-image-container{
+
+#meme-image-container {
+	background-color: white;
+	border: 1px solid black;
 	position: absolute;
 	right: 50px;
 	width: 500px;
-	background-color: white;
-	border: 1px solid black;
 }
-#meme-image{
+
+#meme-image {
 	position: absolute;
 	width: 100%;
 }
-#meme-text{
+
+#meme-text {
 	position: relative;
 	word-wrap: break-word;
 	z-index: 1;
+	text-shadow: black;
+}
+
+.template {
+	height: 200px;
+	border: 2px groove black;
+	margin-top: 10px;
+	margin-right: 10px;
 }

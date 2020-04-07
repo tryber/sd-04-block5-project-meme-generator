@@ -11,7 +11,8 @@
 <body>
 	<h1>Meme Generator</h1>
 	<div id="meme-image-container">
-		<img id="meme-image" src="https://cdnbr3.img.sputniknews.com/img/1493/33/14933398_40:0:1246:652_1000x541_80_0_0_f84269dc1413b71426ca1a25e174342d.jpg">
+		<img id="meme-image"
+			src="https://cdnbr3.img.sputniknews.com/img/1493/33/14933398_40:0:1246:652_1000x541_80_0_0_f84269dc1413b71426ca1a25e174342d.jpg">
 		<p id="meme-text"></p>
 	</div>
 	<form>
@@ -27,6 +28,15 @@
 		<br>
 		<input oninput="changeTextColor(event)" type="color" id="color-input">
 	</form>
+	<button onclick="changeBorder('3px', 'dashed', 'red')" id="button1">Border 1</button>
+	<button onclick="changeBorder('5px', 'double', 'blue')" id="button2">Border 2</button>
+	<button onclick="changeBorder('6px', 'groove', 'green')" id="button3">Border 3</button>
+	<br>
+	<img id="meme-1" class="template" onclick="loadImage('imgs/meme1.jpeg')" src="imgs/meme1.jpeg">
+	<img id="meme-2" class="template" onclick="loadImage('imgs/meme2.jpeg')" src="imgs/meme2.jpeg">
+	<br>
+	<img id="meme-3" class="template" onclick="loadImage('imgs/meme3.jpeg')" src="imgs/meme3.jpeg">
+	<img id="meme-4" class="template" onclick="loadImage('imgs/meme4.jpeg')" src="imgs/meme4.jpeg">
 	<script src="script.js"></script>
 </body>
 

@@ -8,10 +8,7 @@ window.onload = function () {
 	memeContainer.style.height = img.clientHeight + "px";
 }
 function addImageToContainer(event) {
-	img.src = URL.createObjectURL(event.target.files[0]);
-	img.onload = function () {
-		memeContainer.style.height = img.clientHeight + "px";
-	}
+	loadImage(URL.createObjectURL(event.target.files[0]));
 }
 
 function addTextToContainer(event, index) {
@@ -20,4 +17,15 @@ function addTextToContainer(event, index) {
 
 function changeTextColor(event) {
 	text.style.color = event.target.value;
+}
+
+function loadImage(imgPath) {
+	img.src = imgPath;
+	img.onload = function () {
+		memeContainer.style.height = img.clientHeight + "px";
+	}
+}
+
+function changeBorder(size, style, color) {
+	memeContainer.style.border = `${size} ${style} ${color}`;
 }
