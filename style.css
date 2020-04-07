@@ -5,16 +5,16 @@ body {
 
 .meme-image-container {
   background-color: rgb(255, 255, 255);
+  border-radius: 12px;
   border: 1px solid rgb(0, 0, 0);
-  height: 750px;
+  filter: drop-shadow(2px 4px 6px black);
+  max-width: 600px;
   position: relative;
-  width: 750px;
 }
 
 .meme-image {
-  /* visibility: visible; */
-  height: 750px;
-  width: 750px;
+  border-radius: 12px;
+  max-width: 600px;
 }
 
 .meme-text {
