@@ -19,6 +19,7 @@ window.onload = function(){
       function addImageToContainer(event){
       if (!img){
       img = document.createElement("img");
+      img.id = "meme-image";
         }
       imgpath = memeinsertvalue.files[0].name;
       console.log(imgpath);

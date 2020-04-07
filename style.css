@@ -21,7 +21,7 @@ body{
     border-width: 1px;
   
      }
-     #buttonLoadImage {
+     /* #buttonLoadImage {
       background-color: #4CAF50; /* Green */
       border: none;
       color: white;
@@ -30,5 +30,5 @@ body{
       text-decoration: none;
       display: inline-block;
       font-size: 16px;
-    }
+    } */
 
