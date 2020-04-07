@@ -32,4 +32,3 @@ button3.addEventListener('click', function(){
 function openImage(image) {
   document.querySelector("#meme-image").src = image
 };
-
