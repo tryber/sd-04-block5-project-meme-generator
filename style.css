@@ -1,11 +1,22 @@
 div {
   background-color: white;
   border: 1px solid black;
-  margin-top: 30px;
+  clear: both;
+  margin-top: 55px;
 }
 
 p {
   left: 14px;
   position: absolute;
-  top: 120px;
+  top: 146px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  float: left;
+  margin-left: 15px;
 }
