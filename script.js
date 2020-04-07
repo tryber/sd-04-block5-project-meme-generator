@@ -4,7 +4,7 @@ let memeImg = document.querySelector("#meme-image");
 let memeInsert = document.querySelector("#meme-insert");
 let container = document.querySelector('#meme-image-container');
 
-memeInsert.addEventListener("change", e => {
+memeInsert.addEventListener("change", function () {
   memeImg.src = URL.createObjectURL(this.files[0]);
 });
 
@@ -12,7 +12,7 @@ function openImage(jpeg) {
 memeImg.src = jpeg;
 }
 
-textInput.addEventListener("keyup", e => {
+textInput.addEventListener("keyup", function () => {
   textMeme.innerText = textInput.value;
 });
 
