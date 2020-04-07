@@ -13,11 +13,16 @@
     </header>
     <section>
         <form>
-            <a>Coloque a URL da imagem: </a>
-            <input type="url" id="meme-image-container"><br><br>
+            <label for="meme-insert">Escolha uma imagem: </label>
+            <input type="file" id="meme-insert"><br><br>
             <label for="text-input">Texto do meme: </label>
-            <input type="text" id="text-input"><br><br>
+            <input type="text" id="text-input" maxlength="60"><br><br>
         </form>
+        <div id="meme-image-container" class="memeImageContainer">
+            <img id="meme-image" class="memeImage">
+            <p id="meme-text" class="memeText"></p>
+        </div>
+
     </section>
     <script src="script.js"></script>
 </body>
