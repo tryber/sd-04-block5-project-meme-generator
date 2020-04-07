@@ -9,11 +9,11 @@ window.onload = function(){
   let btn2 = document.getElementById("button2");
   let btn3 = document.getElementById("button3");
   let memes = document.getElementsByClassName('meme');
-
+  let resetBorder = document.getElementById("resetBorder");
  
   textInput.addEventListener('input', function(){
       text.innerHTML = textInput.value;
-  })
+  });
 
   imgInput.addEventListener('input', function(){
       console.log(imgInput.files[0].name);
@@ -29,6 +29,9 @@ window.onload = function(){
   btn3.addEventListener("click", function(){
     frameImg.style.border = "6px groove green";
   });
+  resetBorder.addEventListener("click", function(){
+    frameImg.style.border = "1px solid rgb(0, 0, 0)"
+  })
 
   for (meme of memes){
     meme.addEventListener('click',function(element){

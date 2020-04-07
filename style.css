@@ -1,11 +1,7 @@
-.meme-image-container {
-  background-color: rgb(255, 255, 255);
-  border: 1px solid rgb(0, 0, 0);
-  height: 500px;
-  position: relative;
-  text-align: center;
-  width: 600px;
-  top: 20px;
+.meme {
+  width: 30px;
+  height: 30px;
+  margin-left: 40px;
 }
 
 .meme-image {
@@ -23,8 +19,12 @@
   word-wrap: break-word;
 }
 
-.meme {
-  width: 30px;
-  height: 30px;
-  margin-left: 60px;
+.meme-image-container {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  height: 500px;
+  position: relative;
+  text-align: center;
+  width: 600px;
+  top: 20px;
 }
