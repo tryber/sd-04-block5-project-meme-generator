@@ -12,6 +12,7 @@ img {
 
 input {
   height: 20px;
+  margin: 5px;
   text-align: center;
   width: 350px;
 }
@@ -23,6 +24,10 @@ p {
   padding: 5px;
   -webkit-text-stroke-color: white;
   -webkit-text-stroke-width: 1px;
+}
+
+.column {
+  flex-direction: column;
 }
 
 .container {
@@ -47,7 +52,7 @@ p {
 
 .item-big {
   align-items: center;
-  background: rgb(211, 211, 211);
+  background: rgb(255, 255, 255);
   border: 1px solid black;
   display: flex;
   height: 450px;
@@ -62,7 +67,14 @@ p {
   max-width: 400px;
   overflow-wrap: break-word;
   position: absolute;
-  top: 180px;
+  top: 250px;
   -webkit-text-stroke-color: white;
   -webkit-text-stroke-width: 1px;
+}
+
+#meme-insert {
+  background: rgb(255, 255, 255);
+  width: 355px;
+  align-items: center;
+  margin: 30px 0;
 }
