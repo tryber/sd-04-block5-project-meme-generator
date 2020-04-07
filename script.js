@@ -6,7 +6,6 @@ let ImageText = topText.value;
 
 inpFile.addEventListener("change",function(){
     const file =this.files[0];
-    console.log(file);
 
     if (file){
         const reader = new FileReader();
