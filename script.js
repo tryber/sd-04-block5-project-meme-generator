@@ -22,6 +22,6 @@ inpFile.addEventListener("change",function(){
 });
 
 topText.addEventListener("change", function(){
-    ImageText = "<p id='meme-text'>"+topText.value+"</p>";
-    document.querySelector('#text').innerHTML = ImageText;
+    ImageText = document.querySelector("#text-input").value;
+    document.querySelector('#meme-text').innerHTML = ImageText;
 });

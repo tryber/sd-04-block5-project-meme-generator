@@ -1,10 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-#header
-{
+.header{
     background-color: blue;
     font-size: 40px;
     line-height: 80px;
@@ -14,7 +8,7 @@
     width: 100%;
 }
 
-#form{
+.form{
     clear: both;
     display: inline-block;
     font-size: 18px;
@@ -25,7 +19,7 @@
     width: 40%;
 }
 
-#meme-image-container {
+.meme-image-container {
     background-color: white;
     border:black;
     border-style: solid;
@@ -43,7 +37,7 @@
     z-index: 0;
 }
 
-#text {
+.meme-text {
     bottom: 20px;
     color: yellow;
     font-family: sans-serif;
@@ -53,5 +47,4 @@
     text-transform: uppercase;
     width: 100%;
     z-index: 1;
-    width: 100%;
 }
