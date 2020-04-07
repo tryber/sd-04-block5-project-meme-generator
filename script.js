@@ -3,12 +3,17 @@ let textMeme = document.querySelector("#meme-text");
 let memeImg = document.querySelector("#meme-image");
 let memeInsert = document.querySelector("#meme-insert");
 let container = document.querySelector('#meme-image-container');
+let miniature = document.querySelectorAll('.miniature');
 
-memeInsert.addEventListener("change", function () {
+memeInsert.addEventListener("change", e => {
   memeImg.src = URL.createObjectURL(this.files[0]);
 });
 
-textInput.addEventListener("keyup", function () {
+function openImage(image) {
+memeImg.src = image;
+}
+
+textInput.addEventListener("keyup", e => {
   textMeme.innerText = textInput.value;
 });
 

@@ -44,3 +44,9 @@ h2 {
   word-break: break-all;
   z-index: 2;
 }
+
+.miniature {
+    height: 40px;
+    margin-left: -5px;
+    width: 40px;
+}
