@@ -1,7 +1,7 @@
 window.onload = function () {
 
     let textInput = this.document.getElementById("text-input");
-    let textMeme = this.document.getElementById("text-meme");
+    let textMeme = this.document.getElementById("meme-text");
     let memeInput = this.document.getElementById("meme-insert");
     let memeImage = this.document.getElementById("meme-image");
     let meme = this.document.getElementById("meme-image-container");
