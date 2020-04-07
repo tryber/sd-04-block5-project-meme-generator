@@ -24,14 +24,13 @@
     border:black;
     border-style: solid;
     border-width: 1px;
-    float: right;
     min-height: 200px;
     position: relative;
     top: 120px;
     width: 50%;
 }
 
-.image-container {
+.meme-image {
     display: none;
     width: 100%;
     z-index: 0;
