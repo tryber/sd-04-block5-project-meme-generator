@@ -1,4 +1,4 @@
-header{
+h1{
 	text-align: center;
 	clear: both;
 }
@@ -9,15 +9,14 @@ body{
 	position: absolute;
 	right: 50px;
 	width: 500px;
-	height: 500px;
 	background-color: white;
 	border: 1px solid black;
 }
-#meme-image-container img{
-	position: relative;
+#meme-image{
+	position: absolute;
 	width: 100%;
 }
-#meme-image-container p{
+#meme-text{
 	position: relative;
 	word-wrap: break-word;
 	z-index: 1;

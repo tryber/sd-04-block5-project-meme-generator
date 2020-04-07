@@ -5,6 +5,7 @@ window.onload = function () {
 	memeContainer = document.getElementById("meme-image-container");
 	img = document.getElementById("meme-image");
 	text = document.getElementById("meme-text");
+	memeContainer.style.height = img.clientHeight + "px";
 }
 function addImageToContainer(event) {
 	img.src = URL.createObjectURL(event.target.files[0]);
