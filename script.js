@@ -16,11 +16,11 @@ window.onload = function(){
     let memeInput = document.getElementById('meme-insert');
     let meme = document.getElementById('meme-image');
     
-    function memeInput(){
+    function imgInput(){
         meme.src = URL.createObjectURL(event.target.files[0]);
         };
 
-    memeInput.addEventListener('input', memeInput);
+    memeInput.addEventListener('input', imgInput);
     //função de adicionar imagem!------------------------------------------
 
     
