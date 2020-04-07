@@ -29,8 +29,7 @@ window.onload = function () {
 
     let bt3 = document.querySelector('#button3');
 
-    btnThree.addEventListener('click', function () {
+    bt3.addEventListener('click', function () {
         container.style.border = "6px groove green";
     });
-
 };
