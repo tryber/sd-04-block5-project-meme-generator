@@ -1,0 +1,39 @@
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Project Meme Generator</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+  <section class="style-body">
+    <form class="center">
+      <h3>Digite o texto que será adiciono ao seu meme:
+        <input type="text" id="text-input" maxlength="60">
+      </h3>
+      <h3>
+        Escolha uma imagem em seu desktop para criar o seu meme:</br>
+        <input type="file" id="meme-insert" accept="image/*">
+      </h3>
+    </form>
+    <div id="buttons-container" class="buttons-container">
+    <h3>Escolha uma borda para sua imagem:</h3>
+    <button id="button1">borda nº 1</button>
+    <button id="button2">borda nº 2</button>
+    <button id="button3">borda nº 3</button>
+    <div id="meme-image-container" class="img-container">
+      <img id="meme-image" class="style-image" width="400px">
+      <span id="meme-text" class="meme-txt">
+    </div></br>
+    <section class="center">
+      <h3>
+        imagens prontas
+      </h3>
+      <div class="rodape">
+        <!--aqui ficar imagens - preset-->
+      </div>
+    </section>
+  </section>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
