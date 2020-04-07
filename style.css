@@ -12,7 +12,7 @@ html, body {
   width: 500px;
 }
 
-.text-meme {
+.meme-text {
   bottom: 2%;
   color: red;
   display: flex;
