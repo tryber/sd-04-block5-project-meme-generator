@@ -8,13 +8,14 @@
 </head>
 <body>
     <form>
-        <label for="text-input">Texto: </label>
-        <input type="text" id="text-input" maxlength="60">
-        <label for="meme-insert">Imagem:</label>
-
-        <input type="file"  accept="image/*" name="meme-image" id="meme-insert">
-    </form>
-
+      <form>
+        <label for="text-input"> Coloque seu texto aqui:</label>
+        <input id="text-input" class="text-input" type:"text" maxlength="60"></input><br>
+        <br>
+        <label for="meme-input"> Insira sua imagem</label>
+        <input type="file" id="meme-insert" class="meme-insert" ></input><br>
+        </form>
+        
     <div id="meme-image-container">
         <img id="meme-image" class="meme-image" src="" alt="" />
         <p id="meme-text" class="meme-text"></p>
