@@ -1,38 +1,37 @@
+h1 {
+  text-align: center;
+}
 #header {
-  width: 100%;
   background-color: cornsilk;
   margin: 3px;
   position: relative;
   top: 10px;
+  width: 100%;
 }
 #meme-image {
-  position: absolute;
   margin: auto;
-  max-width: 768px;
-  max-height: 1366px;
+  position: absolute;
+  width: 100%;
   z-index: 1;
 }
 #meme-image-container {
+  background-color: rgb(255,255,255);
+  border: 1px solid rgb(0, 0, 0);
   height: 768px;
-  width: 1366px;
-  position: relative;
   margin: auto;
-  top: 20px;
-  border:1px solid rgb(0, 0, 0);
-  background-color: white;
   padding:2px;  
+  position: relative;
+  top: 20px;
+  width: 1366px;
 }
 #meme-text {
+  bottom: 1px;
+  color: white;
   font-family: Impact;
   font-size: 60px;
-  position: absolute;
-  bottom: 0px;
   max-width: 768;
-  z-index: 2;
-  color: white;
-  text-transform: uppercase;
+  position: absolute;
   text-shadow: 2px 2px 2px black;
-}
-h1 {
-  text-align: center;
+  text-transform: uppercase;
+  z-index: 2;
 }
