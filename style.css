@@ -1,7 +1,14 @@
-#meme-image-container{
+.meme-image {
+  border-style: solid;
+  border-width: 1px;
+  background-color: white;
+  max-width: 500px;
+}
+
+.meme-image-container {
   background-color: white;
 }
 
-#meme-text {
+.meme-text {
   position: absolute;
 }
