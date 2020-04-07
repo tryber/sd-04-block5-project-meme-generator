@@ -11,7 +11,8 @@ window.onload = function(){
     const memeinsertvalue = document.querySelector('#meme-insert');
     const buttonevent = document.querySelector('#buttonLoadImage');
     
-    buttonevent.addEventListener('click', addImageToContainer);
+    //buttonevent.addEventListener('click', addImageToContainer);
+    memeinsertvalue.addEventListener('change',addImageToContainer);
     let img;
     let imgpath;
       function addImageToContainer(event){
