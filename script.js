@@ -1,3 +1,10 @@
+function addImage(event){
+  let image = document.createElement('img');
+  image.id = "meme-image";
+  image.src = URL.createObjectURL(event.target.files[0]);
+  container.appendChild(image);
+};
+
 window.onload = function(){
 
   let textInput = document.querySelector('#text-input');
@@ -8,13 +15,7 @@ window.onload = function(){
   textInput.addEventListener('keyup', function(){
     memeText.innerHTML = textInput.value;
   });
-
-  function addImage(event){
-    let image = document.createElement('img');
-    image.id = "meme-image";
-    image.src = URL.createObjectURL(event.target.files[0]);
-    container.appendChild(image);
-  };
+ 
   imgInput.addEventListener('change', addImage);
   // Bonus 4
   let btnOne = document.querySelector('#button1');
