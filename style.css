@@ -6,8 +6,11 @@ html,
 body {
   height: 100%;
 }
+body {
+  background-color: rgba(231,239,197,1.0);
+}
 #container {
-  background-color: royalblue;
+  background-color: rgba(191,215,181,1.0);
   min-height: 100%;
 }
 #main {
@@ -15,7 +18,7 @@ body {
   min-height: 100%;
 }
 footer {
-  background-color: rgb(156, 216, 46);
+  background-color: rgba(191,215,181,1.0);
   position: relative;
   height: 50px;
   margin-top: -50px;
@@ -35,4 +38,9 @@ footer {
 }
 #meme-text {
   position: absolute;
+}
+#submit {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(163,196,188,1.0);
+  padding: 5px;
 }
