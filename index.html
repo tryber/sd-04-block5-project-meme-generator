@@ -14,13 +14,23 @@
     <h1>Meme Generator</h1>
   </header>
   <section>
-    <div>
+    <form metodo="fazer o meme">
+      <label for='texto'>Digite o texto aqui:</label>
+      <input id="text-input" type="text">
+      <button onclick="botao()">Vai!</button>
+      <p><input type="file" accept="image/*" name="image" id="meme-insert" onchange="loadFile(event)"
+          style="display: none;"></p>
+      <p><label for="meme-insert" style="cursor: pointer;">Upload Image</label></p>
+      <div id="meme-image-container">
+        <div class="texto-digitado"></div>
+        <img class="meme-image" width="200px">
 
-    </div>
-    <div>
+      </div>
+      <div>
 
-    </div>
+      </div>
   </section>
+  </form>
   <footer>
     <p>Leonardo Xavier 04/20 </p>
   </footer>

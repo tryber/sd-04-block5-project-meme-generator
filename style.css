@@ -23,3 +23,11 @@ footer {
   font-style: italic;
   text-align: center;
 }
+
+.texto-digitado {
+  position: absolute;
+}
+
+.meme-image {
+  position: relative
+}
