@@ -14,9 +14,9 @@
   color: yellowgreen;
   font-size: 50px;
   position: absolute;
-  width: 100%;
-  top: 70%;
+  width: 90%;
   word-wrap: break-word;
+  top: 50%;
 }
 
 #meme-image-container {

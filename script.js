@@ -31,7 +31,7 @@ window.onload = function(){
   });
   resetBorder.addEventListener("click", function(){
     frameImg.style.border = "1px solid rgb(0, 0, 0)"
-  })
+  });
 
   for (meme of memes){
     meme.addEventListener('click',function(event){
