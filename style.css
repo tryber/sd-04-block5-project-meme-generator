@@ -4,13 +4,13 @@
   margin-left: 40px;
 }
 
-.meme-image {
+#meme-image {
   height: 500px;
   width: 600px;
   visibility: visible;
 }
 
-.meme-text {
+#meme-text {
   color: yellowgreen;
   font-size: 50px;
   position: absolute;
@@ -19,7 +19,7 @@
   word-wrap: break-word;
 }
 
-.meme-image-container {
+#meme-image-container {
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(0, 0, 0);
   height: 500px;

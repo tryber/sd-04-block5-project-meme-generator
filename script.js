@@ -10,7 +10,7 @@ window.onload = function(){
   let btn3 = document.getElementById("button3");
   let memes = document.getElementsByClassName('meme');
   let resetBorder = document.getElementById("resetBorder");
- 
+
   textInput.addEventListener('input', function(){
       text.innerHTML = textInput.value;
   });
