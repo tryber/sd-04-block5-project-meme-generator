@@ -8,15 +8,18 @@
 </head>
 <body>
     <script src="script.js"></script>
-    <h1> Title </h1>
+    <h1> Meme Generator! </h1>
 
     <form>
         <label for="fname">Insert your text :</label><br>
-        <input type="text" id="text-input" name="fname"><br>
+        <input type="text" id="text-input" name="fname"  maxlength="60"><br><br>
         <label for="imglabel">Choose the image to upload:</label><br>
         <input type="file" id="meme-insert" name="imglabel"><br>
       </form>
-
+      <br>
+    <button class="button" id="button1">button1</button>
+    <button class="button" id="button2">button2</button>
+    <button class="button" id="button3">button3</button>
     <div class="classeImageContainer" id="meme-image-container">
         <div class="classeMemeText" id="meme-text">
         </div>

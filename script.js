@@ -15,15 +15,17 @@ window.onload = function(){
     memeinsertvalue.addEventListener('change',addImageToContainer);
     let img;
     let imgpath;
-      function addImageToContainer(event){
+    function addImageToContainer(event){
       if (!img){
       img = document.createElement("img");
       img.id = "meme-image"
-      img.className = "classNemeImage"
+      img.className = "classMemeImage"
         }
       imgpath = memeinsertvalue.files[0].name;
       console.log(imgpath);
       img.src = imgpath;
       caixaImagem.appendChild(img);
     }
+    // buttons to change the border
+    buttons = document.querySelectorAll("button")
 }
