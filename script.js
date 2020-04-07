@@ -10,8 +10,9 @@ window.onload = function (){
   image.addEventListener("change",save)
   function save(){
     img.src = URL.createObjectURL(image.files[0]);
-    img.style.width = "768px";
-    img.style.heigth = "1366px";
+    img.style.width = "750px";
+    img.style.heigth = "750px";
+    let container = document.getElementById('meme-image-container')
+    container.style.border = '1px solid rgb(0, 0, 0)'
   }
-  //Adicionando a imagem na página
 }
