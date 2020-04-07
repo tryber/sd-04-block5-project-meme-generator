@@ -86,7 +86,7 @@ Você deve criar um site que permita o upload de uma imagem e a inserção de um
 
 ### 3 - O site deve ter uma moldura no container. A moldura deve ter 1 pixel de largura, deve ser preta e do tipo 'solid'. A área onde a imagem aparecerá deve ter fundo branco.
 - A imagem deve estar totalmente contida dentro do elemento identificado com 'meme-image-container'.
-- A estilização da modulra deve ser conforme especificada.
+- A estilização da moldura deve ser conforme especificada.
 
 ## Requisitos bônus:
 
