@@ -44,6 +44,7 @@ btnMoldura3.addEventListener('click', function(){
 let btnMeme1 = document.querySelector('#meme-1');
 let btnMeme2 = document.querySelector('#meme-2');
 let btnMeme3 = document.querySelector('#meme-3');
+let btnMeme4 = document.querySelector('#meme-4');
 
 btnMeme1.addEventListener('click', function(){
     img.src = '/imgs\/meme1.jpeg';
@@ -57,3 +58,6 @@ btnMeme3.addEventListener('click', function(){
     img.src = '/imgs\/meme3.jpeg';
 })
 
+btnMeme4.addEventListener('click', function(){
+    img.src = '/imgs\/meme4.jpeg';
+})
