@@ -4,7 +4,7 @@ let container = document.getElementById("meme-image-container");
 let image = container.querySelector(".meme-image");
 let ImageText = memeText.value;
 
-memeText.addEventListener("change", function(){
+memeText.addEventListener("keyup", function(){
     ImageText = document.querySelector("#text-input").value;
     document.querySelector('#meme-text').innerHTML = ImageText;
 });
