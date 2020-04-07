@@ -3,9 +3,21 @@ body {
   font-size: 24px;
 }
 
+main {
+  padding: 30px;
+}
+
 .flex {
   display: flex;
 }
+
+.flex-item {
+  flex: 1; 
+ }
+ 
+ .flex-item.center {
+   justify-content: center;
+ }
 
 .meme-image-container {
   background-color: rgb(255, 255, 255);
