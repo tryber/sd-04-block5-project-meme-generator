@@ -43,5 +43,4 @@ for (meme of memes){
   meme.addEventListener('click',function(element){
     let imgMeme = document.getElementById("meme-image");
     imgMeme.src = element.target.src;
-  })}
-  
+  })};
