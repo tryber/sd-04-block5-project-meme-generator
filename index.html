@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caio Ribeiro | Project 5.1 Meme Generator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <form>
+        <label for="text-input">Seu meme:</label> 
+        <input type="text" name="Frase" id="text-input">
+    </form>
+    <form>
+        <label for="meme-insert">URL Image:</label>
+        <input type="text" name="Imagem" id="meme-insert">
+    </form>
+
     
 
-    <script src="script.js"></script>
+    <header id="meme-image-container">
+        <img id="memeImage" src="" alt="Imagem do meme">
+        <p id="memeText"></p>
+     </header>
+
+
+<script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,11 @@
+#meme-image-container{
+    border: 1px;
+    color: black;
+    border-style: solid;
+    background-color: white;
+    max-width: 80%;
+}
+
+#memeImage {
+    max-width: 70%;
+}
