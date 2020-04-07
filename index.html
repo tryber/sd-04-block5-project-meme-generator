@@ -6,24 +6,15 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
   </head>
   <body>
-    <span id="meme-text"></span>
     <div id="meme-image-container">
-      
-      
-      
+      <span id="meme-text"></span>
+      <div id="meme-insert"></div>
     </div>
-
-    <input type="text" id="text-input">
-    <input type="button" value="insert meme text" onclick="insertText()">
-
-
-    <input type="file" id="meme-insert">
-
-
-
-
-
-
+    <form>
+      <input type="file" id="image-insert">
+      <input type="text" id="text-input">
+      <input type="button" value="insert meme text" onclick="insertText()">
+    </form>
     <script src="./script.js"></script>
   </body>
 </html>

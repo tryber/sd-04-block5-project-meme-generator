@@ -8,26 +8,11 @@
 //  a imagem aparecerá.
 
 var textInput = document.querySelector("#text-input");
-var display = document.querySelector("#meme-image-container");
 var textDisplay = document.querySelector("#meme-text");
+// var container = document.querySelector("#meme-image-container");
+var imageDisplay = document.querySelector("#meme-insert");
 
-
-function insertText() {
-  display.innerHTML = input.value;
-}
-
-
-// 2 - O site deve permitir que quem usa faça upload de uma imagem de seu computador.
-// O elemento da imagem deve possuir um id chamado 'meme-image'.
-// O elemento onde é feito o upload da imagem deve ser identificado com o id 'meme-insert'
-// A imagem deve estar totalmente contida dentro do elemento identificado com 'meme-image-container'
-// O texto de quem usa deve ser inserido sobre a imagem escolhida.
-
-
-var container = document.querySelector("#meme-image-container");
-
-document.getElementById('meme-insert').addEventListener('change', handle);
-
+document.getElementById('image-insert').addEventListener('change', handle);
 
 function insertText() {
   textDisplay.innerHTML = textInput.value
@@ -35,8 +20,11 @@ function insertText() {
 
 
 
-
-
+// 2 - O site deve permitir que quem usa faça upload de uma imagem de seu computador.
+// O elemento da imagem deve possuir um id chamado 'meme-image'.
+// O elemento onde é feito o upload da imagem deve ser identificado com o id 'meme-insert'
+// A imagem deve estar totalmente contida dentro do elemento identificado com 'meme-image-container'
+// O texto de quem usa deve ser inserido sobre a imagem escolhida.
 
 function handle(evt) {
   var files =  evt.target.files
@@ -52,9 +40,8 @@ function handle(evt) {
   var reader = new FileReader();
 
   reader.onload = function(evt){
-    container.innerHTML = ['<img id="meme-image" src="', evt.target.result,
+    imageDisplay.innerHTML = ['<img id="meme-image" src="', evt.target.result,
     '" title="', escape(files[0].name), '"/>'].join('');
   }
   reader.readAsDataURL(files[0]);  
 }
-
