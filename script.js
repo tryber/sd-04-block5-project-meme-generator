@@ -10,7 +10,7 @@ window.onload = function (){
   image.addEventListener("change",save)
   function save(){
     img.src = URL.createObjectURL(image.files[0]);
-    img.style.width = "750px";
-    img.style.heigth = "750px";
+    img.style.width = "700px";
+    img.style.heigth = "700px";
   }
 }
