@@ -1,8 +1,31 @@
 #meme-image {
-visibility: visible;
+    height: 500px;
+    min-height: 100px;
+    min-width: 100px;
+    visibility: visible;
+    width: 550px;
 }
 
 #meme-image-container {
-    border: 3px dashed rgb(255, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
+    height: 500px;
+    margin-top: 10px;
+    position: relative;
+    width: 550px;
 }
+
+#meme-text {
+    color: white;
+    font-family: Arial;
+    font-size: 50px;
+    position: absolute;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -2px black;
+    top: 75%;
+    width: 80%;
+    word-break: break-all;
+}
+
+
+
