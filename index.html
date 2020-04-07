@@ -5,10 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
 
 </head>
 <body>
+
+    <h1>Escolha sua imagem</h1>
+
+    <!--INPUT IMAGE-->
+    <input type="file" name="inpFile" id="inpFile" accept="image/*">
+
+    <!--CONTAINER OF IMAGE-->
+    <div id="meme-image-container" class="imagePreview">
+
+    <!--PHRASE INSIDE THE CONTAINER BOX-->
+        <igm src="" alt="Imagem" id="preview-image" class="preview-image"></igm>
+
+
+    <span class="image-preview__default-text"></span>
     
+    </div>
+
+    <!--CAIXA DE TEXTO1-->
+    <p>Texto:</p> 
+    <input type="text" id="phrase1" placeholder="Digite aqui, algo engraçado" maxlength="200">
 
 
 </body>
