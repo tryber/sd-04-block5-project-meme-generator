@@ -2,7 +2,8 @@ function writeOnImg() {
   let text = document.querySelector('#text-input').value;
   let imageContainer = document.querySelector('#meme-text');
 
-  imageContainer.innerHTML = text;
+  imageContainer.innerHTML = text.toUpperCase();
+
 }
 
 let memeInsert = document.querySelector("#meme-insert");
