@@ -4,6 +4,8 @@ let memeImageContainer = document.getElementById('meme-image-container')
 let button1 = document.getElementById('button1')
 let button2 = document.getElementById('button2')
 let button3 = document.getElementById('button3')
+let thumbnails = document.querySelectorAll('#thumbnail img')
+let borderButtons = document.querySelectorAll('#form-buttons button')
 
 function onSubmit(){
     event.preventDefault()
@@ -27,7 +29,6 @@ textInput.addEventListener('keyup', ()=>{
     document.getElementById('meme-text').innerHTML = textInput.value
 })
 
-let borderButtons = document.querySelectorAll('#form-buttons button')
 for(let i=0; i<borderButtons.length; i++)
     addEventClick(borderButtons[i])
 
@@ -49,4 +50,13 @@ function addEventClick(elem){
 
 function showThumbnail(e){
     alert(e.value)
+}
+
+for(let i=0; i<thumbnails.length; i++)
+    thumbnails[i].addEventListener('click', ()=>{
+        insertThumbnail(thumbnails[i])
+    })
+
+function insertThumbnail(element){
+        document.getElementById('meme-image').src = element.src
 }
