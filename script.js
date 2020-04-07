@@ -1,16 +1,29 @@
-let loadMeme = function(event) {
-    let image = document.getElementById('meme-image');
-    image.src = URL.createObjectURL(event.target.files[0]);
-};
+window.onload = function(){
 
-let memeContainer = document.querySelector('#meme-image-container');
-let memeText = document.querySelector('#text-input');
+    let memeText = document.getElementById('text-input');
+    let memeDiv = document.getElementById('meme-image-container');
+    function inputText(){
+        memeDiv.innerText = memeText.value;
+    }
+    memeText.addEventListener('keyup', inputText);
 
-function putText () {
-memeContainer.innerText = memeText.value;}
-
-memeText.addEventListener('keyup', putText);
-
+    
+    //alert("Are you ready to generate a awsome meme???")
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

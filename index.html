@@ -5,39 +5,44 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script> 
-  </head>
-    <body>
-        <h1>-- Meme Generator --</h1>
-        
-        
-        <!------------------------------------REQUISITO B DO 1 div meme container--------------------------------------------------------------->
-        <div id="meme-image-container">
-        <img id="meme-image" width="500">
-        </div>
-        <!------------------------------------REQUISITO B DO 1 div meme container--------------------------------------------------------------->
+</head>
 
+<body>
+  <div id="main-content">
+    <header>
+      
+        <h1 id="main-title">== Meme Generator ==</h1>
+      
+    </header>
 
+    <!--Input e imagem - meme genenator-->
+    <section>
 
-        <!------------------------------------UPLOADER MEME--------------------------------------------------------------->
-        <p><input type="file"  accept="image/*" name="image" id="meme-insert"  onchange="loadMeme(event)" ></p>
-        
-        <!------------------------------------UPLOADER MEME--------------------------------------------------------------->
-
-
-
-       
-        <!------------------------------------REQUISITO A DO 1 caixa de texto------------------style="display: none;"--------------------------------------------->
-        <form>
+       <!---------------MEME TEXT-----------------------------------------------------------------------------------------------------------> 
         <label for="text-input">Type your meme text here:</label><br>
-        <input type="text"  id="text-input" name="text-input"><input type="submit" value="Submit"><br>
-        </form>
-         <!------------------------------------REQUISITO A DO 1 caixa de texto--------------------------------------------------------------->
+        <input type="text"  id="text-input"><br />
+       <!---------------MEME TEXT-----------------------------------------------------------------------------------------------------------> 
+       
+       
 
+       <!---------------MEME INPUT----------------------------------------------------------------------------------------------------------->
+        <p><input type="file"  accept="image/*" id="meme-insert"  onchange="loadMeme()"></p>
+       
+      
+    </section>
 
-
-
-
-
-
-    </body>    
+    <figure>
+      <!---------------MEME DIV----------------------------------------------------------------------------------------------------------->  
+      <div id="meme-image-container">
+          
+        <p id="meme-texto" class="meme-texto"></p>
+        <img id="meme-image" src=""></img>
+          
+      </div>
+      <!---------------MEME DIV-----------------------------------------------------------------------------------------------------------> 
+    </figure>
+    
+  </div>
+  <script src="script.js"></script>
+</body>
 </html>
