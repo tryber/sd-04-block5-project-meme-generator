@@ -1,5 +1,4 @@
 
-let button = document.querySelector('#upload-image');
 let memeImg = document.querySelector('#meme-image');
 let memeInsert = document.querySelector('#meme-insert');
 let textInput = document.querySelector('#text-input');
