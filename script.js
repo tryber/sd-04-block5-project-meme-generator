@@ -18,7 +18,6 @@ function setImage(){
     }
     if(inputFile){
         fr.readAsDataURL(inputFile)
-        pickABorder.style.visibility = 'visible'
     }
     else
         img.src = ''
