@@ -18,18 +18,31 @@ body {
 .insert-box {
   width: 50%;
   height: 150px;
+  display: flex;
 }
 
 .meme-image-container {
-  width: 400px;
-  height: 400px;
+  width: 95%;
+  height: 600px;
   border: 1px solid black;
   background-color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.meme-image {
+  width: 100%; 
+  height: 600px;
 }
 
 .meme-text {
   position: absolute;
-  color: black;
-  font-size: 20px;
-  text-align: center;
+  color: red;
+  font-size: 40px;
+  font-weight: 200;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

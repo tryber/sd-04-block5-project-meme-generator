@@ -8,7 +8,11 @@ window.onload = function () {
         textMeme.innerHTML = inputText.value
     }
     
-    
     inputText.addEventListener('input', insereTexto);
 
+    function insereImagem (event) {
+        memeImage.src = URL.createObjectURL(event.target.files[0]); 
+    }
+
+    uploadImage.addEventListener('change', insereImagem);
 }
