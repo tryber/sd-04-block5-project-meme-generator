@@ -1,23 +1,33 @@
 #meme-image-container{
     margin: auto;
+    word-wrap: break-word;
     max-width: 80%;
     max-height: 80%;
     width: 80%;
-    height: 80%;
-    
+    height: 80%;    
+}
+
+#meme-text {
+    max-width: 70%;
+    max-height: 70%;
 }
 
 #meme-image {
+    min-height: 90%;
+    min-width: 90%;
     max-width: 90%;
     z-index: 2;
     border: 1px;
-    color: black;
+    border-color:rgb(0, 0, 0);
     border-style: solid;
-    background-color: white;
+    background-color:rgb(255, 255, 255);
+    word-wrap: break-word;
 }
 
 #meme-image-container p {
+    word-wrap: break-word;
     position: absolute;
+    margin: auto;
     z-index: 1;
     text-align: center;
     font-size: 20pt;
