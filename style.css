@@ -21,8 +21,14 @@ body{
     border-width: 1px;
   
      }
+#meme-image{
+  min-height: auto;
+  max-height: 768px;
+  min-width: auto;
+  max-width: 1366px;
+     }
      /* #buttonLoadImage {
-      background-color: #4CAF50; /* Green */
+      background-color: #4CAF50; 
       border: none;
       color: white;
       padding: 15px 32px;
