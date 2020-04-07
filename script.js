@@ -2,7 +2,7 @@ window.onload = function (){
   //Coletando as variáveis de entrada:
   let img = document.getElementById('meme-image');
   let text = document.getElementById('text-input');
-  text.addEventListener('change',function(){
+  text.addEventListener('keyup',function(){
     let caps = text.value;
     document.getElementById('meme-text').innerHTML = caps;
   })
@@ -10,8 +10,8 @@ window.onload = function (){
   image.addEventListener("change",save)
   function save(){
     img.src = URL.createObjectURL(image.files[0]);
-    img.height = 1366;
-    img.width = 768;
+    img.style.width = "768px";
+    img.style.heigth = "1366px";
   }
   //Adicionando a imagem na página
 }
