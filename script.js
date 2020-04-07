@@ -1,12 +1,14 @@
-const userImage = document.getElementById('text-input'); //imagem do input file.
+const inputImage = document.getElementById('meme-insert'); //imagem do input file.
 const container = document.getElementById('meme-image-container'); // container da imagem.
 const txt = document.querySelector('div#meme-image-container p'); // tag p da imagem.
 const img = document.getElementById('meme-image'); //
 
-userImage.addEventListener('change', addImage); // evento para o input file.
+inputImage.addEventListener('change', addImage); // evento para o input file.
 
-function addImage(event) {
+
+function addImage() {
     img.src = URL.createObjectURL(event.target.files[0]);
+    container.appendChild(img);
     img.style.display = 'block';
 }
 

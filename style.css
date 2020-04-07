@@ -17,7 +17,7 @@ div#meme-image-container img {
     max-height: 500px;
 }
 
-div#meme-image-container, div#meme-image-container img {
+div#meme-image-container, img#meme-image {
     position: relative;
 }
 
