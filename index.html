@@ -13,19 +13,19 @@
   <div>
     <form>
       <label for="text-input">Insert your text here:</label><br>
-      <input type="text" id="text-input" oninput="writeOnImg();">
+      <input type="text" id="text-input" name="text-input" oninput="writeOnImg();">
     </form>
   </div>
   <!-- Image upload section  -->
-    <div>
+    <div id="meme-upload">
       <form>
         <label for="meme-insert">Choose your image</label><br>
-        <input type="file" id="meme-insert" onchange="loadImg();">
+        <input type="file" id="meme-insert" name="meme-insert">
       </form>
     </div>
 <!-- Meme section -->
   <section id="meme-image-container">
-    <!-- <img id="meme-image" src="" alt="User image"> -->
+    <img id="meme-image" src="" alt="User image">
     <p id="meme-text"></p>
   </section>
 
