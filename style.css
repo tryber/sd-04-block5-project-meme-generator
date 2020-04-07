@@ -1,3 +1,8 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+}
+
 .meme-image-container {
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(0, 0, 0);
@@ -7,18 +12,18 @@
 }
 
 .meme-image {
-  height: 750px;
   /* visibility: visible; */
+  height: 750px;
   width: 750px;
 }
 
 .meme-text {
-  font-weight: 800;
-  font-size: 30px;
   color: rgb(255, 255, 255);
+  filter: drop-shadow(2px 4px 6px black);
+  font-size: 30px;
+  font-weight: 800;
   position: absolute;
   text-align: center;
-  filter: drop-shadow(2px 4px 6px black);
   top: 0;
   width: 100%;
   word-break: break-all;
