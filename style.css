@@ -8,7 +8,7 @@ div {
 p {
   left: 14px;
   position: absolute;
-  top: 146px;
+  top: 172px;
 }
 
 ul {
@@ -18,5 +18,5 @@ ul {
 
 ul li {
   float: left;
-  margin-left: 15px;
+  margin-right: 15px;
 }
