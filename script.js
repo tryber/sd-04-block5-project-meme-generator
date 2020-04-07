@@ -34,9 +34,9 @@ window.onload = function(){
   })
 
   for (meme of memes){
-    meme.addEventListener('click',function(element){
+    meme.addEventListener('click',function(event){
       let imgMeme = document.getElementById("meme-image");
-      imgMeme.src = element.target.src;
+      imgMeme.src = event.target.src;
     }
   )};
 }
