@@ -2,7 +2,8 @@
 <html lang="pt-br">
   <head>
     <title>Meme Generator</title>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script> 
 </head>
@@ -19,14 +20,19 @@
     <section>
 
        <!---------------MEME TEXT-----------------------------------------------------------------------------------------------------------> 
-        <label for="text-input">Type your meme text here:</label><br>
-        <input type="text"  id="text-input"><br />
+        <form action="">
+            <label for="text-input">Type your meme text here:</label><br>
+            <input type="text"  id="text-input" maxlength="60"><br />
+            <br>
+            <!---------------MEME INPUT----------------------------------------------------------------------------------------------------------->
+            <input type="file"  accept="image/*" name="meme-image" id="meme-insert"  onchange="loadMeme()">
+        </form>
        <!---------------MEME TEXT-----------------------------------------------------------------------------------------------------------> 
+ 
        
        
 
-       <!---------------MEME INPUT----------------------------------------------------------------------------------------------------------->
-        <p><input type="file"  accept="image/*" id="meme-insert"  onchange="loadMeme()"></p>
+       
        
       
     </section>
@@ -35,12 +41,15 @@
       <!---------------MEME DIV----------------------------------------------------------------------------------------------------------->  
       <div id="meme-image-container">
           
-        <p id="meme-texto" class="meme-texto"></p>
+        
         <img id="meme-image" src=""></img>
+        <p id="meme-text" class="meme-text"></p>
           
       </div>
       <!---------------MEME DIV-----------------------------------------------------------------------------------------------------------> 
     </figure>
+
+
     
   </div>
   <script src="script.js"></script>
