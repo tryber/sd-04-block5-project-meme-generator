@@ -59,15 +59,15 @@ button {
     background-color: #0f0;
 }
 
-img#meme-image {
+#meme-image {
     display: none;
     height: 100%;
-    min-height: 200px;
     max-height: 500px;
+    min-height: 200px;
     width: 100%;
 }
 
-#meme-image-container, img#meme-image {
+#meme-image-container, #meme-image {
     position: relative;
 }
 
