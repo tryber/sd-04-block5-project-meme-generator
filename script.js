@@ -10,9 +10,9 @@
 var textInput = document.querySelector("#text-input");
 var textDisplay = document.querySelector("#meme-text");
 // var container = document.querySelector("#meme-image-container");
-var imageDisplay = document.querySelector("#meme-insert");
+var imageDisplay = document.querySelector("#image-insert");
 
-document.getElementById('image-insert').addEventListener('change', handle);
+document.getElementById('meme-insert').addEventListener('change', handle);
 
 function insertText() {
   textDisplay.innerHTML = textInput.value
