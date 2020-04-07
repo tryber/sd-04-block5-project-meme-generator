@@ -60,13 +60,37 @@ main {
 }
 
 .lower-text {
+  bottom: 0;
   color: rgb(255, 255, 255);
   filter: drop-shadow(2px 4px 6px black);
   font-size: 30px;
   font-weight: 800;
   position: absolute;
   text-align: center;
-  bottom: 0;
   width: 100%;
   word-break: break-all;
+}
+
+input {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  border: 1px solid #f1f1f1;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 10px;
+  transition: background-color 0.3s ease-in;
+}
+
+input:hover {
+  background-color: rgb(249 , 249 , 249);
+}
+
+input:focus {
+  background-color: crimson;
+  color: white;
+  outline: none;
+}
+
+input:focus::placeholder {
+  color: white;
 }
