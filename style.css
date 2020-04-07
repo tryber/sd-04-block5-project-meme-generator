@@ -3,8 +3,13 @@ body {
   font-size: 24px;
 }
 
-main {
+main, header {
   padding: 30px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 2em;
 }
 
 .flex {
