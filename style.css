@@ -7,7 +7,7 @@ body {
 img {
   height: 100%;
   max-width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 input {
@@ -51,7 +51,9 @@ h1 {
 .meme-image-container {
   align-items: center;
   background: white;
-  border: 1px solid black;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
   display: flex;
   height: 450px;
   justify-content: center;
