@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <header class="cabecalho">
+        <h1>MEMErator</h1>
+    </header>
+    <!--cabecalho-->
+
+    <section id="setting" class='setting'>
+        <form>
+            <label>Adicionar texto do MEME:</label><br>
+            <input autocomplete="off" type="text" id="text-input" maxlength="60"><br><br>
+            <label>Escolha uma imagem:</label><br>
+            <input type="file" id="meme-insert"><br><br>
+        </form>
+        <!--form-->
+
+        <div class="botao">
+            <label>Escolha a borda:</label><br>
+            <button id="button1">Tracejada vermelha</button>
+            <button id="button2">Dupla azul</button>
+            <button id="button3">Groove verde</button>
+            <br><br>
+        </div>
+        <!--botao-->
+    </section>
+    <!--setting-->
+
+    <section id="meme-image-container" class='meme-image-container'>
+        <p id="meme-text" class="meme-text"></p>
+    </section>
+    <!--meme-image-container-->
+
+    <footer>
+        <div>
+            <h3>Desenvolvido por Leandro Kaoru</h3>
+            <p>Projeto do bloco 5</p>
+        </div>
+        <!--div-->
+    </footer>
+    <!--footer-->
+</body>
+
+</html>
