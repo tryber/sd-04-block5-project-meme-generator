@@ -3,24 +3,27 @@
     border-color: black;
     border-width: 1px;
     background-color: white;
-    height: 750px;
+    height: 500px;
     margin-top: 15px;
     position: relative;
-    width: 750px;
+    width: 500px;
 }
 #meme-image{
-    height: 750px;
+    height: 500px;
     visibility: visible;
-    width: 750px;
+    width: 500px;
 }
 #meme-text{
-    color: white;
+    color: goldenrod;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
     font-weight: bolder;
     position: absolute;
     text-align: center;
-    top: 75%;
+    top: 60%;
     width: 100%;
     word-break: break-all;
+    text-decoration: wavy;
+    text-shadow: 2px 0 black;
+
 }
