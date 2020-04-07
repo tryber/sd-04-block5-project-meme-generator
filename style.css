@@ -5,11 +5,7 @@
     max-width: 500px;
   }
 
-  #meme-image {
-    display: visible;
-  }
-
-  #meme-image-container {
+  .meme-image-container {
     background-color: white;
     border-color: black;
     border-style: solid;

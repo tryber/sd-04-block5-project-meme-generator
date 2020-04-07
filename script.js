@@ -8,20 +8,17 @@ let container = document.querySelector('#meme-image-container');
 
 //Text EventListener
 textInput.addEventListener('keyup', function(){
-    text.innerHTML = textInput.value; 
+    text.innerHTML = textInput.value;
 });
 
 //Bloco Imagens
 function addImageToContainer(event){
 if (!memeImg){
-img = document.createElement("img");
-}
+img = document.createElement("img");}
 memeImg.src = URL.createObjectURL(event.target.files[0]);
 container.appendChild(memeImg);
 }
-
 imgInput.addEventListener('input', addImageToContainer);
-
 //Botoes - moldura
 let btnMoldura1 = document.querySelector('#button1');
 let btnMoldura2 = document.querySelector('#button2');
@@ -38,7 +35,6 @@ btnMoldura2.addEventListener('click', function(){
 btnMoldura3.addEventListener('click', function(){
     container.style.border = "6px groove green"
 });
-
 //Botoes - meme
 let btnMeme1 = document.querySelector('#meme-1');
 let btnMeme2 = document.querySelector('#meme-2');
