@@ -23,8 +23,25 @@ button {
     width: 140px;
     margin: 5px;
     color: white;
-    background-color: #000;
+    background-color: rgba(36, 34, 34, 0.705);
     border-radius: 6px;
+    transition: background-color 1.5s;
+}
+
+#button1:hover, #button2:hover, #button3:hover {
+    font-weight: bold;
+}
+
+#button1:hover {
+    background-color: #f00;
+}
+
+#button2:hover {
+    background-color: #00f;
+}
+
+#button3:hover {
+    background-color: #0f0;
 }
 
 img#meme-image {
