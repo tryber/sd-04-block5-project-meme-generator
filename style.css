@@ -1,4 +1,5 @@
 #meme-image-container{
+    background-color: rgb(255, 255, 255);
     margin: auto;
     word-wrap: break-word;
     max-width: 80%;
