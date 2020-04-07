@@ -1,0 +1,50 @@
+h1 {
+  color: white;
+  font-size: 2.5rem;
+}
+
+p {
+  color: white;
+  font-size: 2.5rem;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+img {
+  width: 500px;
+}
+
+.meme-image-container {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+}
+
+.meme-insert {
+  background-color: white;
+  color: black;
+}
+
+.text-input {
+  background-color: rgb(38 , 38 , 38);
+  border: 2px solid white;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  margin: 50px;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+body {
+  align-items: center;
+  background-color: rgb(48 , 48 , 48);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
