@@ -1,6 +1,9 @@
 #buttons{
     clear: both;
     margin: 30px;
+    margin-top: 50px;
+    max-width: 40%;
+    max-height: 50px;
 }
 
 #text-input{
@@ -13,20 +16,16 @@
     margin-left: auto;
     margin-right: auto;
     word-wrap: break-word;
-    width: 70%;
+    width: 90%;
+    min-height: 100px;
 } 
 
 #meme-text {
     padding: 20px;
-    max-width: 60%;
-    max-height: 60%;
-    text-align: center;
-    margin: auto;
+    max-width: 80%;
+    color: blue;
 }
 
-#meme-image {
-    width: 100%;
-}
 
 #meme-image-container p {
     word-wrap: break-word;
