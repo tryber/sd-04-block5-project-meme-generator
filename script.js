@@ -3,7 +3,9 @@ window.onload = function () {
 
   let inputText = document.getElementById("text-input");
   // input text dynamically over the image
-  inputText.addEventListener("input", () => { text.innerHTML = inputText.value })
+  inputText.addEventListener("input", function() {
+    text.innerHTML = inputText.value 
+  })
 
   const memeInsert = this.document.getElementById("meme-insert");
   const container = this.document.getElementById("meme-image-container");
