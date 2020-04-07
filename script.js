@@ -16,7 +16,6 @@ function setImage(){
     fr.onload = function(){
         img.src = fr.result
     }
-    
     if(inputFile){
         fr.readAsDataURL(inputFile)
         pickABorder.style.visibility = 'visible'
@@ -46,7 +45,5 @@ function addEventClick(elem){
                 memeImageContainer.style.border = '6px groove green'
             break
         }
-            
     })
 }
-
