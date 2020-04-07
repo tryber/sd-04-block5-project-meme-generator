@@ -18,6 +18,7 @@ body {
 
 .meme-image {
   border-radius: 12px;
+  display: block;
   max-width: 600px;
 }
 
