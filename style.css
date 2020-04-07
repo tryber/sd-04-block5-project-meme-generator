@@ -17,12 +17,12 @@ h1 {
 #meme-image-container {
   background-color: rgb(255,255,255);
   border: 1px solid rgb(0, 0, 0);
-  height: 768px;
+  height: 750px;
   margin: auto;
   padding:2px;  
   position: relative;
   top: 20px;
-  width: 1366px;
+  width: 750px;
 }
 #meme-text {
   bottom: 1px;
