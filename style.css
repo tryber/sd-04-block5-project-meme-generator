@@ -7,9 +7,9 @@ body{
 
 .meme-image-container{
     background-color: white;
-    position: relative;
+   
     display: flex;
-    border: 1px, solid, black;
+    border: 1px solid black;
     width: 500px;
     height: 500px;   
 
@@ -19,15 +19,15 @@ body{
 .meme-text{
 
     position: absolute;
-    width: 350px;
+    left: 59px;
     height: 150px;
     font-size: 32px;
-    z-index: 1;
+   
 
 }
 
 .meme-image{
-    position: relative;
+    
     width: 400px;
 
 }
