@@ -5,10 +5,10 @@ body{
 }
 
 
-.image-container{
+.meme-image-container{
     background-color: white;
     position: relative;
-    display: flex; /* posiciona em linha ou coluna*/
+    display: flex;
     border: 1px, solid, black;
     width: 500px;
     height: 500px;   
