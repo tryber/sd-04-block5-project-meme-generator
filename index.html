@@ -8,6 +8,7 @@
 </head>
 <body>
     <div id = "meme-image-container" class="meme-image-container">
+        <img id ="meme-image" class = "meme-image" src = "" alt = "Meme Image">
         <p id="meme-text" class="meme-text"></p>
     </div>
     <form>
@@ -16,6 +17,10 @@
         <label for="meme-insert">Subir Imagem do seu meme: </label><br>
         <input type='file' id="meme-insert" name="meme-insert" />
     </form>
+    <img id = "meme-1" src="imgs/meme1.jpg" onclick="changeImage('imgs/meme1.jpg')" class="thumb">
+    <img id = "meme-2" src="imgs/meme2.jpg" onclick="changeImage('imgs/meme2.jpg')" class="thumb">
+    <img id = "meme-3" src="imgs/meme3.jpg" onclick="changeImage('imgs/meme3.jpg')" class="thumb">
+    <img id = "meme-4" src="imgs/meme4.jpg" onclick="changeImage('imgs/meme4.jpg')" class="thumb"><br>
     <button id="button1">Button 1</button>
     <button id="button2">Button 2</button>
     <button id="button3">Button 3</button>
