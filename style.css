@@ -20,9 +20,10 @@ max-width: 1366px;
   position: relative;
   text-align: center;
   width: 1366px;
-  width: 500px;
+  /* width: 500px; */
   }
 .classMemeImage{
+  
   border-color: black;
   border-style: solid;
   border-width: 1px;
