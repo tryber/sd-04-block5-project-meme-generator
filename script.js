@@ -8,6 +8,8 @@ window.onload = function(){
   let btn1 = document.getElementById("button1");
   let btn2 = document.getElementById("button2");
   let btn3 = document.getElementById("button3");
+  let memes = document.getElementsByClassName('meme');
+
  
   textInput.addEventListener('input', function(){
       text.innerHTML = textInput.value;
@@ -27,11 +29,11 @@ window.onload = function(){
   btn3.addEventListener("click", function(){
     frameImg.style.border = "6px groove green";
   });
-  
-  let memes = document.getElementsByClassName('meme');
+
   for (meme of memes){
     meme.addEventListener('click',function(element){
       let imgMeme = document.getElementById("meme-image");
       imgMeme.src = element.target.src;
-    })};
+    }
+  )};
 }
