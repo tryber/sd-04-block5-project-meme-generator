@@ -8,8 +8,11 @@
 }
 
 #meme-text {
-    max-width: 70%;
-    max-height: 70%;
+    padding: 20px;
+    max-width: 60%;
+    max-height: 60%;
+    text-align: center;
+    margin: auto;
 }
 
 #meme-image {

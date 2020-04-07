@@ -2,6 +2,7 @@
 let insertText = document.getElementById("text-input");
 
 insertText.addEventListener('input', function () {
+    let memeText = document.querySelector("#meme-text");
     memeText.innerHTML = insertText.value;
 })
 
