@@ -50,7 +50,7 @@ h1 {
 
 .meme-image-container {
   align-items: center;
-  background: rgb(255, 255, 255);
+  background: white;
   border: 1px solid black;
   display: flex;
   height: 450px;
