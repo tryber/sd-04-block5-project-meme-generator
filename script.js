@@ -3,22 +3,21 @@ let textInput = document.querySelector('#text-input');
 let text = document.querySelector('#meme-text');
 //Image
 let imgInput = document.getElementById('meme-insert');
-let img = document.getElementById('meme-image');
-let memeContainer = document.querySelector('#meme-image-container');
+let memeImg = document.getElementById('meme-image');
+let container = document.querySelector('#meme-image-container');
 
 //Text EventListener
 textInput.addEventListener('keyup', function(){
-    text.innerHTML = textInput.value }
-)
+    text.innerHTML = textInput.value; 
+});
 
 //Bloco Imagens
 function addImageToContainer(event){
-if (!img){
+if (!memeImg){
 img = document.createElement("img");
 }
-console.log(event.target.files[0])
-img.src = URL.createObjectURL(event.target.files[0]);
-memeContainer.appendChild(img);
+memeImg.src = URL.createObjectURL(event.target.files[0]);
+container.appendChild(memeImg);
 }
 
 imgInput.addEventListener('input', addImageToContainer);
@@ -29,15 +28,15 @@ let btnMoldura2 = document.querySelector('#button2');
 let btnMoldura3 = document.querySelector('#button3');
 
 btnMoldura1.addEventListener('click', function(){
-    memeContainer.style.border = "3px dashed red"
+    container.style.border = "3px dashed red"
 });
 
 btnMoldura2.addEventListener('click', function(){
-    memeContainer.style.border = "5px double blue"
+    container.style.border = "5px double blue"
 });
 
 btnMoldura3.addEventListener('click', function(){
-    memeContainer.style.border = "6px groove green"
+    container.style.border = "6px groove green"
 });
 
 //Botoes - meme
@@ -47,17 +46,17 @@ let btnMeme3 = document.querySelector('#meme-3');
 let btnMeme4 = document.querySelector('#meme-4');
 
 btnMeme1.addEventListener('click', function(){
-    img.src = '/imgs\/meme1.jpeg';
+    memeImg.src = '/imgs\/meme1.jpeg';
 })
 
 btnMeme2.addEventListener('click', function(){
-    img.src = '/imgs\/meme2.jpeg';
+    memeImg.src = '/imgs\/meme2.jpeg';
 })
 
 btnMeme3.addEventListener('click', function(){
-    img.src = '/imgs\/meme3.jpeg';
+    memeImg.src = '/imgs\/meme3.jpeg';
 })
 
 btnMeme4.addEventListener('click', function(){
-    img.src = '/imgs\/meme4.jpeg';
+    memeImg.src = '/imgs\/meme4.jpeg';
 })
