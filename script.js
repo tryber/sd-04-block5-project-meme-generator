@@ -26,5 +26,5 @@ button2.addEventListener("click", function (){
 })
 
 button3.addEventListener("click", function (){
-    container.style.border = "6px groove rgb(0, 255, 0)"
+    container.style.border = "6px groove rgb(0, 128, 0)"
 })
