@@ -11,7 +11,8 @@ window.onload = function () {
   const container = this.document.getElementById("meme-image-container");
   const image = this.document.getElementById("meme-image");
 
-  memeInsert.addEventListener("change", function () {
+  memeInsert.addEventListener("change", uploudImage)
+  function uploudImage() {
     const file = this.files[0];
     if (file) {
       const reader = new FileReader();
@@ -22,14 +23,14 @@ window.onload = function () {
       })
       reader.readAsDataURL(file);
     }
-  })
+  }
   let borderSize = [3, 5, 6];
   let borderStyle = ["dashed", "double", "groove"];
   let borderColor = ["red", "blue", "green"];
 
-  let button1 = document.getElementById("button1");
-  let button2 = document.getElementById("button2");
-  let button3 = document.getElementById("button3");
+  // let button1 = document.getElementById("button1");
+  // let button2 = document.getElementById("button2");
+  // let button3 = document.getElementById("button3");
   for (let i = 0; i < borderSize.length; i += 1) {
 
     document.getElementById(`button${i + 1}`).addEventListener("click", changeBorder);
@@ -38,5 +39,16 @@ window.onload = function () {
       container.style.border = `${borderSize[i]}px ${borderStyle[i]} ${borderColor[i]}`;
     }
   }
+  console.log(document.getElementById("meme2").src)
+  
+  for (let i = 1; i <= 4; i += 1) {
+
+    document.getElementById(`meme-${i}`).addEventListener("click", thumbToContainer);
+
+    function thumbToContainer() {
+      image.src = document.getElementById(`meme${i}`).src
+    }
+  }
+
 }
 
