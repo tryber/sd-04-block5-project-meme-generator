@@ -1,16 +1,25 @@
-#textToDisplay {
+body{
+  min-height: auto;
+  max-height: 1366px;
+  min-width: auto;
+  max-width: 768;
+}
+#meme-text {
     position: absolute;
     bottom: 50px;
-    left: 160px;
-    color: white; 
+    left: 60px;
+    /* color: white;  */s
+    font-size: 50px;
   }
   #meme-image-container {
     position: relative;
+    min-height: 200px;
     text-align: center;
     background-color: rgb(255, 255, 255);
-     }
-  #meme-image-container {
     border-color: black;
     border-style: solid;
-    border: 1px solid black
-  }
+    border-width: 1px;
+  
+     }
+
+
