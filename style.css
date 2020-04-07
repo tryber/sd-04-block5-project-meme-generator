@@ -9,9 +9,10 @@ h1 {
   width: 100%;
 }
 #meme-image {
+  height: 700px;
   margin: auto;
   position: absolute;
-  width: 100%;
+  width: 700px;
   z-index: 1;
 }
 #meme-image-container {
@@ -32,6 +33,7 @@ h1 {
   position: absolute;
   text-shadow: 2px 2px 2px black;
   text-transform: uppercase;
-  z-index: 2;
+  top: 80%;
   word-break : break-all;
+  z-index: 2;
 }
