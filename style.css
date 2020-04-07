@@ -1,6 +1,7 @@
   #preview__image{
     width: 500px;
     min-height:400px;
+    display: visible;
 }
   #meme-image-container{
     background-color: white;
