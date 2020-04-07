@@ -1,10 +1,15 @@
-let inpFile = document.getElementById("meme-insert");
-let topText = document.querySelector("#text-input");
+let memeText = document.querySelector("#text-input");
+let memeImage = document.getElementById("meme-insert");
 let container = document.getElementById("meme-image-container");
 let image = container.querySelector(".meme-image");
-let ImageText = topText.value;
+let ImageText = memeText.value;
 
-inpFile.addEventListener("change",function(){
+memeText.addEventListener("change", function(){
+    ImageText = document.querySelector("#text-input").value;
+    document.querySelector('#meme-text').innerHTML = ImageText;
+});
+
+memeImage.addEventListener("change",function(){
     let file = this.files[0];
 
     if (file){
@@ -17,9 +22,4 @@ inpFile.addEventListener("change",function(){
         });
         reader.readAsDataURL(file);
     }
-});
-
-topText.addEventListener("change", function(){
-    ImageText = document.querySelector("#text-input").value;
-    document.querySelector('#meme-text').innerHTML = ImageText;
 });

@@ -2,8 +2,8 @@
     background-color: orange;
     font-size: 50px;
     line-height: 80px;
+    margin-left: 0;
     position: fixed;
-    margin-left: 0px;
     text-align: center;
     top: 15px;
     width: 100%;
