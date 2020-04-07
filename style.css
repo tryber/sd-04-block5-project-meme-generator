@@ -1,3 +1,12 @@
+aside{
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: red;
+}
+
 *{
   margin: 0px;
   padding: 0px;
@@ -64,7 +73,7 @@ section{
   text-align: center;
   margin-top: 400px;
   margin-left: 110px;
-  color: green;
+  color: white;
   font-weight: bold;
   max-width: 500px;
   text-shadow: 1px 1px 1px black;

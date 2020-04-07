@@ -32,4 +32,13 @@ window.onload = function () {
     bt3.addEventListener('click', function () {
         container.style.border = "6px groove green";
     });
+
+    let memes = document.getElementsByClassName('meme');
+    for (meme of memes) {
+        meme.addEventListener('click', function (element) {
+            let imgMeme = document.getElementById("meme-image");
+            imgMeme.src = element.target.src;
+        })
+    };
+
 };
