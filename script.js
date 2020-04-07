@@ -10,7 +10,8 @@ image.addEventListener("input", function () {
     image = sessionStorage.setItem("image", image.value);
     let createdImagTag = document.createElement("img");
     createdImagTag.src = sessionStorage.image;
-    document.querySelector("#meme-image-container").appendChild(createdImagTag);  
+    createdImagTag.id = "meme-image"  
+    document.querySelector("#meme-image-container").appendChild(createdImagTag);
 })
 
 
