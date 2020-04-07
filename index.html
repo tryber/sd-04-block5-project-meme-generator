@@ -11,17 +11,22 @@
   <p>A small explanation about the website functionality goes here</p>
 <!-- Text section -->
   <div>
-    <h3>Choose your text:</h3>
-    <input type="text" id="text-input" oninput="writeOnImg();">
+    <form>
+      <label for="text-input">Insert your text here:</label><br>
+      <input type="text" id="text-input" oninput="writeOnImg();">
+    </form>
   </div>
   <!-- Image upload section  -->
     <div>
-      <h3>Choose your image:</h3>
+      <form>
+        <label for="meme-insert">Choose your image</label><br>
+        <input type="file" id="meme-insert" onchange="loadImg();">
+      </form>
     </div>
 <!-- Meme section -->
   <section id="meme-image-container">
-    <img src="" alt="User image">
-    <p>User text goes here</p>
+    <!-- <img id="meme-image" src="" alt="User image"> -->
+    <p id="meme-text"></p>
   </section>
 
   <script src="script.js"></script>
