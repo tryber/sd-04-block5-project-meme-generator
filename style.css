@@ -1,35 +1,35 @@
 h1 {
-	clear: both;
-	text-align: center;
+  clear: both;
+  text-align: center;
 }
 
 body {
-	background-color: rgb(179, 179, 179);
+  background-color: rgb(179, 179, 179);
 }
 
-#meme-image-container {
-	background-color: white;
-	border: 1px solid black;
-	position: absolute;
-	right: 50px;
-	width: 500px;
+.meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  position: absolute;
+  right: 50px;
+  width: 500px;
 }
 
-#meme-image {
-	position: absolute;
-	width: 100%;
+.meme-image {
+  position: absolute;
+  width: 100%;
 }
 
-#meme-text {
-	position: relative;
-	word-wrap: break-word;
-	z-index: 1;
-	text-shadow: black;
+.meme-text {
+  position: relative;
+  text-shadow: black;
+  word-wrap: break-word;
+  z-index: 1;
 }
 
 .template {
-	height: 200px;
-	border: 2px groove black;
-	margin-top: 10px;
-	margin-right: 10px;
+  border: 2px groove black;
+  height: 200px;
+  margin-right: 10px;
+  margin-top: 10px;
 }
