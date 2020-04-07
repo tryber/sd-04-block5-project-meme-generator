@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projetc meme</title>
+    <title>Project MeMe</title>
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
     <script src="script.js"></script>
-    <h1> Title </h1>
+    <h1> Project Meme-Generator </h1>
 
     <form>
         <label for="fname">Insert your text :</label><br>
-        <input type="text" id="text-input" name="fname"><br>
+        <input type="text" id="text-input"  maxlength="60" name="fname"><br><br>
         <label for="imglabel">Choose the image to upload:</label><br>
         <input type="file" id="meme-insert" name="imglabel"><br>
       </form>
 
+      <br>
+    <button class="button" id="button1">button 1</button>
+    <button class="button" id="button2">button 2</button>
+    <button class="button" id="button3">button 3</button>
     <div class="classeImageContainer" id="meme-image-container">
         <div class="classeMemeText" id="meme-text">
         </div>
