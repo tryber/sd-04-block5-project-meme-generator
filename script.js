@@ -19,4 +19,3 @@ window.onload = function () {
   meme3.addEventListener("click", function () {memeImg.src = "imgs/meme3.jpeg";});
   meme4.addEventListener("click", function () {memeImg.src = "imgs/meme4.jpeg";});
 };
-
