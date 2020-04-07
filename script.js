@@ -10,6 +10,7 @@ window.onload = function () {
   let meme3 = document.getElementById("meme-3");
   let meme4 = document.getElementById("meme-4");
   let memeImg = document.getElementById("meme-image");
+  let memeIns = document.getElementById("meme-insert");
   inpTxt.addEventListener("input", function () {memeTxt.innerText = inpTxt.value;});
   but1.addEventListener("click", function () {container.style.border = "3px dashed red";});
   but2.addEventListener("click", function () {container.style.border = "5px double blue";});
@@ -18,4 +19,5 @@ window.onload = function () {
   meme2.addEventListener("click", function () {memeImg.src = "imgs/meme2.jpeg";});
   meme3.addEventListener("click", function () {memeImg.src = "imgs/meme3.jpeg";});
   meme4.addEventListener("click", function () {memeImg.src = "imgs/meme4.jpeg";});
+  memeIns.addEventListener("change", function () {memeImg.src = URL.createObjectURL(memeIns.files[0]);});
 };

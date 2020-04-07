@@ -3,6 +3,7 @@ div {
   border: 1px solid black;
   clear: both;
   margin-top: 55px;
+  overflow: auto;
 }
 
 p {
