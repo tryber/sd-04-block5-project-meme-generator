@@ -12,11 +12,18 @@ body
 #meme-text
 {
     position: absolute;
+    color: rgb(81, 255, 0);
+    font-size: 25px;
 }
 
 #meme-image-container
 {
     background-color: white;
-    width: 300px;
-    height: 300px;
+    max-width: 600px;
+    min-height: 100px;
+    border: 1px solid black;
+    margin-top: 20px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
 }

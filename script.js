@@ -1,22 +1,28 @@
 let inputText = document.getElementById("input-text");
 let textMeme = document.getElementById("meme-text");
 let inputImage = document.getElementById("meme-insert");
+let imagem = document.getElementById("meme-image");
 
 inputText.addEventListener("keyup", PutText);
-inputImage.addEventListener("keyup", AplicImage(event));
+
 
 function PutText()
 {
     textMeme.innerHTML = inputText.value;
 }
 
-function AplicImage(event)
+inputImage.addEventListener("change", function ()
 {
-    let targ = event.target.files[0];
-    let leitura = new FileReader();
+    let file = this.files[0];
+    if(file)
+    {   
+        let leitura = new FileReader();
+        imagem.style.display = "block";
+        leitura.addEventListener("load", function()
+        {
+            imagem.setAttribute("src", this.result);
+        });
 
-    leitura.onload() = function(event)
-    {
-        inputImage.src = event.target.result;
+        leitura.readAsDataURL(file);
     }
-}
+});
