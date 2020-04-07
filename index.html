@@ -17,19 +17,23 @@
   </header>
   <main>
     <section id="meme-viewer" class="page-section flex-container">
-      <div id="meme-gen-controls" class="flex-item">
+      <div id="meme-gen-controls" class="meme-gen-controls flex-item">
         <form>
-          <label for="meme-insert"></label>
+          <label for="meme-insert">Upload Image</label><br>
           <input type="file" name="meme-insert" id="meme-insert">
-          <label for="text-input">Texto de Cima</label>
-          <input type="text" id="text-input">
-          <label for="lower-text-input">Texto de Baixo</label>
-          <input type="text" id="lower-text-input">
+        </form>
+        <form>
+          <label for="text-input">Texto de Cima</label><br>
+          <input type="text" id="text-input" placeholder="Texto">
+        </form>
+        <form>
+          <label for="lower-text-input">Texto de Baixo</label><br>
+          <input type="text" id="lower-text-input" placeholder="Texto">
         </form>
       </div>
       <div id="meme-container" class="flex-item flex-container center">
         <div id="meme-image-container" class="meme-image-container">
-          <div id="upper-text" class="meme-text upper-text">
+          <div id="upper-text" id="meme-text" class="meme-text upper-text">
             <!-- Upper text go here -->
           </div>
           <img src="./meme-bg-1.jpg" alt="meme backgorund" id="meme-image" class="meme-image">

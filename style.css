@@ -33,6 +33,10 @@ main {
   padding-bottom: 20px;
 }
 
+.meme-gen-controls {
+  flex-flow: column;
+}
+
 .meme-image-container {
   border-radius: 12px;
   color: white;
@@ -49,7 +53,6 @@ main {
 
 .meme-text {
   filter: drop-shadow(2px 4px 6px black);
-  ;
   padding: 5px 10px 10px 10px;
   position: absolute;
   text-transform: uppercase;
@@ -65,4 +68,28 @@ main {
 .lower-text {
   bottom: 0;
   left: 0;
+}
+
+input {
+  border: 1px solid #f1f1f1;
+  border-radius: 3px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 800;
+  transition: background-color 0.3s ease-in;
+}
+
+input:hover {
+  background-color: rgb(249 , 249 , 249);
+}
+
+input:focus {
+  background-color: crimson;
+  color: white;
+  outline: none;
+}
+
+input:focus::placeholder {
+  color: white;
 }
