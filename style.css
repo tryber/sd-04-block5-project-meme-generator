@@ -42,7 +42,7 @@ main {
 }
 
 .meme-image {
-  border-radius: 12px;
+  border-radius: 8px;
   display: block;
   max-width: 600px;
 }
@@ -79,6 +79,7 @@ input {
   font-weight: 800;
   padding: 10px;
   transition: background-color 0.3s ease-in;
+  width: 70%;
 }
 
 input:hover {
@@ -93,4 +94,16 @@ input:focus {
 
 input:focus::placeholder {
   color: white;
+}
+
+.border1 {
+  border: 3px dashed red;
+}
+
+.border2 {
+  border: 5px double blue;
+}
+
+.border3 {
+  border: 6px groove green;
 }
