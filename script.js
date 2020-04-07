@@ -25,7 +25,7 @@ window.onload = function(){
   btn2.addEventListener("click", function(){
     frameImg.style.border = "5px double blue";
   });
-  let btn2 = document.getElementById("button3");
+  let btn3 = document.getElementById("button3");
   btn2.addEventListener("click", function(){
     frameImg.style.border = "6px groove green";
   });
