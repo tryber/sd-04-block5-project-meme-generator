@@ -28,3 +28,8 @@ button2.addEventListener('click', function(){
 button3.addEventListener('click', function(){
   container.style.border = "6px groove green";
 });
+
+function openImage(image) {
+  document.getElementById("meme-image").src = image
+};
+
