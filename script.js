@@ -37,7 +37,7 @@ window.onload = function () {
     }
   }
 
-  let sources = ["/img/meme1.jpeg$", "/img/meme2.jpeg$", "/img/meme3.jpeg$", "/img/meme4.jpeg$"];
+  let sources = ["/img/meme1.jpeg", "/img/meme2.jpeg", "/img/meme3.jpeg", "/img/meme4.jpeg"];
 
   for (let i = 0; i <= 3; i += 1) {
 
