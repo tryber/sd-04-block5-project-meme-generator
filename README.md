@@ -75,7 +75,7 @@ Você deve criar um site que permita o upload de uma imagem e a inserção de um
 ### 1 - O site deve possuir uma caixa de texto com a qual quem usa pode interagir para inserir texto em cima da imagem escolhida. As seguintes verificações serão feitas:
 - A caixa onde o texto é inserido deve ter um id denominado 'text-input'.
 - O elemento da imagem do meme deve ter um elemento pai com um id denominado 'meme-image-container'. Esse elemento é o container dentro do qual a imagem deverá aparecer.
-- O elemento do texto deve estar totalmente contido dentro do container.
+- O elemento do texto deve estar totalmente contido dentro do container e ter o id 'meme-text'.
 - Se não houver imagem inserida, ele deve ser inserido e estar visível dentro do container vazio onde a imagem aparecerá.
 
 ### 2 - O site deve permitir que quem usa faça upload de uma imagem de seu computador.
