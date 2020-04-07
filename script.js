@@ -19,7 +19,7 @@ textInput.addEventListener("keyup", function () {
 let button1 = document.querySelector('#button1');
 button1.style.border = "3px dashed red";
 
-button1.addEventListener('click', function () {
+button1.addEventListener('click', function(e) {
   e.preventDefault();
   container.style.border = button1.style.border;
 });
@@ -27,7 +27,7 @@ button1.addEventListener('click', function () {
 let button2 = document.querySelector('#button2');
 button2.style.border = "5px double blue";
 
-button2.addEventListener('click', function () {
+button2.addEventListener('click', function(e) {
   e.preventDefault();
   container.style.border = button2.style.border;
 });
@@ -35,7 +35,7 @@ button2.addEventListener('click', function () {
 let button3 = document.querySelector('#button3');
 button3.style.border = "6px groove green";
 
-button3.addEventListener('click', function () {
+button3.addEventListener('click', function(e) {
   e.preventDefault();
   container.style.border = button3.style.border;
 });
