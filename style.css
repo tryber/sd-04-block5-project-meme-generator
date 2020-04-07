@@ -1,3 +1,7 @@
 #meme-image-container{
   background-color: white;
 }
+
+#meme-text {
+  position: absolute;
+}
