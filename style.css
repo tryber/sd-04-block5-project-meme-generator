@@ -3,7 +3,7 @@ body
     background-color: #FFECDE;
 }
 
-#input-text
+#text-input
 {
     width: 30%;
     line-height: 20px;
@@ -12,8 +12,16 @@ body
 #meme-text
 {
     position: absolute;
-    color: rgb(81, 255, 0);
+    color: rgb(32, 0, 173);
     font-size: 25px;
+
+}
+
+#div-meme
+{
+    align-items: center;
+    justify-content: center;
+    top: 120px;
 }
 
 #meme-image-container
@@ -23,7 +31,6 @@ body
     min-height: 100px;
     border: 1px solid black;
     margin-top: 20px;
+    margin-left: 20px;
     display: flex;
-    align-items:center;
-    justify-content: center;
 }
