@@ -4,13 +4,13 @@ window.onload = function(){
     caixaTexto.addEventListener('keyup', trocaTexto);
       function trocaTexto () {
         textToDisplayContainer.innerText = caixaTexto.value;
-      } 
+      }
 
       //Add image
     const caixaImagem = document.querySelector('#meme-image-container');
     const memeinsertvalue = document.querySelector('#meme-insert');
     const buttonevent = document.querySelector('#buttonLoadImage');
-    
+
     //buttonevent.addEventListener('click', addImageToContainer);
     memeinsertvalue.addEventListener('change',addImageToContainer);
     let img;
@@ -19,15 +19,11 @@ window.onload = function(){
       if (!img){
       img = document.createElement("img");
       img.id = "meme-image"
+      img.className = "classNemeImage"
         }
       imgpath = memeinsertvalue.files[0].name;
       console.log(imgpath);
       img.src = imgpath;
       caixaImagem.appendChild(img);
-      
-    } 
-  
-
+    }
 }
-
- 
