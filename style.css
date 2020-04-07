@@ -15,6 +15,7 @@ body{
 }
 #meme-image-container img{
 	position: relative;
+	width: 100%;
 }
 #meme-image-container p{
 	position: relative;
