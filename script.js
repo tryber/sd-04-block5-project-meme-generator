@@ -4,7 +4,7 @@ window.onload = function () {
 
   inputText.addEventListener("keyup", (event) => {
     const memeText = document.querySelector("#meme-text");
-    memeText.textContent = event.target.value.toUpperCase();
+    memeText.textContent = event.target.value;
   });
 
   const imgInput = document.querySelector("#meme-insert");
