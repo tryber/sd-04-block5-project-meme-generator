@@ -1,5 +1,5 @@
 let textInput = document.querySelector("#text-input");
-let textMeme = document.querySelector("#text-meme");
+let textMeme = document.querySelector("#meme-text");
 let memeImg = document.querySelector("#meme-image");
 let memeInsert = document.querySelector("#meme-insert");
 let container = document.querySelector('#meme-image-container');

@@ -1,3 +1,19 @@
+html {
+  background-color: rgb(255, 136, 0);
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: yellow;
+}
+
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;;
+}
+
 section {
   margin: auto;
 }
@@ -27,9 +43,9 @@ section {
   width: 500px;
 }
 
-.text-meme {
+.meme-text {
   color: red;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 45px;
   font-weight: bolder;
   margin-top:350px;
