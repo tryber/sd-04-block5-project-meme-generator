@@ -16,7 +16,7 @@ window.onload = function(){
   });
 
   imgInput.addEventListener('input', function(){
-      console.log(imgInput.files[0].name);
+      imgInput.files[0].name;
       img.src = URL.createObjectURL(event.target.files[0]);
   });
 
