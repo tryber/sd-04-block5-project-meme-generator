@@ -37,14 +37,12 @@ window.onload = function () {
     }
   }
 
-  let sources = ["/img/meme1.jpeg", "/img/meme2.jpeg", "/img/meme3.jpeg", "/img/meme4.jpeg"];
+  for (let i = 1; i <= 4; i += 1) {
 
-  for (let i = 0; i <= 3; i += 1) {
-
-    document.getElementById(`meme-${i+1}`).addEventListener("click", thumbToContainer);
+    document.getElementById(`meme-${i}`).addEventListener("click", thumbToContainer);
 
     function thumbToContainer() {
-      image.src = sources[i];
+      image.src = document.getElementById(`meme-${i}`).src;
     }
   }
 
