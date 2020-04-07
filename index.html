@@ -12,12 +12,14 @@
 </head>
 
 <body>
-  <form action="#">
-    <input id="text-input" type="text">
-    <br>
-    <label for="meme-insert">Inserir imagem</label>
-    <input type="file" id="meme-insert">
-  </form>
+  <div id="meme-controls" class="meme-controls flex">
+    <form action="#">
+      <input id="text-input" type="text">
+      <br>
+      <label for="meme-insert">Inserir imagem</label>
+      <input type="file" id="meme-insert">
+    </form>
+  </div>
   <div id="meme-viewer" class="meme-viewer flex">
     <div id="meme-image-container" class="meme-image-container">
       <p id="meme-text" class="meme-text"></p>
