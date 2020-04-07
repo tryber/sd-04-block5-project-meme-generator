@@ -42,7 +42,7 @@ main {
   filter: drop-shadow(2px 4px 6px black);
 }
 
-.meme-background {
+.meme-image {
   border-radius: 12px;
   max-width: 500px;
 }
