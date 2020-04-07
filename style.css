@@ -16,6 +16,13 @@
 .memeText {
     color: rgb(251, 255, 31);
     font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
     position: absolute;
     text-align: center;
+    text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0);
+    top: 75%;
+    width: 400px;
+    word-break: keep-all;
+    word-wrap: break-word;
 }
