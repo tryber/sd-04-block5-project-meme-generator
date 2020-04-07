@@ -7,7 +7,6 @@
     margin: 10px;
 }
 #meme-image-container{
-    padding: 30px;
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(0, 0, 0);
     margin-top: 40px;
@@ -26,8 +25,7 @@
 }
 
 #meme-image {
-    min-width: 90%;
-    max-width: 70%;
+    width: 100%;
 }
 
 #meme-image-container p {
