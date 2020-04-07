@@ -7,18 +7,26 @@ window.onload = function(){
       } 
 
       //Add image
-    // const caixaImagem = document.querySelector('#meme-insert')
-    // caixaTexto.addEventListener('keyup', addImageToContainer);
-    // let img;
-    //   function addImageToContainer(event){
-    //   if (!img){
-    //   img = document.createElement("img");
-    //     }
-    //   img.src = "image.jpg";
-    //   //img.src = URL.createObjectURL(event.target.files[0]);
-    //   caixaImagem.appendChild(img);
+    const caixaImagem = document.querySelector('#meme-image-container');
+    const memeinsertvalue = document.querySelector('#meme-insert');
+    const buttonevent = document.querySelector('#buttonLoadImage');
+    
+    onchange
+    //memeinsertvalue.addEventListener('input.onchange', addImageToContainer);
+    buttonevent.addEventListener('click', addImageToContainer);
+    let img;
+    let imgpath;
+      function addImageToContainer(event){
+      if (!img){
+      img = document.createElement("img");
+        }
+      imgpath = memeinsertvalue.files[0].name;
+      console.log(imgpath);
+      img.src = imgpath;
+      //img.src = URL.createObjectURL(event.target.files[0]);
+      caixaImagem.appendChild(img);
       
-    // } 
+    } 
    
 
     // image temp
