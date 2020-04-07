@@ -2,24 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style></style>
-    <script></script>    
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js"></script>
 </head>
 <body>
-    <header><h1>MEME generator!!</h1></header>
-    <section>
+    <h1>MEME generator!!</h1>    
         <form>
-            <label for="text-input" form="form-id">Digite aqui sua texto superior</label>
-            <input type="text" id="text-input" name="text-input" size="70"><br>
-            <label for="text-input2" form="form-id">Digite aqui seu texto inferior</label>
-            <input type="text" id="text-input2" name="text-input2" size="70"><br>
-            <label for="meme-image" form="form-id">Escolha sua imagem</label>
-            <input type="file" id="meme-image" name="meme-image">
-            <button type="submit" form="form-id" name="my-button">sua imagem</button>
+            <label for="text-input">Digite aqui sua texto </label>
+                <input type="text" maxlength="60" id="text-input" size="60"><br><br>
+            <label for="meme-insert">Escolha sua imagem</label>
+                <input type="file" id="meme-insert">
         </form>
-
-    </section>
+        <div id="meme-image-container" class="meme-image-container">
+            <p id="meme-text" class="meme-text"></p>
+            <img id="meme-image" class="meme-image" src="">
+          </div>
 </body>
 </html>
