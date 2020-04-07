@@ -1,29 +1,24 @@
-boddy {
-  height:200px; 
-  width:100px;
-}
-
-h1 {
-  width: 100%;
-  text-align: center;
+.meme-image {
+  height: 500px;
+  width: 500px;
+  visibility: visible;
 }
 
 .meme-image-container {
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(0, 0, 0);
+  height: 500px;
+  position: relative;
+  text-align: center;
+  width: 500px;
+  top: 20px;
+}
+
+.meme-text {
+  color: yellowgreen;
   font-size: 50px;
-  width: 500px;
-  margin-top: 30px;
-  height: 500px;
-}
-
-.meme-image {
-  height: 0;
-  width: 0;
-  visibility: visible;
-}
-
-.meme-image-container img{
-  height: 500px;
-  width: 500px;
+  position: absolute;
+  width: 100%;
+  top: 65%;
+  word-wrap: break-word;
 }
