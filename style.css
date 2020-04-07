@@ -17,8 +17,8 @@ html, body {
   color: red;
   display: flex;
   font-size: 42px;
-  left: 50%;
-  max-width: 500px;
+  left: 10%;
+  max-width: 400px;
   position: absolute;
   text-align: center;
   top: 60%;
