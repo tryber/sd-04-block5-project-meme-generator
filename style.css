@@ -1,6 +1,6 @@
 .image-preview{
-    width: 300px;
-    min-height: 100px;
+    width: 500px;
+    min-height: 200px;
     border: 2px solid grey;
     margin-top: 15px;
         /* Default text*/
@@ -15,6 +15,5 @@
 }
 #image-preview__defaut-text{
     position: absolute;
-    color: red;
-    margin-bottom: 5px;
+    
 }
