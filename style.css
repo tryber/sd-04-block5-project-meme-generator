@@ -10,6 +10,7 @@
 
 .meme-image {
     height: 400px;
+    visibility: visible;
     width: 400px;
 }
 
