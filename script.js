@@ -2,7 +2,7 @@ var textInput = document.querySelector("#text-input");
 var textDisplay = document.querySelector("#meme-text");
 var imageDisplay = document.querySelector("#image-insert");
 
-document.getElementById('meme-insert').addEventListener('change', handle);
+document.getElementById('meme-insert').addEventListener("change", handle);
 
 function insertText() {
   textDisplay.innerHTML = textInput.value
@@ -18,8 +18,9 @@ function handle(evt) {
 
   var reader = new FileReader();
   reader.onload = function(evt){
-    imageDisplay.innerHTML = ['<img id="meme-image" class="memeImage" src="', evt.target.result,
-    '" title="', escape(files[0].name), '"/>'].join('');
+    imageDisplay.src = URL.createObjectURL(files[0]);
+    // imageDisplay.innerHTML = ['<img id="meme-image" class="memeImage" src="', evt.target.result,
+    // '" title="', escape(files[0].name), '"/>'].join('');
   }
   reader.readAsDataURL(files[0]);
 }
