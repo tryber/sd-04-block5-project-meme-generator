@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="style.css" rel="stylesheet">
+  <title>Meme Generator - P051</title>
+</head>
+
+<body>
+  <h1>Bem vindo ao Gerador de Memes!</h1>
+  <form>
+    <label>Texto para Meme:</label><br>
+    <input id="text-input" type="text" value="Insira aqui seu texto" onfocus="this.value='';"><br><br>
+    <label>Selecione uma imagem:</label><br>
+    <input type="file" id="meme-insert"><br><br>
+  </form>
+
+  <div id="meme-image-container" class="img-container">
+    <p id="meme-content" class="image"></p>
+    <img id="meme-image" class="picture" src='' alt='meme generator image'>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

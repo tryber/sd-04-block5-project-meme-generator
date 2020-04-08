@@ -1,0 +1,28 @@
+<style>
+  .image {
+    bottom: 1%;
+    top: 26%;
+    left: 1%;
+    color: rgba(241, 141, 216, 0.774);
+    font-size: 40px;
+    font-weight: bolder;
+    max-width: 600px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    word-break: break-all;
+
+  .img-container {
+    Background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    height: 550px;
+    margin-top: 15px;
+    position: relative;
+    width: 550px;
+  }
+
+  .picture {
+    height: 550px;
+    width: 550px;
+  }
+</style>
