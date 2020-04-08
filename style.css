@@ -2,16 +2,16 @@
   background-color: white;
   border: 1px black solid;
   height: 300px;
+  margin: auto;
   position: static;
-  width: 300px;
+  width: 300px;  
+  word-wrap: break-word;
 }
 
-.spanText {
+.pText {
+  position: relative;
+  bottom: 25%;
   margin-left: 3%;
-  position: absolute;
-  top: 5%;
-  word-wrap: break-word;
-  z-index: 1;
 }
 
 .memeImage {

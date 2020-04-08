@@ -2,7 +2,7 @@ var textInput = document.querySelector("#text-input");
 var textDisplay = document.querySelector("#meme-text");
 var imageDisplay = document.querySelector("#meme-image");
 
-document.getElementById('meme-insert').addEventListener("change", handle);
+document.getElementById('meme-insert').addEventListener("input", handle);
 
 function insertText() {
   textDisplay.innerHTML = textInput.value
