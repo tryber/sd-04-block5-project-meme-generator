@@ -26,7 +26,6 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  background-color: white;
 }
 #meme-image {
   width: 100%;
@@ -34,13 +33,10 @@ h1 {
 }
 #meme-text {
   position: absolute;
-  font-family: Impact, "Arial Narrow Bold";
-  font-family: Comic Sans;
-  text-transform: uppercase;
+  color: rgb(10 , 10 , 10);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 30px;
   padding: 350px 82px 2px 2px;
-  font-weight: 900;
-  font-size: 60px;
-  -webkit-text-stroke: 1px rgb(0, 0 ,0);
+  font-size: 30px;
   max-width: 395px;
 } 
