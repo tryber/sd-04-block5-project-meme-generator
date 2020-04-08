@@ -1,5 +1,5 @@
 /* css */
-.memeImageContainer {
+.meme-image-container {
     background-color: rgb(255, 255, 255);
     border-color: rgb(0, 0, 0);
     border-style: solid;
@@ -8,12 +8,12 @@
     width: 400px;
 }
 
-.memeImage {
+.meme-image {
     height: 400px;
     width: 400px;
 }
 
-.memeText {
+.meme-text {
     color: rgb(251, 255, 31);
     font-family: Arial;
     font-size: 30px;
