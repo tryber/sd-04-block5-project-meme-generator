@@ -16,7 +16,6 @@ textInput.addEventListener('keyup', () => {
 // Image upload
 memeInsert.addEventListener('change', () => {
   memeImage.src = URL.createObjectURL(event.target.files[0]);
-  memeImage.style.display = 'block';
 });
 
 // Border buttons

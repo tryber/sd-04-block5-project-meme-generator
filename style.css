@@ -48,8 +48,8 @@ form {
 }
 
 .meme-image {
-  display: none;
   width: 500px;
+  height: 500px;
 }
 
 .meme-image-container {
