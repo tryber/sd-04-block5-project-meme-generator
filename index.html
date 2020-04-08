@@ -15,20 +15,20 @@
   <div>
     <form>
       <label for="text-input">Insert your text here:</label><br>
-      <input type="text" id="text-input" name="text-input" oninput="writeOnImg();" placeholder="Your text should have less than 60 characters">
+      <input type="text" id="text-input" class="text-input" name="text-input" oninput="writeOnImg();" placeholder="Your text should have less than 60 characters">
     </form>
   </div>
   <!-- Image upload section  -->
-    <div id="meme-upload">
+    <div class="meme-upload">
       <form>
         <label for="meme-insert">Choose your image</label><br>
-        <input type="file" id="meme-insert" name="meme-insert">
+        <input type="file" id="meme-insert" class="meme-insert" name="meme-insert">
       </form>
     </div>
 <!-- Meme section -->
-  <section id="meme-image-container">
-    <img id="meme-image" src="" alt="User image">
-    <p id="meme-text"></p>
+  <section id="meme-image-container" class="meme-image-container">
+    <img id="meme-image" class="meme-image" src="" alt="User image">
+    <p id="meme-text" class="meme-text"></p>
   </section>
 
   <script src="script.js"></script>

@@ -3,20 +3,20 @@ body {
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
 }
-#text-input {
+.text-input {
   font-size: 15px;
   height: 40px;
   width: 450px;
   margin: 10px;
 }
-#meme-insert {
+.meme-insert {
   width: 300px;
 }
-#meme-upload {
+.meme-upload {
   margin: 20px;
   text-align: center;
 }
-#meme-image-container {
+.meme-image-container {
   background-color: white;
   border: 1px solid black;
   height: 500px;
@@ -26,7 +26,7 @@ body {
   background-size: 100%; 
   width: 500px;
 }
-#meme-image {
+.meme-image {
   left: 0;
   max-height: 100%;
   max-width: 100%;
@@ -34,7 +34,7 @@ body {
   top: 0;
   z-index: 0;
 }
-#meme-text {
+.meme-text {
   color: white;
   font-size: 2.5em;
   left: 5%;
