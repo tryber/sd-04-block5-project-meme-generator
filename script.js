@@ -16,9 +16,8 @@ window.onload = function(){
         // add o texto dentro da caixa de da img
         textBox.addEventListener("keyup",inserText);
         let x =document.getElementById("meme-image-container").firstChild;
-        document.getElementById("meme-text").style.color="white";
-        document.getElementById("meme-text").style.textAlign = "center";
-        document.getElementById("meme-text").style.maxWidth = "300 px";
+        // document.getElementById("meme-text").style.color="white";
+        
         
 
         // add a img dentro div #img
