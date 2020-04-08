@@ -11,7 +11,7 @@ function insertText() {
 function handle(evt) {
   var files =  evt.target.files
   console.log(files);
-  
+
   if(files.length == 0) {
   alert('Error : No file selected');
   return;
