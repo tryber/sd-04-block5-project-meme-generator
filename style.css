@@ -8,7 +8,8 @@
 
 .spanText {
   position: absolute;
-  bottom: 0;
+  top: 5%;
+  word-wrap: break-word;
   z-index: 1;
 }
 
