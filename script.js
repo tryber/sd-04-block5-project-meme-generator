@@ -2,7 +2,9 @@ var textInput = document.querySelector("#text-input");
 var textDisplay = document.querySelector("#meme-text");
 var imageDisplay = document.querySelector("#meme-image");
 
-document.getElementById('meme-insert').addEventListener("keyup", handle);
+document.getElementById('meme-insert').addEventListener("input", handle);
+
+textInput.addEventListener("input", insertText)
 
 function insertText() {
   textDisplay.innerHTML = textInput.value
