@@ -11,7 +11,7 @@ window.onload = function() {
     let memeText = document.getElementById("meme-text");
 
     function textImage(){
-        memeText.innerHTML=textInput.value;
+        memeText.innerHTML = textInput.value;
     }
-    textInput.addEventListener("keyup",textImage);
+    textInput.addEventListener("keyup", textImage);
 }
