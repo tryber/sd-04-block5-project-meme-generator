@@ -3,7 +3,7 @@ let selectedPic = document.getElementById("meme-insert");
 let txtContent = document.getElementById("meme-text")
 let memePic = document.getElementById("meme-image");
 
-selectedPic.addEventListener('change', function () {
+selectedPic.addEventListener('input', function () {
   memePic.src = URL.createObjectURL(this.files[0]);
 });
 
