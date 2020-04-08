@@ -10,10 +10,10 @@
     font-weight: bold;
     color: grey;
 }
-.image-preview__image{   
+#meme-image{   
     width: 100%;
 }
 #image-preview__defaut-text{
     position: absolute;
-    
+    color: red;
 }
