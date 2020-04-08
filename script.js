@@ -17,7 +17,7 @@ function handle(evt) {
   }
 
   var reader = new FileReader();
-  reader.onload = function(evt){
+  reader.onload = function(){
     imageDisplay.src = URL.createObjectURL(files[0]);
     // imageDisplay.innerHTML = ['<img id="meme-image" class="memeImage" src="', evt.target.result,
     // '" title="', escape(files[0].name), '"/>'].join('');
