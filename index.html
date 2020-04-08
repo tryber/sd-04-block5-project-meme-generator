@@ -15,22 +15,25 @@
       </header>
       <form>
         <div id="file-upload">
-          <input type="file" id="meme-insert" name="myfile[]">
+          <input type="file" id="meme-insert" name="myfile[]" />
         </div>
         <!--Caixa de texto-->
+        <div id="text-container">
         <input
           id="text-input"
           type="text"
           maxlength="60"
-          placeholder="Escreva o texto que irá na parte superior do meme"
+          placeholder="Escreva o texto que irá meme"
         />
-        <br /><br />
+        <input type="submit" value="Adicionar" />
+        </div>
       </form>
       <!-- elemento da
         imagem  -->
       <div id="meme-image-container">
         <!-- elemento onde é feito o upload da imagem -->
-        <img id="meme-image" src="" alt="Image Preview">
+        <img id="meme-image" src="" alt="Image Preview" />
+        <!-- elemento do texto -->
         <span id="meme-text"></span>
       </div>
     </div>

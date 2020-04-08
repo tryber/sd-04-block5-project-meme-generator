@@ -35,11 +35,15 @@ footer {
   margin-left: 200px;
 }
 
-#text-input {
-  z-index: 5;
+#text-container {
+  display: block;
+  float: right;
+  margin-right: 450px;
+  margin-top: 200px;
 }
 #meme-image {
   width: 100%;
+  display: none;
   visibility: visible;
   width: 550px;
   height: 450px;
