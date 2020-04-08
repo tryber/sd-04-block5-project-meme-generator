@@ -1,39 +1,38 @@
-#meme-text {
+.meme-text {
+  color:  white;
   font-family: Arial;
-  position: absolute;
-  word-break: break-all;
-  word-wrap: break-word;
   font-size: 30px;
   font-weight: 800;
-  color:  white;
-  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-  right: 20px;
   left: 20px;
-  top: 70%;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  max-height: 56px;
   line-height: 28px;
+  margin: 0;
+  max-height: 56px;
+  padding: 0;
+  position: absolute;
+  right: 20px;
+  text-align: center;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  top: 70%;
+  word-break: break-all;
+  word-wrap: break-word;
 }
 form {
   padding: 5px;
 }
-#meme-image-container {
-  position: relative;
+.meme-image-container {
   background-color: white;
   border: 1px solid black;
   height: 100%;
+  position: relative;
   width: fit-content
-  
 }
-#meme-image {
-  display: flex;
+.meme-image {
   align-items: center;
-  justify-content: center;
+  display: flex;
   font-weight: bold;
+  justify-content: center;
+  min-height: 200px;
   width: 600px;
-  min-height: 200px;  
 }
 .buttons {
   padding: 5px;

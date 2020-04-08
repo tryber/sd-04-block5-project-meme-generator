@@ -45,6 +45,4 @@ window.onload = function () {
       image.src = document.getElementById(`meme-${i}`).src;
     }
   }
-
 }
-
