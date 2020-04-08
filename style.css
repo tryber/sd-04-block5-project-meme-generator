@@ -10,9 +10,10 @@ body {
   background-color: rgba(231, 239, 197, 1);
 }
 #container {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   background-color: rgba(191, 215, 181, 1);
   min-height: 100%;
+  padding: 15px;
 }
 #main {
   overflow: auto;
@@ -21,33 +22,37 @@ body {
 footer {
   background-color: rgba(191, 215, 181, 1);
   position: relative;
-  height: 50px;
+  height: 20px;
   margin-top: -50px;
   clear: both;
+  /* Text */
+  text-align: center;
+  padding: 15px;
+}
+#file-upload {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 200px;
 }
 
 #text-input {
+  z-index: 5;
 }
-
+#meme-image {
+  width: 100%;
+  visibility: visible;
+  width: 550px;
+  height: 450px;
+}
 #meme-image-container {
-  width: 450px;
-  min-height: 350px;
+  width: 550px;
+  height: 450px;
   border: 1px solid rgb(11, 11, 12);
   background-color: rgba(255, 255, 255, 1);
   position: absolute;
-  margin: 20px;
-  /*Default Text*/
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  color: rgba(163,196,188,1.0);
+  margin-left: 100px;
+  margin-top: 5px;
 }
 #meme-text {
   position: absolute;
-}
-#submit {
-  color: rgba(255, 255, 255, 1);
-  background-color: rgba(163, 196, 188, 1);
-  padding: 5px;
 }
