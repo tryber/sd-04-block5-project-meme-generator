@@ -33,30 +33,36 @@ footer {
   display: inline-flex;
   align-items: center;
   margin-left: 200px;
+  margin-bottom: 15px;
 }
 
 #text-container {
-  display: block;
   float: right;
   margin-right: 450px;
   margin-top: 200px;
 }
 #meme-image {
-  width: 100%;
-  display: none;
   visibility: visible;
-  width: 550px;
-  height: 450px;
+  width: 500px;
+  height: 400px;
 }
 #meme-image-container {
-  width: 550px;
-  height: 450px;
-  border: 1px solid rgb(11, 11, 12);
+  width: 500px;
+  height: 400px;
+  border: 1px solid rgba(0,0,0,1.0);
   background-color: rgba(255, 255, 255, 1);
-  position: absolute;
+  position: relative;
   margin-left: 100px;
   margin-top: 5px;
 }
 #meme-text {
+  text-transform: uppercase;
+  left: 7%;
+  top: 85%;
+  width: 80%;
+  font-size: 40px;
   position: absolute;
+  text-align: center;
+  word-break: break-all;
+  text-shadow: -1px 1px 2px rgba(0, 0, 0, 1);
 }
