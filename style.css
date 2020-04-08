@@ -77,3 +77,15 @@ img#meme-image {
 button {
   padding: 5px;
 }
+#expImg {
+  display: inline-block;
+  clear: right;
+  float: right;
+  margin-right: 350px;
+  margin-top: 10px;
+}
+#expImg img {
+  width: 70px;
+  height: 70px;
+  padding: 2px;
+}
