@@ -4,23 +4,23 @@
 <head>
   <meta charset="UTF-8">
   <link href="style.css" rel="stylesheet">
-  <title>My awesome meme</title>
+  <title>Meme Generator - P051</title>
 </head>
 
 <body>
   <h1>Bem vindo ao Gerador de Memes!</h1>
   <form>
-    <label for="text-input">Texto para Meme:</label><br>
+    <label>Texto para Meme:</label><br>
     <input id="text-input" type="text" maxlength="60" value="Insira aqui seu texto" onfocus="this.value='';"><br><br>
-    <label for="meme-insert">Selecione uma imagem:</label><br>
+    <label>Selecione uma imagem:</label><br>
     <input type="file" id="meme-insert"><br><br>
   </form>
 
   <div id="meme-image-container" class="img-container">
-    <p id="meme-text" class="meme-text"></p>
-    <img id="meme-image" class="meme-image" src='dog-meme-quiz.jpg' alt=''>
+    <p id="meme-text" class="image"></p>
+    <img id="meme-image" class="picture" src='' alt=''>
   </div>
-
+  
   <script src="script.js"></script>
 </body>
 
