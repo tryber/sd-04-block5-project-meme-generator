@@ -7,6 +7,6 @@ selectedPic.addEventListener('change', function () {
   memePic.src = URL.createObjectURL(this.files[0]);
 });
 
-inputText.addEventListener('keyup', function () {
+inputText.addEventListener('input', function () {
   txtContent.innerHTML = inputText.value.toUpperCase();
 })
