@@ -1,13 +1,9 @@
 body {
   background-color: antiquewhite;
-  font-family: 'Ubuntu', sans-serif;
   text-align: center;
 }
 .text-input {
-  font-size: 15px;
-  height: 40px;
-  width: 450px;
-  margin: 10px;
+  width: 300px;
 }
 .meme-insert {
   width: 300px;
@@ -23,7 +19,6 @@ body {
   left: 350px;
   margin: 20px;
   position: relative;
-  background-size: 100%; 
   width: 500px;
 }
 .meme-image {
@@ -35,18 +30,14 @@ body {
   z-index: 0;
 }
 .meme-text {
-  color: white;
-  font-size: 2.5em;
-  left: 5%;
+  color: yellow;
+  font-size: 25px;
+  left: 10%;
   margin: 0 auto;
   max-height: 90%;
-  max-width: 80%;
+  max-width: 70%;
   padding: 20px;
   position: absolute;
   word-wrap: break-word;
   z-index: 1;
-  font-family: impact;
-  text-shadow: -1px  0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  letter-spacing: 1px;
-  
 }
