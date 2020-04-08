@@ -10,6 +10,7 @@ textInput.addEventListener('keyup', () => {
 memeInsert.addEventListener('change', () => {
   let img = document.createElement('img');
   img.id = 'meme-image';
+  img.alt = 'meme image';
   imageContainer.appendChild(img);
   img.src = URL.createObjectURL(event.target.files[0]);
 });
