@@ -11,16 +11,16 @@ function insertText() {
 function handle(evt) {
   var files =  evt.target.files
   console.log(files);
-
-  if(files.length == 0) {
-		alert('Error : No file selected');
-		return;
-  }
   
+  if(files.length == 0) {
+  alert('Error : No file selected');
+  return;
+  }
+
   var reader = new FileReader();
   reader.onload = function(evt){
     imageDisplay.innerHTML = ['<img id="meme-image" src="', evt.target.result,
     '" title="', escape(files[0].name), '"/>'].join('');
   }
-  reader.readAsDataURL(files[0]);  
+  reader.readAsDataURL(files[0]);
 }
