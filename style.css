@@ -3,7 +3,6 @@
     min-height: 100px;
     border: 2px solid grey;
     margin-top: 15px;
-
         /* Default text*/
     display:flex;
     align-items: center;
@@ -11,8 +10,11 @@
     font-weight: bold;
     color: grey;
 }
-
-.image-preview__image{
-    
+.image-preview__image{   
     width: 100%;
+}
+#image-preview__defaut-text{
+    position: absolute;
+    color: red;
+    margin-bottom: 5px;
 }
