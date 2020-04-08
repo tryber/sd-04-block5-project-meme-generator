@@ -14,12 +14,12 @@
     <section>
         <form>
             <label for="meme-insert">Escolha uma imagem: </label>
-            <input type="file" id="meme-insert"><br><br>
+            <input type="file" id="meme-insert" accept="image/*"><br><br>
             <label for="text-input">Texto do meme: </label>
             <input type="text" id="text-input" maxlength="60"><br><br>
         </form>
         <div id="meme-image-container" class="memeImageContainer">
-            <img id="meme-image" class="memeImage">
+            <img id="meme-image" class="memeImage" src="" alt="meme escolhido">
             <p id="meme-text" class="memeText"></p>
         </div>
 
