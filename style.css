@@ -23,13 +23,13 @@ html {
 .img-container {
   Background-color: rgb(255, 255, 255);
   border: 1px solid black;
-  height: 550px;
+  height: 600px;
   margin-top: 15px;
   position: relative;
-  width: 550px;
+  width: 600px;
 }
 
 .picture {
-  height: 550px;
-  width: 550px;
+  height: 600px;
+  width: 600px;
 }
