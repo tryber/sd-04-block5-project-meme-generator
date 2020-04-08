@@ -1,4 +1,4 @@
-let inputText = document.getElementById("input-text");
+let inputText = document.getElementById("text-input");
 let textMeme = document.getElementById("meme-text");
 let inputImage = document.getElementById("meme-insert");
 let imagem = document.getElementById("meme-image");
@@ -17,7 +17,6 @@ inputImage.addEventListener("change", function ()
     if(file)
     {   
         let leitura = new FileReader();
-        imagem.style.display = "block";
         leitura.addEventListener("load", function()
         {
             imagem.setAttribute("src", this.result);
