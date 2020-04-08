@@ -1,8 +1,9 @@
-.image-preview{
+.image-preview {
     width: 500px;
     min-height: 200px;
     border: 2px solid grey;
     margin-top: 15px;
+    background-color: rgb(255, 255, 255);
         /* Default text*/
     display:flex;
     align-items: center;
@@ -10,10 +11,10 @@
     font-weight: bold;
     color: grey;
 }
-#meme-image{   
+#meme-image {   
     width: 100%;
 }
-#image-preview__defaut-text{
+#image-preview__defaut-text {
     position: absolute;
     color: red;
 }
