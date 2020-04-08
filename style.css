@@ -12,6 +12,22 @@ form {
   justify-content: center;
 }
 
+.border-config {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.button1, .button2, .button3 {
+  background: rgb(38 , 38 , 38);
+  border: 2px solid white;
+  border-radius: 15px;
+  color: white;
+  font-weight: 700;
+  margin: 10px;
+  padding: 20px;
+}
+
 .meme-text {
   box-sizing: border-box;
   color: white;
@@ -71,6 +87,7 @@ img {
   padding: 20px;
   text-align: center;
   text-transform: uppercase;
+  width: 500px;
 }
 
 .meme-setup {
