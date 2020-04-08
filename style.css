@@ -1,4 +1,5 @@
-html, body {
+body,
+html {
   background-color: rgba(221, 226, 146, 0.562);
   margin: 10px;
   padding: 0;
@@ -17,17 +18,18 @@ html, body {
   position: absolute;
   text-align: center;
   word-break: break-all;
-  }
-  .img-container {
-    Background-color: rgb(255, 255, 255);
-    border: 1px solid black;
-    height: 550px;
-    margin-top: 15px;
-    position: relative;
-    width: 550px;
-  }
+}
 
-  .picture {
-    height: 550px;
-    width: 550px;
-  }
+.img-container {
+  Background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  height: 550px;
+  margin-top: 15px;
+  position: relative;
+  width: 550px;
+}
+
+.picture {
+  height: 550px;
+  width: 550px;
+}

@@ -1,7 +1,7 @@
 let selectedPic = document.getElementById("meme-insert");
 let inputText = document.getElementById("text-input");
 let memePic = document.getElementById("meme-image");
-let txtContent = document.getElementById("meme-content")
+let txtContent = document.getElementById("meme-text")
 
 selectedPic.addEventListener('change', function () {
   memePic.src = URL.createObjectURL(this.files[0]);
