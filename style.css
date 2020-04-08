@@ -1,8 +1,11 @@
 body,
 html {
   background-color: rgba(221, 226, 146, 0.562);
-  margin: 10px;
-  padding: 0;
+  color: rgba(7, 56, 15, 0.815);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 30px;
+  padding: 20px;
+  text-align: center;
 }
 
 .image {
@@ -24,6 +27,7 @@ html {
   Background-color: rgb(255, 255, 255);
   border: 1px solid black;
   height: 600px;
+  left: 300px;
   margin-top: 15px;
   position: relative;
   width: 600px;
