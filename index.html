@@ -14,20 +14,21 @@
     <h1>Meme Generator</h1>
   </header>
   <section>
+    <form>
+      <label for='texto'>Digite o texto aqui:</label>
 
-    <label for='texto'>Digite o texto aqui:</label>
+      <input id="text-input" type="text" onchange="texto()">
+    </form>
 
-    <input id="text-input" type="text" onchange="texto()">
-
-    <p><input id="meme-insert" type="file" accept="image/*" onchange="carregar(event)"></p>
+    <p><input id="meme-insert" class="insert" type="file" accept="image/*" onchange="carregar(event)"></p>
 
     <p><label class="pointer" for="meme-insert">Carregar imagem</label></p>
 
-    <div class="meme-image-container">
+    <div id="meme-image-container" class="container">
 
-      <img class="meme-image">
+      <img id="meme-image" class="image">
 
-      <div class="meme-text"></div>
+      <div id="meme-text" class="text"></div>
 
     </div>
     <div>
