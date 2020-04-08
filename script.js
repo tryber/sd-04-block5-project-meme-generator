@@ -1,7 +1,7 @@
 let inpFile = document.getElementById('inpFile');
 let previewContainer = document.getElementById('meme-image-container');
 let previewImage = previewContainer.querySelector('#meme-image');
-let previewDefaultText = document.getElementById('image-preview__defaut-text');
+let previewDefaultText = document.getElementById('meme-text');
 let text = document.getElementById('text-input');
 let button = document.getElementById('button');
 
