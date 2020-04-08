@@ -34,15 +34,13 @@ h1 {
 }
 #meme-text {
   position: absolute;
-  /* font-family: Impact, "Arial Narrow Bold"; */
+  font-family: Impact, "Arial Narrow Bold";
   font-family: Comic Sans;
   text-transform: uppercase;
   font-size: 30px;
   padding: 350px 82px 2px 2px;
   font-weight: 900;
   font-size: 60px;
-  /* -webkit-text-stroke: 1px rgb(0, 0 ,0);
+  -webkit-text-stroke: 1px rgb(0, 0 ,0);
   max-width: 395px;
-  text-overflow: unset;
-  overflow: hidden;*/
-}
+} 
