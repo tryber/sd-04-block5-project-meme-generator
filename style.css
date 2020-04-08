@@ -38,7 +38,7 @@ footer {
 
 #text-container {
   float: right;
-  margin-right: 450px;
+  margin-right: 400px;
   margin-top: 200px;
 }
 img#meme-image {
@@ -66,4 +66,14 @@ img#meme-image {
   text-align: center;
   word-break: break-all;
   text-shadow: -2px 2px 1px rgba(0, 0, 0, 1);
+}
+
+#containerButton {
+  float: right;
+  clear: right;
+  margin-right: 350px;
+  margin-top: 10px;
+}
+button {
+  padding: 5px;
 }
