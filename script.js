@@ -1,4 +1,4 @@
-let inpFile = document.getElementById('inpFile');
+let inpFile = document.getElementById('meme-insert');
 let previewContainer = document.getElementById('meme-image-container');
 let previewImage = previewContainer.querySelector('#meme-image');
 let previewDefaultText = document.getElementById('meme-text');
