@@ -23,9 +23,14 @@ form {
   border: 2px solid white;
   border-radius: 15px;
   color: white;
+  cursor: pointer;
   font-weight: 700;
   margin: 10px;
   padding: 20px;
+}
+
+.button1:hover, .button2:hover, .button3:hover {
+  background-color: rgb(58 , 58 , 58);
 }
 
 .meme-text {
@@ -42,7 +47,8 @@ form {
   word-wrap: break-word;
 }
 
-img {
+.meme-image {
+  display: none;
   width: 500px;
 }
 

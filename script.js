@@ -2,6 +2,7 @@
 let textInput = document.querySelector('.text-input');
 let imageContainer = document.querySelector('.meme-image-container');
 let memeText = document.querySelector('.meme-text');
+let memeImage = document.querySelector('.meme-image');
 let memeInsert = document.querySelector('.meme-insert');
 let button1 = document.querySelector('.button1');
 let button2 = document.querySelector('.button2');
@@ -14,11 +15,8 @@ textInput.addEventListener('keyup', () => {
 
 // Image upload
 memeInsert.addEventListener('change', () => {
-  let img = document.createElement('img');
-  img.id = 'meme-image';
-  img.alt = 'meme image';
-  imageContainer.appendChild(img);
-  img.src = URL.createObjectURL(event.target.files[0]);
+  memeImage.src = URL.createObjectURL(event.target.files[0]);
+  memeImage.style.display = 'block';
 });
 
 // Border buttons
