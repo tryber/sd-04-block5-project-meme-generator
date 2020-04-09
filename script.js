@@ -61,7 +61,7 @@ function ReadMeme(event)
     {
         let leitura = new FileReader();
         leitura.addEventListener("load", function()
-        {     
+        {
             imagem.setAttribute("src", this.result);
         });
         leitura.readAsDataURL(file);
