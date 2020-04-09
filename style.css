@@ -11,17 +11,17 @@ body
 
 .meme-text
 {
+    background-color: rgba(255, 255, 255, 0.212);
     color: rgb(32, 0, 173);
     font-size: 28px;
-    background-color: rgba(255, 255, 255, 0.212);
     word-wrap: break-word;
 }
 
 .div-meme
 {
-    position: absolute;
     bottom: 8px;
     left: 50%;
+    position: absolute;
     transform: translate(-50%, -8px);
 }
 
@@ -33,14 +33,14 @@ body
 
 .meme-image-container
 {
-    position: relative;
-    background-color: white;
-    width: 300px;
-    height: 200px;
     border: 1px solid black;
-    margin-top: 20px;
+    background-color: white;
+    height: 200px;
     margin-left: 20px;
+    margin-top: 20px;
+    position: relative;
     text-align: center;
+    width: 300px;
 }
 
 .borda-buttons
@@ -48,24 +48,24 @@ body
     width: 50px;
 }
 
-div span.vermelho
+.vermelho
 {
     color: red;
 }
 
-div span.azul
+.azul
 {
     color: blue;
 }
 
-div span.verde
+.verde
 {
     color: green;
 }
 
 .memes-faceis
 {
-    width: 150px;
+    display: inline;
     height: 150px;
-    display: inline-flexbox;
+    width: 150px;
 }

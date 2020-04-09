@@ -58,7 +58,7 @@ function ReadMeme(event)
 {
     let file = event.target.files[0];
     if(file)
-    {   
+    {
         let leitura = new FileReader();
         leitura.addEventListener("load", function()
         {     
