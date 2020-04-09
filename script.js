@@ -8,6 +8,7 @@ window.onload = function () {
   let btn2 = document.getElementById("button2");
   let btn3 = document.getElementById("button3");
   let reset = document.getElementById("buttonReset");
+  let memes = document.getElementsByClassName("memeMiniatura");
 
   uploadImg.addEventListener("input", function () {
     imageMeme.src = URL.createObjectURL(event.target.files[0]);
@@ -29,4 +30,9 @@ window.onload = function () {
   reset.addEventListener("click", function () {
     memeContainer.style.border = "";
   });
+  for (meme of memes) {
+    meme.addEventListener("click", function (event) {
+      imageMeme.src = event.target.src;
+    });
+  }
 };
