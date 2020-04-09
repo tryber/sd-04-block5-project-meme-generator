@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
+   font-family: Arial, Helvetica, sans-serif; */
   box-sizing: border-box;
 }
 main {
@@ -12,7 +12,7 @@ main {
 }
 h1 {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .create-meme-meme {
   text-align: center;
@@ -40,4 +40,15 @@ h1 {
   padding: 350px 82px 2px 2px;
   font-size: 60px;
   max-width: 100%;
-} 
+}
+#title-famous-meme{
+  text-align: center;
+  margin-top: 20px;
+}
+#button-add{
+  text-align: center;
+  margin-top: 20px;
+}
+.button{
+  padding: 0 20px;
+}
