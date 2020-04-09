@@ -36,7 +36,7 @@ html {
 }
 
 .picture {
-  height: 99%;
-  width: 99%;
-  visibility:"visible";
+  height: 600px;
+  width: 600px;
+  visibility: visible;
 }
