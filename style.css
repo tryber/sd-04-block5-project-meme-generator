@@ -38,4 +38,5 @@ html {
 .picture {
   height: 99%;
   width: 99%;
+  visibility:"visible";
 }
