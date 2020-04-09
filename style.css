@@ -1,0 +1,33 @@
+/* css */
+.meme-image-container {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+    height: 400px;
+    position: relative;
+    width: 400px;
+}
+
+.meme-image {
+    height: 400px;
+    min-height: 100px;
+    min-width: 100px;
+    visibility: visible;
+    width: 400px;
+}
+
+.meme-text {
+    color: rgb(251, 255, 31);
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0);
+    top: 69%;
+    visibility: visible;
+    width: 400px;
+    word-break: keep-all;
+    word-wrap: break-word;
+}
