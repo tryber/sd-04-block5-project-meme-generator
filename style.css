@@ -1,5 +1,4 @@
 #buttons{
-    padding: ;
     clear: both;
     margin: 30px;
     margin-top: 50px;
@@ -13,7 +12,7 @@
 }
 
 #text-input{
-    margin: 10px;
+    margin: 1%;
 }
 #meme-image-container{
     padding: 1px;
@@ -23,7 +22,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    min-height: 100px;
+    min-height: 10%;
 } 
 
 #meme-text {
