@@ -12,23 +12,23 @@ window.onload = function(){
         let button2 = document.getElementById("button2");
         let button3 = document.getElementById("button3");
 
-        let picture1 = document.getElementById("foto1")
-        let picture2 = document.getElementById("foto2")
-        let picture3 = document.getElementById("foto3")
+        let picture1 = document.getElementById("meme-1")
+        let picture2 = document.getElementById("meme-2")
+        let picture3 = document.getElementById("meme-3")
 
         // função muda meme famosos
         function mudaFoto1() {
-            imgMeme.src = "meme1.jpg";
+            imgMeme.src = "meme1.jpeg";
         }
         picture1.addEventListener("click",mudaFoto1);
 
         function mudaFoto2() {
-            imgMeme.src = "meme2.png";
+            imgMeme.src = "meme2.jpeg";
         }
         picture2.addEventListener("click",mudaFoto2);
 
         function mudaFoto3() {
-            imgMeme.src = "meme3.jpg";
+            imgMeme.src = "meme3.jpeg";
         }
         picture3.addEventListener("click",mudaFoto3);
 
