@@ -5,7 +5,7 @@ var carregaArquivo = function(event){
     leitor.onload=function()
     {
         var url = leitor.result;    
-        var imagem = document.getElementById("imagem");
+        var imagem = document.getElementById("meme-image");
         imagem.src=url;
     }
     leitor.readAsDataURL(arquivo.files[0]);
@@ -16,7 +16,7 @@ btntexto.addEventListener("click", function(event){
     event.preventDefault();
 
     var texto = document.querySelector("#text-input"); 
-    var textoMeme = document.querySelector("#texto-meme");
+    var textoMeme = document.querySelector("#meme-text");
     textoMeme.innerHTML = texto.value;
     //console.log(texto.value);
     

@@ -11,29 +11,21 @@
         <h1>Gerador de memes</h1>
     </header>
     <main class="conteudo">
-        <section id="meme-image-container">                
-            <div id="meme-imagem" >
+        <section id="meme-container">   
+            <input type='file' id="meme-insert" accept="image/*" onchange="carregaArquivo(event)"/>              
+            <div id="meme-image-container">
+              <img id="meme-image" alt="meme">                
+                 <p id="meme-text"></p>                 
                 <form>
-                 <input type='file' id="meme-insert" accept="image/*" onchange="carregaArquivo(event)"/>               
-                </form>
-               <img id="imagem" alt="imagemMeme"/>  
-                <span id="meme-text">
-                    <p id="texto-meme"></p>
-                </span>                
-            </div>
-            <nav id="nav-meme">
-                <form>
-                 <textarea name="texto" id="text-input" maxlength="60" cols="30" rows="10"></textarea>
-                 <input type="submit" id="btntexto" >Inserir texto</input>
-                </form>
-            </nav>
+                 <textarea name="texto" id="text-input" maxlength="50" cols="30" rows="10"></textarea>
+                  <input type="submit" id="btntexto" value="Carrega mensagem">  
+                </form>                 
+            </div>                        
         </section>
     </main>
     <footer class="rodape">
             rodape
     </footer>
 </body>
-
-
 <script src="script.js"></script>
 </html>
