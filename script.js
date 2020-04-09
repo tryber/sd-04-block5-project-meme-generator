@@ -40,10 +40,10 @@ inputImage.addEventListener("change", function ()
     }
 });
 
-
 function PutText()
 {
     textMeme.innerHTML = inputText.value;
+    textMeme.style.wordWrap;
 }
 
 function DimencionaBorda ()
@@ -68,6 +68,4 @@ function TrocarBorda(estado)
     {
         memeContainer.style.border = "6px groove green";
     }
-    memeContainer.style.width = imgWid + "px";
-    memeContainer.style.height = imgHei + "px";
 }

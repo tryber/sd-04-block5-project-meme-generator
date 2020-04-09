@@ -14,6 +14,7 @@ body
     color: rgb(32, 0, 173);
     font-size: 28px;
     background-color: rgba(255, 255, 255, 0.212);
+    word-wrap: break-word;
 }
 
 .div-meme
