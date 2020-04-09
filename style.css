@@ -20,7 +20,7 @@ h1 {
   padding-top: 20px;
 }
 #meme-image-container {
-  border: 1px solid rgb(0 , 0 , 0); 
+  border: 1px solid black;
   width: 480px;
   height: 420px;
   margin-top: 20px;
