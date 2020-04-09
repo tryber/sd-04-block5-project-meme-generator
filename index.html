@@ -1,26 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt">
-
-<head>
-  <meta charset="UTF-8">
-  <link href="style.css" rel="stylesheet">
-  <title>Meme Generator - P051</title>
-</head>
-
-<body>
-  <h1>Bem vindo ao Gerador de Memes!</h1>
-  <form>
-    <label for="text-input">Texto para Meme:</label><br>
-    <input id="text-input" type="text" maxlength="60" placeholder="Insira aqui seu texto" onfocus="this.value='';"><br><br>
-    <label for="meme-insert">Clique <strong>AQUI</strong> para inserir uma imagem</label><br>
-    <input type="file" id="meme-insert" style="display:none"><br><br>
-  </form>
-
-  <div id="meme-image-container" class="img-container">
-    <img id="meme-image" class="picture" src='' alt=''>
-    <p id="meme-text" class="meme-text"></p>
-  </div>
-  <br><br>
-  <script src="script.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Douglas' Meme Generator</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Welcome to My Awesome Meme Generator</h1>
+        <form>
+            <label for="text-input">Texto para o Meme:</label>
+            <input id="text-input" class="text-input" type="text" maxlength="60"></input><br>
+            <label for="meme-insert">Adicione aqui sua imagem</label>
+            <input id="meme-insert" class="meme-insert" type="file"></input>
+        </form>
+        <div id="meme-image-container" class="meme-image-container">
+            <p id="meme-text" class="meme-text"></p>
+            <img id="meme-image" class="meme-image" src='' alt=''></img>
+        </div>
+    </body>
 </html>
