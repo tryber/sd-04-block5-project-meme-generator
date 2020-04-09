@@ -5,6 +5,12 @@ h1 {
   text-transform: uppercase;
 }
 
+h2 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 form {
   align-items: center;
   display: flex;
@@ -12,8 +18,29 @@ form {
   justify-content: center;
 }
 
+.meme-list {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.meme-list img {
+  border: 2px solid white;
+  cursor: pointer;
+  height: 200px;
+  margin: 10px;
+  width: 200px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
 .border-config {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   margin: 50px;
 }
@@ -27,6 +54,7 @@ form {
   font-weight: 700;
   margin: 10px;
   padding: 20px;
+  width: 150px;
 }
 
 .button1:hover, .button2:hover, .button3:hover {
@@ -37,19 +65,21 @@ form {
   box-sizing: border-box;
   color: white;
   font-size: 1.5rem;
+  font-weight: 700;
   margin: 0 auto;
   max-width: 500px;
   padding: 20px;
   position: absolute;
   text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   text-transform: uppercase;
   top: 0;
   word-wrap: break-word;
 }
 
 .meme-image {
-  width: 500px;
   height: 500px;
+  width: 500px;
 }
 
 .meme-image-container {
