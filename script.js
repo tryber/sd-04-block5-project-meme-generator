@@ -1,4 +1,3 @@
-window.onload = function () {
   if (typeof Storage !== "undefined") {
     let textBox = document.getElementById("text-input");
     let arquivo = document.getElementById("meme-insert");
@@ -61,5 +60,5 @@ window.onload = function () {
     });
   } else {
     alert("Não suporte Storage");
-  }
 };
+

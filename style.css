@@ -4,25 +4,25 @@
   height: 420px;
   width: 480px;
   }
-  #meme-image {
+#meme-image {
   height: 100%;
   width: 100%;
   }
-  #meme-text {
-  color: rgb(10 , 10 , 10);
-  font-size: 40px;
-  width: 450px;
+#meme-text {
   bottom: 200px;
+  color: rgb(255 , 255 , 255);
+  font-size: 40px;
   left: 20px;
   position: absolute;
+  width: 460px;
   word-break: break-all;
   }
-  .meme {
+.meme {
   border-radius: 4px;
   height: 100px;
   margin-top: 10px;
   width: 100px;
-  }
+}
   
   
   
