@@ -1,70 +1,67 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body {
+  box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-
+  margin: 0;
+  padding: 0; 
 }
 main {
-  width: 1366px;
   height: 768px;
+  width: 1366px;
 }
 h1 {
-  text-align: center;
   margin-top: 20px;
+  text-align: center;
 }
 .create-meme-meme {
-  text-align: center;
   padding-top: 20px;
+  text-align: center;
 }
 #meme-image-container {
-   width: 480px;
-  height: 420px;
-  margin-top: 20px;
   background-color: rgb(250 , 250 , 250);
+  display: flex;
+  height: 420px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
+  margin-top: 20px;
+  width: 480px;
 }
 #meme-image {
-  border: 1px solid black; 
-  width: 100%;
+  border: 1px solid black;
   height: 100%;
+  width: 100%;
 }
 #meme-text {
-  position: absolute;
   color: rgb(10 , 10 , 10);
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 30px;
-  padding: 350px 82px 2px 2px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 60px;
   max-width: 100%;
+  position: absolute;
+  padding: 350px 82px 2px 2px;
 }
-#title-famous-meme{
-  text-align: center;
+#title-famous-meme {
   margin-top: 20px;
-}
-#button-add{
   text-align: center;
-  margin-top: 20px;
 }
-.button{
+#button-add {
+  margin-top: 20px;
+  text-align: center;
+}
+.button {
   padding: 0 20px;
 }
-.picture-meme{
+.picture-meme {
+  display: grid;
+  left: 20px;
   position: absolute;
   top: 150px;
-  left: 20px;
-  display: grid;
+  
 }
-.meme{
-  margin-top: 10px;
+.meme {
   border-radius: 4px;
-  width: 100px;
   height: 100px;
+  margin-top: 10px;
+  width: 100px;
 }
-#meme-insert{
+#meme-insert {
   margin-top: 10px;
 }
