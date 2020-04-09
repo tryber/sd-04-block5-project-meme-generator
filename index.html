@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meme Generator</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <script src="script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
   </head>
 
   <body>
@@ -15,12 +15,13 @@
       </header>
       <form>
         <div id="file-upload" class="file-upload">
-          <input type="file" id="meme-insert" name="myfile[]" />
+          <input type="file" id="meme-insert" />
         </div>
         <!--Caixa de texto-->
-        <div id="text-container" class="text-container">
+        <div class="text-container">
           <input
             id="text-input"
+            class="text-input"
             type="text"
             maxlength="60"
             placeholder="Escreva o texto"
@@ -29,7 +30,7 @@
         </div>
       </form>
       <!-- Botoes com opção de borda -->
-      <div id="containerButton" class="containerButton">
+      <div class="containerButton">
         <button id="button1">Border 1</button>
         <button id="button2">Border 2</button>
         <button id="button3">Border 3</button>
@@ -64,11 +65,11 @@
       </div>
       <!-- elemento da
         imagem  -->
-      <div id="meme-image-container" class="meme-image-container">
+      <div id="meme-image-container">
         <!-- elemento onde é feito o upload da imagem -->
-        <img id="meme-image" class="meme-image" src="./imgs/blank.jpeg" alt="Imagem Preview" />
+        <img id="meme-image" src="./imgs/blank.jpeg" alt="Imagem Preview" />
         <!-- elemento do texto -->
-        <p id="meme-text" class="meme-text"></p>
+        <p id="meme-text"></p>
       </div>
     </div>
     <footer>
