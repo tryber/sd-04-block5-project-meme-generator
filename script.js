@@ -10,12 +10,16 @@ let reset = document.getElementById("buttonReset");
 let memes = document.getElementsByClassName("memeMiniatura");
 
 uploadImg.addEventListener("input", function () {
+  console.log(event.target.files[0].name);
+  console.log(URL.createObjectURL(event.target.files[0]));
   imageMeme.src = URL.createObjectURL(event.target.files[0]);
 });
 
-inpText.addEventListener("input", function textImg() {
+inpText.addEventListener("input", textImg);
+
+function textImg() {
   text.innerHTML = inpText.value;
-});
+};
 
 btn1.addEventListener("click", function () {
   memeContainer.style.border = "3px dashed red";
