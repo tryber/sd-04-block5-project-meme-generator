@@ -1,10 +1,8 @@
-html {
-  margin: 0;
-  padding: 0;
-}
 html,
 body {
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 body {
   background-color: rgba(231, 239, 197, 1);
@@ -40,12 +38,14 @@ footer {
   margin-right: 400px;
   margin-top: 200px;
 }
-#meme-image {
+
+.meme-image {
   height: 400px;
   visibility: visible;
   width: 500px;
 }
-#meme-image-container {
+
+.meme-image-container {
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(0, 0, 0);
   height: 400px;
@@ -54,7 +54,8 @@ footer {
   position: relative;
   width: 500px;
 }
-#meme-text {
+
+.meme-text {
   color: rgb(255, 255, 255);
   font-size: 40px;
   left: 7%;
@@ -62,7 +63,7 @@ footer {
   text-align: center;
   text-shadow: -2px 2px 1px rgba(0, 0, 0, 1);
   text-transform: uppercase;
-  top: 87%;
+  top: 76%;
   width: 80%;
   word-break: break-all;
 }

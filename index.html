@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meme Generator</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <script type="text/javascript" src="script.js"></script>
   </head>
 
   <body>
@@ -64,16 +63,22 @@
         />
       </div>
       <!-- elemento da
-        imagem  -->
-      <div id="meme-image-container">
+          imagem  -->
+      <div id="meme-image-container" class="meme-image-container">
         <!-- elemento onde é feito o upload da imagem -->
-        <img id="meme-image" src="./imgs/blank.jpeg" alt="Imagem Preview" />
+        <img
+          id="meme-image"
+          class="meme-image"
+          src="./imgs/blank.jpeg"
+          alt="Imagem Preview"
+        />
         <!-- elemento do texto -->
-        <p id="meme-text"></p>
+        <p id="meme-text" class="meme-text"></p>
       </div>
     </div>
     <footer>
       <p>Produced by Alice Arruda Atalla</p>
     </footer>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
