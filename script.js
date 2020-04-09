@@ -1,9 +1,9 @@
 window.onload = function() {
-    let memeInsert = document.querySelector("#meme-insert");
-    let textInput = document.querySelector("#text-input");
-    let memeImageContainer = document.querySelector("#meme-image-container");
-    let memeImage = document.querySelector("#meme-image");
-    let memeText = document.querySelector("#meme-text");
+    let memeInsert = this.document.querySelector("#meme-insert");
+    let textInput = this.document.querySelector("#text-input");
+    let memeImageContainer = this.document.querySelector("#meme-image-container");
+    let memeImage = this.document.querySelector("#meme-image");
+    let memeText = this.document.querySelector("#meme-text");
 
     function insertText() {
         memeText.innerHTML = textInput.value;
