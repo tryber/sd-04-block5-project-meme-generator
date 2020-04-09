@@ -5,6 +5,7 @@
     border-style: solid;
     border-width: 1px;
     height: 400px;
+    position: relative;
     width: 400px;
 }
 
