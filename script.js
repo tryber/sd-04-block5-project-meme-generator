@@ -15,6 +15,7 @@ window.onload = function(){
         let picture1 = document.getElementById("meme-1")
         let picture2 = document.getElementById("meme-2")
         let picture3 = document.getElementById("meme-3")
+        let picture4 = document.getElementById("meme-4")
 
         // função muda meme famosos
         function mudaFoto1() {
@@ -31,6 +32,11 @@ window.onload = function(){
             imgMeme.src = "imgs/meme3.jpeg";
         }
         picture3.addEventListener("click",mudaFoto3);
+       
+        function mudaFoto4() {
+            imgMeme.src = "imgs/meme4.jpeg";
+        }
+        picture4.addEventListener("click",mudaFoto4);
 
         // criando função inserir o texto
         function inserText() {
