@@ -1,4 +1,9 @@
-var carregaArquivo = function(event){
+
+var btntexto = document.querySelector("#meme-insret");
+var texto = document.querySelector("#text-input"); 
+var textoMeme = document.querySelector("#meme-text");
+
+ var carregaArquivo = function(event){
     var arquivo = event.target;
 
     var leitor = new FileReader();
@@ -9,18 +14,11 @@ var carregaArquivo = function(event){
         imagem.src=url;
     }
     leitor.readAsDataURL(arquivo.files[0]);
+    textoMeme.innerHTML = texto.value;
 }
 
-var btntexto = document.querySelector("#btntexto");
-btntexto.addEventListener("click", function(event){
-    event.preventDefault();
 
-    var texto = document.querySelector("#text-input"); 
-    var textoMeme = document.querySelector("#meme-text");
-    textoMeme.innerHTML = texto.value;
-    //console.log(texto.value);
-    
-});
+
 
 
 
