@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="app">
+    <header class="cabecalho">
+        <h1>Gerador de memes</h1>
+    </header>
+    <main class="conteudo">
+        <section id="meme-image-container">                
+            <div id="meme-imagem" >
+               <input type='file' id="meme-insert" accept="image/*" onchange="carregaArquivo(event)"/>               
+                <img id="imagem" alt="imagemMeme"/>  
+                <span id="meme-text">
+                    <p id="texto-meme"></p>
+                </span>                
+            </div>
+            <nav id="nav-meme">
+                <textarea name="texto" id="text-input" maxlength="60" cols="30" rows="10"></textarea>
+                <button type="button" id="btntexto" >Inserir texto</button>
+            </nav>
+        </section>
+    </main>
+    <footer class="rodape">
+            rodape
+    </footer>
+</body>
+
+
+<script src="script.js"></script>
+</html>

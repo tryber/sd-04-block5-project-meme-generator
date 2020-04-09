@@ -1,0 +1,113 @@
+.app{
+	background-color: #f1f1f1;
+	display: grid;
+	font-family: Arial, Helvetica, sans-serif;
+	grid-template-areas: 
+		 "cabecalho"
+		 "conteudo"
+		 "rodape";
+	grid-template-columns: auto;
+	grid-template-rows: 50px 100vh auto;	 
+}
+
+.cabecalho{
+	background-color: #989996;
+	grid-area: cabecalho;
+	border-radius: 10pc;
+}
+
+.cabecalho h1{
+	text-align: center;
+	line-height: 0.10;
+}
+
+.conteudo{
+	background-color: #adb6b625;
+	grid-area: conteudo;
+}
+
+.rodape{
+	background-color: #ffffff;
+	grid-area: rodape;
+}
+
+#meme-image-container{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 50% 50%;
+	height: calc(100vh - 50px);
+	
+}
+
+#meme-imagem img{
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: 50% 50%;
+	object-fit: fill;
+	max-width: 100%;
+	width: 420px;
+	height: 280px;	
+}
+
+input{
+	float: left;
+	position: relative;	
+	border: 1px solid;	
+	top: 5%;
+	background-color: rgb(234, 241, 239);
+	border-radius: 200px;
+	width: 420px;	
+}
+
+#imagem{
+	position: relative;	
+	background-color: white;
+	float: left;
+	border: 1px solid;	
+	top: 15%;
+	max-width: 100%;
+	width: 420px;
+	height: 280px;
+}
+
+#nav-meme{
+	grid-column-start: 2;		
+	
+}
+
+#text-input{
+	position: relative;
+	top:20%;
+	width: 50%;
+}
+
+#btntexto{
+	position: relative;
+	top: 20%;
+	margin-right: 80%;
+}
+
+span{	
+	position: absolute;	
+	top: 380px;
+	width:420px;
+	height: 30px;
+	margin-left: -422px;
+}
+
+#texto-meme{
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 19px;
+	font-weight: bold;
+	color: cornsilk;
+	border: 5ch;
+	margin-left: 5px;
+	text-shadow: 1px 0px 0px red, -1px 0px 0px red, 0px 1px 0px red, 0px -1px 0px red;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;	
+}
