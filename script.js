@@ -10,6 +10,7 @@ const btn1 = document.getElementById('button1');
 const btn2 = document.getElementById('button2');
 const btn3 = document.getElementById('button3');
 const resetBorder = document.getElementById('reset-btn');
+const memes = document.getElementsByClassName('meme');
 
 inputImage.addEventListener('input', function() {
   memeImage.src = URL.createObjectURL(this.files[0]);
@@ -34,4 +35,12 @@ btn3.addEventListener('click', function() {
 resetBorder.addEventListener('click', function() {
   memeContainer.style.border = "1px solid black"
 })
+
+
+for (meme of memes) {
+  meme.addEventListener('click', function(event) {
+    memeImage.src = event.target.src;
+  })
 }
+}
+
