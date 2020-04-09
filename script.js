@@ -62,7 +62,7 @@ window.onload = function(){
            containerImg.style.border="6px groove green";
         });
 
-        containerImg.style.border = "1px solid black";
+        
         
     }else{
         alert("Não suporte Storage");
