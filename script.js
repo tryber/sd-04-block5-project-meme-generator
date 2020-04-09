@@ -5,6 +5,9 @@ let imagem = document.getElementById("meme-image");
 let memeContainer = document.getElementById("meme-image-container");
 let button1 = document.getElementById("button1");
 let preSave1 = document.getElementById("meme-1");
+let preSave2 = document.getElementById("meme-2");
+let preSave3 = document.getElementById("meme-3");
+let preSave4 = document.getElementById("meme-4");
 let imgWid = 300;
 let imgHei = 200;
 
@@ -28,10 +31,21 @@ inputImage.addEventListener("change", function ()
 {
     ReadMeme(event);
 });
-preSave1.addEventListener("change", function(event)
+preSave1.addEventListener("click", function(event)
 {
-    ReadMeme(event);
-    console.log("pass");
+    MemeRead(event);
+});
+preSave2.addEventListener("click", function(event)
+{
+    MemeRead(event);
+});
+preSave3.addEventListener("click", function(event)
+{
+    MemeRead(event);
+});
+preSave4.addEventListener("click", function(event)
+{
+    MemeRead(event);
 });
 
 function PutText()
@@ -56,6 +70,15 @@ function ReadMeme(event)
             DimencionaBorda();
         };
     }
+}
+
+function MemeRead(event)
+{
+    imagem.src = event.target.src;
+    imagem.onload = function()
+    {
+        DimencionaBorda();
+    };
 }
 
 function DimencionaBorda ()
