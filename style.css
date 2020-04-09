@@ -1,10 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
-   font-family: Arial, Helvetica, sans-serif; */
-  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif; */
+
 }
 main {
   width: 1366px;
@@ -51,4 +52,16 @@ h1 {
 }
 .button{
   padding: 0 20px;
+}
+.picture-meme{
+  position: absolute;
+  top: 150px;
+  left: 20px;
+  display: grid;
+}
+.fotos{
+  margin-top: 10px;
+  border-radius: 4px;
+  width: 100px;
+  height: 100px;
 }

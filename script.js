@@ -12,31 +12,54 @@ window.onload = function(){
         let button2 = document.getElementById("button2");
         let button3 = document.getElementById("button3");
 
+        let picture1 = document.getElementById("foto1")
+        let picture2 = document.getElementById("foto2")
+        let picture3 = document.getElementById("foto3")
+
+        // função muda meme famosos
+        function mudaFoto1() {
+            imgMeme.src = "meme1.jpg";
+        }
+        picture1.addEventListener("click",mudaFoto1);
+
+        function mudaFoto2() {
+            imgMeme.src = "meme2.png";
+        }
+        picture2.addEventListener("click",mudaFoto2);
+
+        function mudaFoto3() {
+            imgMeme.src = "meme3.jpg";
+        }
+        picture3.addEventListener("click",mudaFoto3);
+
         // criando função inserir o texto
         function inserText() {
             intoText.innerText = textBox.value;
         };
 
-
         // add o texto dentro da caixa de da img
         textBox.addEventListener("keyup",inserText);
-        document.getElementById("meme-image-container").firstChild;
-        // document.getElementById("meme-text").style.color="white";
         
         // add a img dentro div #img
         arquivo.addEventListener("input", function () {
             imgMeme.src = URL.createObjectURL(this.files[0]);
         })
 
+        // botoes de bordas
         button1.addEventListener("click",function(){
-            document.getElementById("meme-image-container").style.border="3px dashed red";
+            containerImg.style.border="3px dashed red";
         });
         button2.addEventListener("click",function(){
-            document.getElementById("meme-image-container").style.border="5px double blue";
+            containerImg.style.border="5px double blue";
         });
         button3.addEventListener("click",function(){
-            document.getElementById("meme-image-container").style.border="6px groove green";
+           containerImg.style.border="6px groove green";
         });
+
+        // picture1.addEventListener("click",function(){
+        //    picture1.src = "meme1.jpg";
+        //     imgMeme = picture1.value;
+        // });
         
 
     }else{
