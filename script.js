@@ -18,17 +18,17 @@ window.onload = function(){
 
         // função muda meme famosos
         function mudaFoto1() {
-            imgMeme.src = "meme1.jpeg";
+            imgMeme.src = "imgs/meme1.jpeg";
         }
         picture1.addEventListener("click",mudaFoto1);
 
         function mudaFoto2() {
-            imgMeme.src = "meme2.jpeg";
+            imgMeme.src = "imgs/meme2.jpeg";
         }
         picture2.addEventListener("click",mudaFoto2);
 
         function mudaFoto3() {
-            imgMeme.src = "meme3.jpeg";
+            imgMeme.src = "imgs/meme3.jpeg";
         }
         picture3.addEventListener("click",mudaFoto3);
 
