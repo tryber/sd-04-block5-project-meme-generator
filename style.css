@@ -62,3 +62,10 @@ div span.verde
 {
     color: green;
 }
+
+.memes-faceis
+{
+    width: 150px;
+    height: 150px;
+    display: inline-flexbox;
+}

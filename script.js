@@ -4,11 +4,13 @@ let inputImage = document.getElementById("meme-insert");
 let imagem = document.getElementById("meme-image");
 let memeContainer = document.getElementById("meme-image-container");
 let button1 = document.getElementById("button1");
+let preSave1 = document.getElementById("meme-1");
 let imgWid = 300;
 let imgHei = 200;
 
 
 inputText.addEventListener("keyup", PutText);
+
 button1.addEventListener("click", function()
 {
     TrocarBorda("1");
@@ -24,7 +26,23 @@ button3.addEventListener("click", function()
 
 inputImage.addEventListener("change", function ()
 {
-    let file = this.files[0];
+    ReadMeme(event);
+});
+preSave1.addEventListener("change", function(event)
+{
+    ReadMeme(event);
+    console.log("pass");
+});
+
+function PutText()
+{
+    textMeme.innerHTML = inputText.value;
+    textMeme.style.wordWrap;
+}
+
+function ReadMeme(event)
+{
+    let file = event.target.files[0];
     if(file)
     {   
         let leitura = new FileReader();
@@ -38,12 +56,6 @@ inputImage.addEventListener("change", function ()
             DimencionaBorda();
         };
     }
-});
-
-function PutText()
-{
-    textMeme.innerHTML = inputText.value;
-    textMeme.style.wordWrap;
 }
 
 function DimencionaBorda ()
