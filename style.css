@@ -1,6 +1,6 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 html,
 body {
@@ -9,83 +9,82 @@ body {
 body {
   background-color: rgba(231, 239, 197, 1);
 }
-#container {
-  margin-bottom: 30px;
+.container {
   background-color: rgba(191, 215, 181, 1);
+  margin-bottom: 30px;
   min-height: 100%;
   padding: 15px;
 }
-#main {
-  overflow: auto;
+.main {
   min-height: 100%;
+  overflow: auto;
 }
 footer {
   background-color: rgba(191, 215, 181, 1);
-  position: relative;
+  clear: both;
   height: 20px;
   margin-top: -50px;
-  clear: both;
-  /* Text */
-  text-align: center;
-  padding: 15px;
+  padding: 15px; /* Text */
+  position: relative;
+  text-align: center; /* Text */
 }
-#file-upload {
-  display: inline-flex;
+.file-upload {
   align-items: center;
-  margin-left: 200px;
+  display: inline-flex;
   margin-bottom: 15px;
+  margin-left: 200px;
 }
 
-#text-container {
+.text-container {
   float: right;
   margin-right: 400px;
   margin-top: 200px;
 }
-.classMemeImg {
+.meme-image {
+  height: 400px;
   visibility: visible;
   width: 500px;
-  height: 400px;
 }
-.classImgContainer {
-  width: 500px;
-  height: 400px;
-  border: 1px solid rgb(0, 0, 0);
+.meme-image-container {
   background-color: rgb(255, 255, 255);
-  position: relative;
+  border: 1px solid rgb(0, 0, 0);
+  height: 400px;
   margin-left: 100px;
   margin-top: 5px;
+  position: relative;
+  width: 500px;
 }
-.classMemeTxt {
-  color: #ffffff;
-  text-transform: uppercase;
-  left: 7%;
-  top: 87%;
-  width: 80%;
+.meme-text {
+  color: rgba(255, 255, 255);
   font-size: 40px;
+  left: 7%;
   position: absolute;
   text-align: center;
-  word-break: break-all;
   text-shadow: -2px 2px 1px rgba(0, 0, 0, 1);
+  text-transform: uppercase;
+  top: 87%;
+  width: 80%;
+  word-break: break-all;
 }
 
-#containerButton {
-  float: right;
+.containerButton {
   clear: right;
+  float: right;
   margin-right: 350px;
   margin-top: 10px;
 }
 button {
   padding: 5px;
 }
-#expImg {
-  display: block;
+.expImg {
   clear: right;
+  display: block;
   float: right;
   margin-right: 350px;
   margin-top: 10px;
 }
-#expImg img {
-  width: 70px;
+.expImg img {
   height: 70px;
   padding: 2px;
+  width: 70px;
 }

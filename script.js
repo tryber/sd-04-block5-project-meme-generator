@@ -1,4 +1,6 @@
-window.onload = function () {
+window.onload = load;
+
+function load() {
   let memeContainer = document.querySelector("#meme-image-container");
   let uploadImg = document.getElementById("meme-insert");
   let imageMeme = document.getElementById("meme-image");
@@ -14,7 +16,7 @@ window.onload = function () {
     imageMeme.src = URL.createObjectURL(event.target.files[0]);
   });
 
-  inpText.addEventListener("input", function () {
+  inpText.addEventListener("input", function textImg() {
     text.innerHTML = inpText.value;
   });
 
@@ -35,4 +37,4 @@ window.onload = function () {
       imageMeme.src = event.target.src;
     });
   }
-};
+}
