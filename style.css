@@ -8,7 +8,18 @@ html {
   text-align: center;
 }
 
-.image {
+
+.img-container {
+  Background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  height: 600px;
+  left: 300px;
+  margin-top: 15px;
+  position: relative;
+  width: 600px;
+}
+
+.meme-text {
   bottom: 1%;
   color: rgba(236, 134, 16, 0.836);
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -21,19 +32,10 @@ html {
   top: 68%;
   width: 100%;
   word-break: break-all;
-}
-
-.img-container {
-  Background-color: rgb(255, 255, 255);
-  border: 1px solid black;
-  height: 600px;
-  left: 300px;
-  margin-top: 15px;
-  position: relative;
-  width: 600px;
+  z-index: 10;
 }
 
 .picture {
-  height: 600px;
-  width: 600px;
+  height: 99%;
+  width: 99%;
 }
