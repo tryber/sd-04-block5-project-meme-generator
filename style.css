@@ -46,7 +46,7 @@ img#meme-image {
   width: 500px;
   height: 400px;
 }
-#meme-image-container {
+.meme-image-container {
   width: 500px;
   height: 400px;
   border: 1px solid rgb(0, 0, 0);
@@ -55,7 +55,7 @@ img#meme-image {
   margin-left: 100px;
   margin-top: 5px;
 }
-#meme-text {
+.meme-text {
   color: #ffffff;
   text-transform: uppercase;
   left: 7%;
@@ -78,7 +78,7 @@ button {
   padding: 5px;
 }
 #expImg {
-  display: inline-block;
+  display: block;
   clear: right;
   float: right;
   margin-right: 350px;
