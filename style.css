@@ -1,8 +1,6 @@
 body {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0; 
 }
 main {
   height: 768px;
@@ -33,10 +31,10 @@ h1 {
 #meme-text {
   color: rgb(10 , 10 , 10);
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 60px;
+  font-size: 40px;
   max-width: 100%;
+  padding: 340px 82px 2px 2px;
   position: absolute;
-  padding: 350px 82px 2px 2px;
 }
 #title-famous-meme {
   margin-top: 20px;
@@ -54,7 +52,6 @@ h1 {
   left: 20px;
   position: absolute;
   top: 150px;
-  
 }
 .meme {
   border-radius: 4px;

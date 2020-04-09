@@ -4,7 +4,7 @@ window.onload = function () {
     let arquivo = document.getElementById("meme-insert");
     let imgMeme = document.getElementById("meme-image");
     let intoText = document.getElementById("meme-text");
-    let containerImg = document.getElementById("meme-image-container");
+    let containerImg = document.getElementsByClassName("meme-image-container");
 
     let button1 = document.getElementById("button1");
     let button2 = document.getElementById("button2");
