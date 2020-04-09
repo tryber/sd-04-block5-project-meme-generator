@@ -62,12 +62,8 @@ window.onload = function(){
            containerImg.style.border="6px groove green";
         });
 
-        // picture1.addEventListener("click",function(){
-        //    picture1.src = "meme1.jpg";
-        //     imgMeme = picture1.value;
-        // });
+        containerImg.style.border = "1px solid black";
         
-
     }else{
         alert("Não suporte Storage");
     }
