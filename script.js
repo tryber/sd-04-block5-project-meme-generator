@@ -1,4 +1,3 @@
-window.onload = () => {
   // Query selectors
 let textInput = document.querySelector('.text-input');
 let imageContainer = document.querySelector('.meme-image-container');
@@ -43,4 +42,3 @@ memes.forEach((meme) => {
     memeImage.src = event.target.src;
   });
 });
-}
