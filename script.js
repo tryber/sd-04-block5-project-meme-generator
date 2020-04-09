@@ -8,5 +8,5 @@ selectedPic.addEventListener('input', function () {
 });
 
 inputText.addEventListener('input', function () {
-  txtContent.innerHTML = inputText.value;
+  txtContent.innerHTML = inputText.value.toUpperCase();
 });
