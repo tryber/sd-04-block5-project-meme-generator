@@ -86,6 +86,7 @@ input{
 }
 
 #btntexto{
+	width: 100px;
 	position: relative;
 	top: 20%;
 	margin-right: 80%;
