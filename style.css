@@ -1,88 +1,30 @@
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
 body {
   background-color: rgba(231, 239, 197, 1);
 }
-.container {
-  background-color: rgba(191, 215, 181, 1);
-  margin-bottom: 30px;
-  min-height: 100%;
-  padding: 15px;
-}
-.main {
-  min-height: 100%;
-  overflow: auto;
-}
-footer {
-  background-color: rgba(191, 215, 181, 1);
-  clear: both;
-  height: 20px;
-  margin-top: -50px;
-  padding: 15px;
-  position: relative;
-  text-align: center;
-}
-.file-upload {
-  align-items: center;
-  display: inline-flex;
-  margin-bottom: 15px;
-  margin-left: 100px;
-}
-
-.text-container {
-  float: right;
-  margin-right: 400px;
-  margin-top: 200px;
-}
-
 .meme-image {
   height: 400px;
   visibility: visible;
   width: 500px;
 }
-
 .meme-image-container {
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(0, 0, 0);
   height: 400px;
-  margin-left: 100px;
   margin-top: 5px;
   position: relative;
   width: 500px;
 }
-
 .meme-text {
   color: rgb(255, 255, 255);
-  font-size: 40px;
+  font-size: 30px;
   left: 7%;
   position: absolute;
   text-align: center;
   text-shadow: -2px 2px 1px rgba(0, 0, 0, 1);
   text-transform: uppercase;
-  top: 76%;
+  top: 30%;
   width: 80%;
   word-break: break-all;
-}
-
-.containerButton {
-  clear: right;
-  float: right;
-  margin-right: 350px;
-  margin-top: 10px;
-}
-button {
-  padding: 5px;
-}
-.expImg {
-  clear: right;
-  display: block;
-  float: right;
-  margin-right: 350px;
-  margin-top: 10px;
 }
 .expImg img {
   height: 70px;
