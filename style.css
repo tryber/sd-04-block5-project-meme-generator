@@ -41,6 +41,7 @@ footer {
 
 .meme-image {
   height: 400px;
+  visibility: visible;
   width: 500px;
 }
 

@@ -14,13 +14,14 @@
       </header>
       <form>
         <div id="file-upload" class="file-upload">
-          <input type="file" id="meme-insert" />
+          <input type="file" id="meme-insert" class="meme-insert"/>
         </div>
         <!--Caixa de texto-->
         <div class="text-container">
           <label for="text-input">Insira texto:</label>
           <input
             id="text-input"
+            class="text-input"
             type="text"
             maxlength="60"
             placeholder="Escreva o texto"
@@ -65,6 +66,8 @@
       <!-- elemento da
           imagem  -->
       <div id="meme-image-container" class="meme-image-container">
+        <!-- elemento do texto -->
+        <p id="meme-text" class="meme-text"></p>
         <!-- elemento onde é feito o upload da imagem -->
         <img
           id="meme-image"
@@ -72,8 +75,6 @@
           src=""
           alt="Imagem Preview"
         />
-        <!-- elemento do texto -->
-        <p id="meme-text" class="meme-text"></p>
       </div>
     </div>
     <footer>
