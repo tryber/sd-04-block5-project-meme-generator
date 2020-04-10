@@ -1,13 +1,13 @@
-html,
+/* html,
 body {
   height: 100%;
   margin: 0;
   padding: 0;
-}
+} */
 body {
   background-color: rgba(231, 239, 197, 1);
 }
-.container {
+/* .container {
   background-color: rgba(191, 215, 181, 1);
   margin-bottom: 30px;
   min-height: 100%;
@@ -16,28 +16,28 @@ body {
 .main {
   min-height: 100%;
   overflow: auto;
-}
-footer {
+} */
+/* footer {
   background-color: rgba(191, 215, 181, 1);
   clear: both;
   height: 20px;
   margin-top: -50px;
-  padding: 15px; /* Text */
+  padding: 15px; 
   position: relative;
-  text-align: center; /* Text */
-}
-.file-upload {
+  text-align: center; 
+} 
+/* .file-upload {
   align-items: center;
   display: inline-flex;
   margin-bottom: 15px;
   margin-left: 100px;
-}
+} */
 
-.text-container {
+/* .text-container {
   float: right;
   margin-right: 400px;
   margin-top: 200px;
-}
+} */
 
 .meme-image {
   height: 400px;
