@@ -1,26 +1,22 @@
+//Imagem
+let img = document.querySelector("#meme-insert");
+let imgMeme = document.querySelector("#meme-image");
 
-var btntexto = document.querySelector("#meme-insert");
-var texto = document.querySelector("#text-input"); 
-var textoMeme = document.querySelector("#meme-text");
+//Textos
+let textoMeme = document.querySelector("#meme-text");
+let texto = document.querySelector("#text-input");
 
- var carregaArquivo = function(event){
-    var arquivo = event.target;
+ //Capturando texto
+texto.addEventListener("keypress", function()
+{    
+   textoMeme.innerHTML = texto.value;
+});
 
-    var leitor = new FileReader();
-    leitor.onload=function()
-    {
-        var url = leitor.result;    
-        var imagem = document.getElementById("meme-image");
-        imagem.src=url;
-    }
-    leitor.readAsDataURL(arquivo.files[0]);
-    textoMeme.innerHTML = texto.value;
-}
-
-
-
-
-
+//Carrega imagem
+img.addEventListener("change", function(e){
+    var url = URL.createObjectURL(e.target.files[0]);
+    imgMeme.setAttribute('src', url)
+});
 
 
 
