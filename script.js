@@ -7,14 +7,14 @@ let textoMeme = document.querySelector("#meme-text");
 let texto = document.querySelector("#text-input");
 
  //Capturando texto
-texto.addEventListener("keypress", function()
+texto.addEventListener("input", function()
 {    
    textoMeme.innerHTML = texto.value;
 });
 
 //Carrega imagem
 img.addEventListener("change", function(e){
-    var url = URL.createObjectURL(e.target.files[0]);
+    let url = URL.createObjectURL(e.target.files[0]);
     imgMeme.setAttribute('src', url)
 });
 
