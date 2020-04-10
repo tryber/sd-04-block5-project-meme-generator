@@ -13,8 +13,8 @@
     <section class="container-left">
         <h1 class="font-zero">Inserção do texto e upload da imagem</h1>
         <form action="">
-            <textarea id="text-input" cols="30" rows="10" onchange="readTextImage()"
-                onkeypress="readTextImage()"></textarea>
+            <input type="text" maxlength="60" id="text-input" onchange="readTextImage()" onkeypress="readTextImage()">
+        
             <input type="file" id="meme-insert" onchange="readImage(this)">
         </form>
 
@@ -23,7 +23,7 @@
     <section class="container-rigth">
         <h1 class="font-zero">Visualização do Meme-generator</h1>
 
-        <div id="meme-image-container" class="border-default">
+        <div id="meme-image-container" class="border-default container-image">
             <img id="meme-image" src="" alt="">
             <p id="meme-text" class="text-image"> </p>
         </div>
