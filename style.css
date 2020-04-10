@@ -13,7 +13,7 @@
 	top: 50px;
  } 
 
-.meme-text {
+.meme-text{
 	position: absolute;
 	top:300px;
 	bottom: 10%;
@@ -29,15 +29,8 @@
 	position: relative;
 	top: 10px;
 }
-
-.borda1{
-	border: 3px dashed rgb(255, 0, 0)
-}
-
-.borda2{
-	border: 5px double rgb(0, 0, 255);
-}
-
-.borda3{
-	border: 6px groove rgb(0, 128, 0);
+.btmemes{
+	position: absolute;
+	top:550px;
+	left: 10px;
 }
