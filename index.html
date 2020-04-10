@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,25 +10,20 @@
 </head>
 
 <body>
-    <h1>Meme-generator</h1>
-    <section class="container-left">
-        <h1 class="font-zero">Inserção do texto e upload da imagem</h1>
-        <form action="">
-            <input type="text" maxlength="60" id="text-input">      
-            <input type="file" id="meme-insert">
-        </form>
+    <header>
+        <h1>Meme-generator</h1>
+    </header>
+    <form class="container-left">
+        <input type="text" id="text-input" name="textImput" maxlength="60">
+        <input type="file" id="meme-insert" name="memeInsert">
+    </form>
 
-    </section>
-
-    <section class="container-rigth">
+    <section id="meme-image-container" class="border-default container-image">
         <h1 class="font-zero">Visualização do Meme-generator</h1>
-
-        <div id="meme-image-container" class="border-default container-image">
-            <img id="meme-image" src="" alt="">
-            <p id="meme-text" class="text-image"> </p>
-        </div>
-
+        <img id="meme-image" src="" alt="" class="image">
+        <p id="meme-text" class="text-image"> </p>
     </section>
+
     <script src="./script.js"></script>
 </body>
 
