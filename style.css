@@ -24,3 +24,20 @@
 	height: 50px;
 	word-break: break-all;	
 }
+
+.bordas{
+	position: relative;
+	top: 10px;
+}
+
+.borda1{
+	border: 3px dashed rgb(255, 0, 0)
+}
+
+.borda2{
+	border: 5px double rgb(0, 0, 255);
+}
+
+.borda3{
+	border: 6px groove rgb(0, 255, 0);
+}

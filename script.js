@@ -18,5 +18,23 @@ img.addEventListener("change", function(e){
     imgMeme.setAttribute('src', url)
 });
 
+//botões bordas
+let btn1 = document.querySelector("#button1");
+let btn2 = document.querySelector("#button2");
+let btn3 = document.querySelector("#button3");
+
+let container = document.querySelector("#meme-image-container");
+//preenche bordas
+btn1.addEventListener("click", function(){    
+    container.classList.add("borda1"); 
+});
+
+btn2.addEventListener("click", function(){   
+    container.classList.add("borda2"); 
+});
+
+btn3.addEventListener("click", function(){
+    container.classList.add("borda3"); 
+});
 
 
