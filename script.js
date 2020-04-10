@@ -9,3 +9,7 @@ function readImage(input) {
         reader.readAsDataURL(input.files[0]);
     }
 }
+
+function readTextImage(){
+    document.getElementById('meme-text').innerText = document.getElementById('text-input').value
+}
