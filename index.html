@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +10,8 @@
 
 <body>
     <h1>Meme-generator</h1>
-    <section>
-        <h1>Inserção do texto e upload da imagem</h1>
+    <section class="container-left">
+        <h1 class="font-zero">Inserção do texto e upload da imagem</h1>
         <form action="">
             <textarea id="text-input" cols="30" rows="10" onchange="readTextImage()"
                 onkeypress="readTextImage()"></textarea>
@@ -21,10 +20,13 @@
 
     </section>
 
-    <section id="meme-image-container">
-        <h1>Visualização do Meme-generator</h1>
-        <img id="meme-image" src="" alt="">
-        <p id="meme-text"> </p>
+    <section class="container-rigth">
+        <h1 class="font-zero">Visualização do Meme-generator</h1>
+
+        <div id="meme-image-container" class="border-default">
+            <img id="meme-image" src="" alt="">
+            <p id="meme-text" class="text-image"> </p>
+        </div>
 
     </section>
     <script src="./script.js"></script>

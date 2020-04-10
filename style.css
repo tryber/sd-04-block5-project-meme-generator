@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+h1 {
+  margin: 5px;
+  padding: 5px;
+}
+
+.font-zero {
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.border-default {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+}
+
+#meme-image-container {
+  float: right;
+  margin: 10px;
+  padding: 5px;
+  position: relative;
+}
+
+.container-left {
+  float: left;
+  width: 20%;
+}
+
+.container-rigth {
+  float: right;
+  width: 75%;
+}
+
+.text-image {
+  bottom: 5px;
+  position: absolute;
+  text-align: center;
+}
