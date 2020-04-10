@@ -1,16 +1,8 @@
 let textInput = document.getElementById("text-input");
-let memeImage = document.querySelector("input[type='file']");
+let memeImage = document.getElementById("meme-insert");
 
 function readImage(input) {
-    if (input.files && input.files[0]) {
-        let reader = new FileReader();
-        reader.onload = function (e) {
-            document.getElementById('meme-image')
-                .src = e.target.result;
-        };
-
-        reader.readAsDataURL(input.files[0]);
-    }
+    document.getElementById('meme-image').src = URL.createObjectURL(input.files[0]);
 }
 
 function readTextImage(input) {
@@ -21,9 +13,6 @@ memeImage.addEventListener('change', function () {
     readImage(this);
 });
 
-textInput.addEventListener('keypress', function () {
-    readTextImage(this);
-});
-textInput.addEventListener('change', function() {
+textInput.addEventListener("input", function () {
     readTextImage(this);
 });
