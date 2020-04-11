@@ -44,8 +44,9 @@ h1 {
 
 .text-image {
   bottom: 40px;
-  font-family: sans-serif;
+  font-family: 'Anton', sans-serif;
   font-size: 3em;
+  font-weight: bold;
   margin: 0 auto;
   position: absolute;
   text-align: center;
@@ -108,4 +109,14 @@ h1 {
 
 .btn:hover {
   color: yellow;
+}
+
+.smallImage {
+  height: 80px;
+  width: 100px;
+}
+
+.smallImage:hover {
+  height: 85px;
+  width: 102px;
 }
