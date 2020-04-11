@@ -19,10 +19,16 @@ h1 {
   padding: 0;
 }
 
+.container-rigth {
+  float: right;
+  position: relative;
+  text-align: right;
+  width: 63%;
+}
+
 .meme-image-container {
   background-color: white;
   border: 1px solid black;
-  float: right;
   height: 400px;
   margin: 20px;
   min-height: 150px;
@@ -74,8 +80,23 @@ h1 {
   width: 100%;
 }
 
-.btn {
+.btnBluePadrao {
   background-color: rgb(47, 50, 80);
+}
+
+.btnRed {
+  background-color: red;
+}
+
+.btnBlue {
+  background-color: blue;
+}
+
+.btnGreen {
+  background-color: green;
+}
+
+.btn {
   border: none;
   box-sizing: border-box;
   color: white;
