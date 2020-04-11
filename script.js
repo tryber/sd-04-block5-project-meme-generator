@@ -9,10 +9,10 @@ let texto = document.querySelector("#text-input");
 //Container
 let container = document.querySelector("#meme-image-container");
 
- //Capturando texto
+//Capturando texto
 texto.addEventListener("input", function()
-{    
-   textoMeme.innerHTML = texto.value;
+{  
+    textoMeme.innerHTML = texto.value;
 });
 
 //Carrega imagem
@@ -31,12 +31,12 @@ btn1.addEventListener("click", function(){
     container.style.border = "3px dashed red";
 });
 
-btn2.addEventListener("click", function(){      
-    container.style.border = "5px double blue"; 
+btn2.addEventListener("click", function(){
+    container.style.border = "5px double blue";
 });
 
-btn3.addEventListener("click", function(){  
-    container.style.border = "6px groove green";   
+btn3.addEventListener("click", function(){
+    container.style.border = "6px groove green";
 });
 
 //botões memes
@@ -46,23 +46,23 @@ let btmeme3 = document.querySelector("#meme-3");
 let btmeme4 = document.querySelector("#meme-4");
 
 //Carrega memes
-btmeme1.addEventListener("click", function(e){    
+btmeme1.addEventListener("click", function(e){
     let img ="imgs/meme1.jpeg";
-    imgMeme.setAttribute('src', img);   
+    imgMeme.setAttribute('src', img);
 });
 
-btmeme2.addEventListener("click", function(e){    
+btmeme2.addEventListener("click", function(e){
     let img ="imgs/meme2.jpeg";
-    imgMeme.setAttribute('src', img);   
+    imgMeme.setAttribute('src', img);
 });
 
-btmeme3.addEventListener("click", function(e){    
+btmeme3.addEventListener("click", function(e){
     let img ="imgs/meme3.jpeg";
-    imgMeme.setAttribute('src', img);   
+    imgMeme.setAttribute('src', img);
 });
 
-btmeme4.addEventListener("click", function(e){    
+btmeme4.addEventListener("click", function(e){
     let img ="imgs/meme4.jpeg";
-    imgMeme.setAttribute('src', img);   
+    imgMeme.setAttribute('src', img);
 });
 
