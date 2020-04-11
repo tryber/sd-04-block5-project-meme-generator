@@ -21,16 +21,14 @@ h1 {
 
 .meme-image-container {
   background-color: white;
-  border-color: rgb(0, 0, 0);
-  border-style: solid;
-  border-width: 1px;
+  border-color: 1px solid black;
   float: right;
+  height: 400px;
   margin: 20px;
   min-height: 150px;
   position: relative;
   text-align: center;
   width: 400px;
-  height: 400px;
 }
 
 .container-left {
