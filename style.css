@@ -1,36 +1,37 @@
-.meme-image-container {
-	position: relative;
- 	background-color:rgb(255, 255, 255);
-	border: 1px solid black;
-	width: 400px;
-	height: 400px;
+.bordas{
+ position: relative;
+ top: 10px;
+}
+
+.btmemes{
+ position: absolute;
+ top:550px;
+ left: 10px;
 }
 
 .meme-image{ 
-	display: visible;	
-	width: 100%;
-	height: 100%;
-	top: 50px;
- } 
+ display: visible;	
+ width: 100%;
+ height: 100%;
+ top: 50px;
+} 
+
+.meme-image-container {
+ position: relative;
+ background-color:rgb(255, 255, 255);
+ border: 1px solid black;
+ width: 400px;
+ height: 400px;
+}
 
 .meme-text{
-	position: absolute;
-	top:300px;
-	bottom: 10%;
-	text-align: center;
-	color: rgb(224, 34, 34);
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	font-size: 20px;
-	height: 50px;
-	word-break: break-all;	
-}
-
-.bordas{
-	position: relative;
-	top: 10px;
-}
-.btmemes{
-	position: absolute;
-	top:550px;
-	left: 10px;
+ position: absolute;
+ top:300px;
+ bottom: 10%;
+ text-align: center;
+ color: rgb(224, 34, 34);
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 20px;
+ height: 50px;
+ word-break: break-all;	
 }
