@@ -11,7 +11,7 @@ let container = document.querySelector("#meme-image-container");
 
 //Capturando texto
 texto.addEventListener("input", function()
-{  
+{
     textoMeme.innerHTML = texto.value;
 });
 
