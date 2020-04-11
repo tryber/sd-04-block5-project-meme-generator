@@ -1,17 +1,16 @@
 body {
+  color: rgb(208, 205, 175);
   margin: 0;
   padding: 0;
   width: 100%;
 }
 
 h1 {
+  color: rgb(47, 50, 80);
+  font-size: 5em;
   margin: 5px;
   padding: 5px;
-}
-
-label {
-  display: inline-block;
-  padding-top: 10px;
+  text-shadow: 0.1em 0.1em 0.15em;
 }
 
 .font-zero {
@@ -21,23 +20,23 @@ label {
 }
 
 .meme-image-container {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   border-color: rgb(0, 0, 0);
   border-style: solid;
   border-width: 1px;
   float: right;
-  margin: 10px;
-  height: 400px;
-  padding: 5px;
+  margin: 20px;
+  min-height: 150px;
   position: relative;
   text-align: center;
-  width: 400px;
+  width: 60%;
 }
 
 .container-left {
   float: left;
+  margin: 20px;
   position: relative;
-  width: 20%;
+  width: 31%;
 }
 
 .text-image {
@@ -53,5 +52,42 @@ label {
 
 .image {
   z-index: 0;
+}
+
+.fileImage {
+  display: none;
+}
+
+.file {
+  border: 1px solid rgb(208, 205, 175);
+  box-sizing: border-box;
+  color: rgb(184, 182, 165);
+  font-size: 15px;
+  height: 30px;
+  line-height: 30px;
+  padding: 5px;
+  vertical-align: middle;
+  width: 301px;
+}
+
+.text {
   width: 100%;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: rgb(47, 50, 80);
+  border: none;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  height: 32px;
+  padding: 7px 11px;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.btn:hover {
+  color: yellow;
 }

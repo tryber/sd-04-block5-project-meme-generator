@@ -11,13 +11,14 @@
 
 <body>
     <header>
-        <h1>Meme-generator</h1>
+        <h1>Crie seu meme, Let's go! </h1>
     </header>
     <form class="container-left">
-        <label for="text-input">Digite o texto do meme</label>
-        <input type="text" id="text-input" name="textImput" maxlength="60">
-        <label for="meme-insert">Escolha uma imagem para o meme</label>
-        <input type="file" id="meme-insert" name="memeInsert">
+        <input type="text" class="file text" id="text-input" name="textImput" maxlength="60" placeholder="Digite o texto do seu meme">
+       
+        <input type="file"  class="fileImage" id="meme-insert" name="memeInsert">
+        <input type="text" name="file" id="file" class="file" placeholder="Selecione uma imagem" readonly="readonly">
+        <label class="btn" for="meme-insert"> Selecionar</label>
     </form>
 
     <section id="meme-image-container" class="meme-image-container">
