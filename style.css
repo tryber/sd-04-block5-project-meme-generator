@@ -25,33 +25,3 @@ footer {
   text-align: center;
 }
 
-.container {
-  border: 1px solid black;
-  color: yellow;
-  position: relative;
-
-}
-
-.text {
-  bottom: 20px;
-  left: 150px;
-  position: absolute;
-
-}
-
-.image {
-  left: 110px;
-  position: relative;
-  width: 275px;
-
-}
-
-.insert {
-  display: none;
-
-}
-
-.pointer {
-  cursor: pointer;
-
-}
