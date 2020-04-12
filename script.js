@@ -3,7 +3,7 @@ window.onload = function () {
   let memeImage = document.getElementById("meme-image");
   let imageButton = document.getElementById("image-button");
   let textButton = document.getElementById("text-button");
-  let textImput = document.getElementById("text-imput");
+  let textinput = document.getElementById("text-input");
   let textImage = document.getElementById("meme-text");
   let buttonTop = document.getElementById("position-top");
   let buttonBottom = document.getElementById("position-bottom");
@@ -19,7 +19,7 @@ window.onload = function () {
     imageInsert.addEventListener("input", loadImage);
   }
   function loadText() {
-    sessionStorage.setItem("text", textImput.value);
+    sessionStorage.setItem("text", textinput.value);
     let text = sessionStorage.getItem("text");
     textImage.innerHTML = text;
   }
