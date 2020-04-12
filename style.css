@@ -1,0 +1,57 @@
+body {
+  background: rgb(124, 97, 243);
+  font: normal 15pt Arial;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px;
+  height: 380px;
+  margin: auto;
+  padding: 15px;
+  width: 500px;
+
+}
+
+footer {
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
+
+.container {
+  border: 1px solid black;
+  color: yellow;
+  position: relative;
+
+}
+
+.text {
+  bottom: 20px;
+  left: 150px;
+  position: absolute;
+
+}
+
+.image {
+  left: 110px;
+  position: relative;
+  width: 275px;
+
+}
+
+.insert {
+  display: none;
+
+}
+
+.pointer {
+  cursor: pointer;
+
+}
