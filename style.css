@@ -1,0 +1,35 @@
+body {
+    background-color: darkgrey;
+}
+p {
+    text-align: center;
+}
+.meme-image-container {
+    background-color: white;
+    border: 2px solid black;
+    height: 400px;
+    margin: 30px auto;
+    width: 400px;
+}
+.meme-text {
+    font-weight: bold;
+    height: 20px;
+    margin: 30px auto;
+    position: absolute;
+    text-align: center;
+    width: 300px;
+}
+.text-input {
+    align-items: center;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    justify-content: center;
+    margin: 30px auto;
+    width: 300px;
+}
+.title {
+    margin: 10px auto;
+    text-align: center;
+}
