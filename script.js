@@ -16,7 +16,6 @@ window.onload = function () {
   function loadImage() {
     sessionStorage.setItem("image", URL.createObjectURL(imageInsert.files[0]));
     memeImage.src = sessionStorage.getItem("image");
-    imageInsert.addEventListener("input", loadImage);
   }
   function loadText() {
     sessionStorage.setItem("text", textinput.value);
@@ -37,7 +36,7 @@ window.onload = function () {
     textImage.style.fontSize = parseInt(textImage.style.fontSize) + (-2) + 'px'
   }
   textButton.addEventListener("click", loadText);
-  imageButton.addEventListener("click", loadImage);
+  imageInsert.addEventListener("input", loadImage);
   buttonTop.addEventListener("click", addTopPosition);
   buttonBottom.addEventListener("click", addBottomPosition);
   moreSizeButton.addEventListener('click', moreTextSize);
