@@ -9,7 +9,7 @@ form {
   position: relative;
 }
 
-.meme-image-container {
+#meme-image-container {
   background-color: rgb(255, 255, 255);
   border-color: rgb(0, 0, 0);
   border-style: solid;
@@ -23,13 +23,13 @@ form {
 
  
 }
-.meme-image {
+#meme-image {
   height: 768px;
   width: 1366px; 
   visibility: visible;
   z-index: 1;
 }
-.meme-text {
+#meme-text {
   bottom: 30px;
   font-size: 40px;
   font-weight: bold;

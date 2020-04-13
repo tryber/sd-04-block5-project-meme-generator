@@ -3,15 +3,16 @@ window.onload = function () {
   let memeImage = document.getElementById("meme-image");
   let textInput = document.getElementById("text-input");
   let textImage = document.getElementById("meme-text");
-  let memeContainer = document.getElementById("meme-image-container");
 
   function loadImage() {
     memeImage.src = URL.createObjectURL(memeInsert.files[0]);
   }
+
   function loadText() {
     textImage.innerHTML = textInput.value;
   }
 
   textInput.addEventListener("input", loadText);
+
   memeInsert.addEventListener("input", loadImage);
 };
