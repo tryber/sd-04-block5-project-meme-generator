@@ -2,6 +2,9 @@
   max-height: 768px;
   max-width: 1366px;
   } */
+  form {
+    margin-bottom: 8px;
+  }
   .classeMemeText {
       bottom: 50px;
       color: gray;
