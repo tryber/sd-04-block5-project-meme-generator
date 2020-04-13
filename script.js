@@ -14,8 +14,7 @@ window.onload = function () {
   textImage.style.marginBottom = 0;
   textImage.style.fontSize = 30 + 'px';
   function loadImage() {
-    sessionStorage.setItem("image", URL.createObjectURL(imageInsert.files[0]));
-    memeImage.src = sessionStorage.getItem("image");
+    memeImage.src = URL.createObjectURL(imageInsert.files[0]);
   }
   function loadText() {
     sessionStorage.setItem("text", textinput.value);
