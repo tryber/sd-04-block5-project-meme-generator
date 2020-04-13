@@ -1,5 +1,5 @@
 body {
-    background-color: burlywood;
+  background-color: burlywood;
 }
 header h1 {
   text-align: center;
@@ -10,16 +10,16 @@ form {
 }
 
 .meme-image-container {
-  background-color: white;
-  border-color: black;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(0, 0, 0);
   border-style: solid;
   border-width: 1px;
   left: auto;
   max-height: 768px;
   max-width: 1366px;
   position: relative;
-  min-width: 800px;
-  min-height: 600px;
+  min-width: 600px;
+  min-height: 400px;
   right: auto;
   text-align: center;
 }
