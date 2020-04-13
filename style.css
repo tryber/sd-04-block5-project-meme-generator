@@ -23,16 +23,14 @@ form {
   visibility: visible;
 }
 .meme-text {
-  z-index: 2;
-  position: absolute;
-  font-weight: bold;
   bottom: 30px;
+  font-size: 40px;
+  font-weight: bold;
+  left: 13%;
+  position: absolute;
+  right: 13%;
   text-align: center;
- font-size: 40px;
- text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0);
- left: 13%;
- right: 13%;
-
-
+  text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0);
+  visibility: visible;
+  z-index: 2;
 }
-
