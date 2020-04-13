@@ -17,14 +17,15 @@ window.onload = function(){
   let imgpath;
     function addImageToContainer(event){
     if (!img){
-    img = document.createElement("img");
-    img.id = "meme-image"
-    img.className = "classMemeImage"
-      }
+    // img = document.createElement("img");
+    // img.id = "meme-image"
+    // img.className = "classMemeImage"
+		//   }
+		const imgage = document.getElementById("meme-image");
     imgpath = memeinsertvalue.files[0].name;
     console.log(imgpath);
-    img.src = imgpath;
-    caixaImagem.appendChild(img);
+    imgage.src = imgpath;
+    //caixaImagem.appendChild(img);
   }
 }
 //button 1 change border style
@@ -66,4 +67,5 @@ document.body.addEventListener('click', function (event) {
 		}
 	}	
 		})
+	}
 
