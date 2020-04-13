@@ -51,3 +51,16 @@ window.onload = function(){
 		  document.getElementById("meme-image-container").style.borderStyle = "groove";
 		  document.getElementById("meme-image-container").style.borderWidth = '6px';
 	  }
+
+//  function load the list when broswer load the page
+const listItem2 = localStorage.getItem('taskQuantity');
+
+document.body.addEventListener('click', function (event) {
+	const idname = event.target.id;
+	const imgage = document.getElementById("meme-image");
+	for (i = 1; i < 5; i += 1){
+		if (idname.includes('meme-' + i)) {
+			imgage.src = '/imgs/meme' + i + '.jpeg';
+		}
+	}	
+		})
