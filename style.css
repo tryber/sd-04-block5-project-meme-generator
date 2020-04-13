@@ -3,7 +3,7 @@ header h1{
 }
 form{
     margin-left: 40%;
-;    position: relative;
+    position: relative;
 }
 
 
@@ -11,15 +11,13 @@ form{
 
 .meme-image-container{
     background-color: white;
-    border: solid 1px black;
+    border: 1px black solid;
     max-height: 768px;
-    max-width: 1367px;
-    min-height: 600px;
-    min-width: 800px;
+    max-width: 1366px;
     position: absolute;
     text-align: center  ;
-    left: 20%;
-    right: 20%;
+    left: auto;
+    right: auto;
 }
 .meme-image{
     margin: 0;
