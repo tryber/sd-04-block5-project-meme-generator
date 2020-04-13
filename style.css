@@ -21,3 +21,8 @@ footer {
   font-style: italic;
   text-align: center;
 }
+
+#meme-text {
+  position: absolute;
+  bottom: 200px;
+}
