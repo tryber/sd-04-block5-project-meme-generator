@@ -1,3 +1,6 @@
+body {
+    background-color: burlywood;
+}
 header h1 {
   text-align: center;
 }
@@ -8,11 +11,15 @@ form {
 
 .meme-image-container {
   background-color: white;
-  border: 1px black solid;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
   left: auto;
   max-height: 768px;
   max-width: 1366px;
-  position: absolute;
+  position: relative;
+  min-width: 800px;
+  min-height: 600px;
   right: auto;
   text-align: center;
 }
@@ -21,6 +28,7 @@ form {
   max-height: 768px;
   max-width: 1366px;
   visibility: visible;
+  z-index: 1;
 }
 .meme-text {
   bottom: 30px;
