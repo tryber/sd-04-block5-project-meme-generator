@@ -11,7 +11,6 @@ section {
   background: white;
   border-radius: 10px;
   box-shadow: 3px 3px 10px black;
-  height: 380px;
   margin: auto;
   padding: 15px;
   width: 500px;
@@ -21,39 +20,4 @@ footer {
   color: white;
   font-style: italic;
   text-align: center;
-}
-
-.container {
-  border: 1px solid black;
-  color: yellow;
-  float: left;
-  height: 275px;
-  position: relative;
-  top: 15px;
-  width: 275px;
-}
-
-.text {
-  left: 1px;
-  position: absolute;
-  top: 240px;
-
-}
-
-.image {
-  position: relative;
-  width: 275px;
-
-}
-
-.insert {
-  display: none;
-
-}
-
-.pointer {
-  cursor: pointer;
-  float: left;
-  margin-top: 300px;
-
 }
