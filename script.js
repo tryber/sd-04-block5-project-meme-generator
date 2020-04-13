@@ -19,7 +19,7 @@ window.onload = function(){
     if (!img){
     img = document.createElement("img");
     img.id = "meme-image"
-    img.className = "classNemeImage"
+    img.className = "classMemeImage"
       }
     imgpath = memeinsertvalue.files[0].name;
     console.log(imgpath);
@@ -39,15 +39,31 @@ button1event.addEventListener('click',button1changestyle);
 const button2event = document.querySelector('#button2');
 button2event.addEventListener('click',button2changestyle);
 	function button2changestyle (){
-		document.getElementById("meme-image-container").style.borderColor = "blue";
-		document.getElementById("meme-image-container").style.borderStyle = "double";
-		document.getElementById("meme-image-container").style.borderWidth = '5px';
+		document.getElementById('meme-image-container').style.borderColor = 'blue';
+		document.getElementById('meme-image-container').style.borderStyle = 'double';
+		document.getElementById('meme-image-container').style.borderWidth = '5px';
 	}
 	//button 3 change border style
 const button3event = document.querySelector('#button3');
 button3event.addEventListener('click',button3changestyle);
 	function button3changestyle (){
-		document.getElementById("meme-image-container").style.borderColor = "green";
-		document.getElementById("meme-image-container").style.borderStyle = "groove";
-		document.getElementById("meme-image-container").style.borderWidth = '6px';
+		document.getElementById('meme-image-container').style.borderColor = 'green';
+		document.getElementById('meme-image-container').style.borderStyle = 'groove';
+		document.getElementById('meme-image-container').style.borderWidth = '6px';
 	}
+
+		//click on small meme load the pic in the image container
+
+//  function load the list when broswer load the page
+const listItem2 = localStorage.getItem('taskQuantity');
+
+document.body.addEventListener('click', function (event) {
+	const idname = event.target.id;
+	const imgage = document.getElementById("meme-image");
+	for (i = 1; i < 5; i += 1){
+		if (idname.includes('meme-' + i)) {
+			imgage.src = '/imgs/meme' + i + '.jpeg';
+		}
+	}	
+		})
+
