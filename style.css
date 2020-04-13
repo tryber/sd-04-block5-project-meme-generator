@@ -22,3 +22,8 @@ footer {
   text-align: center;
 }
 
+.container {
+  border: 1px solid black;
+  height: 240px;
+  width: 240px;
+}
