@@ -25,20 +25,20 @@ footer {
 .container {
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(0, 0, 0);
-  width: 240px;
   height: 240px;
   position: relative;
+  width: 240px;
 }
 
 .meme-image {
+height: 240px;
 width: 240px;
-position: 240px;
 }
 
 .meme-text {
-  position: absolute;
   bottom: 50px;
-  word-wrap: break-word;
+  position: absolute;
   text-align: center;
   width: 100%;
+  word-wrap: break-word;
 }
