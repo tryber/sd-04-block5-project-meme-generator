@@ -13,20 +13,38 @@ window.onload = function(){
 	let imageElement = document.querySelector('.classNemeImage');
   //buttonevent.addEventListener('click', addImageToContainer);
   memeinsertvalue.addEventListener('change',addImageToContainer);
-  let img;
-  let imgpath;
+
     function addImageToContainer(event){
-    if (!img){
-			//alert('dentro de if !img');
-    img = document.createElement("img");
-    img.id = "meme-image"
-    img.className = "classNemeImage"
-      }
-    imgpath = memeinsertvalue.files[0].name;
-    console.log(imgpath);
-    img.src = imgpath;
-    caixaImagem.appendChild(img);
-  }
+			const caixaImagem = document.querySelector('#meme-image-container');
+			const idname = event.target.id;
+			const imgage = document.getElementById("meme-image");
+			let imageElement = document.querySelector('.classNemeImage');
+			if (!imageElement){
+				let img;
+				let imgpath;
+				console.log('existe PAS');
+				img = document.createElement("img");
+				img.id = "meme-image"
+				img.className = "classNemeImage"
+				caixaImagem.appendChild(img);
+			}
+			imgpath = memeinsertvalue.files[0].name;
+			imgage.src = imgpath;
+			}
+
+
+
+  //   if (!img){
+	// 		//alert('dentro de if !img');
+  //   img = document.createElement("img");
+  //   img.id = "meme-image"
+  //   img.className = "classNemeImage"
+  //     }
+  //   imgpath = memeinsertvalue.files[0].name;
+  //   console.log(imgpath);
+  //   img.src = imgpath;
+  //   caixaImagem.appendChild(img);
+  // }
 }
 //button 1 change border style
 const button1event = document.querySelector('#button1');
@@ -54,22 +72,14 @@ button3event.addEventListener('click',button3changestyle);
 	}
 	//function to display inside image the clicked meme pic
 	document.body.addEventListener('click', function (event) {
-		//alert('click');
 		const caixaImagem = document.querySelector('#meme-image-container');
 		const idname = event.target.id;
-		
 		let imageElement = document.querySelector('.classNemeImage');
-			// 	if (!imageElement){
-
-			// console.log('existe PAS');
-			// 	}
 		if (!imageElement){
 			console.log('existe PAS');
 			img = document.createElement("img");
 			img.id = "meme-image"
 			img.className = "classNemeImage"
-			//img.src = '';
-			//img.src = '/imgs/meme1.jpeg';
 			caixaImagem.appendChild(img);
 		}
 		for (i = 1; i < 5; i += 1){
@@ -79,13 +89,6 @@ button3event.addEventListener('click',button3changestyle);
 			}
 		}	
 		})
-	// 	if (!img){
-	// 		alert('dentro de if !img');
-    // img = document.createElement("img");
-    // img.id = "meme-image"
-	// 	img.className = "classNemeImage"
-		
-    //   }
-		//
+
 
 		
