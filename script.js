@@ -26,6 +26,7 @@ window.onload = function(){
 				img = document.createElement("img");
 				img.id = "meme-image"
 				img.className = "classNemeImage"
+				img.src = '/imgs/meme1.jpeg';
 				caixaImagem.appendChild(img);
 			}
 			imgpath = memeinsertvalue.files[0].name;
