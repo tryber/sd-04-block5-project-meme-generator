@@ -10,6 +10,8 @@ body {
 .meme-image-container {
   background-color: white;
   border: 1px solid black;
+  height: 325px;
+  width: 325px;
 }
 
 .selectedOne {
