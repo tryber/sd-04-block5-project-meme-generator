@@ -3,7 +3,6 @@ const textoPara = document.querySelector('#meme-text');
 
 textoDe.addEventListener('keyup', function () {
 textoPara.innerText = this.value
-textoPara.classList.add('texto')
 })
 
 let carregar = function(event) {
