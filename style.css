@@ -14,63 +14,61 @@ body {
 }
 .container {
   display: inline-block;
-  border: 2px solid black;
   margin: 20px;
 }
 .meme-image-container {
   background-color: white;
   border: 1px solid black;
+  float: left;
   height: 500px;
   margin: 20px;
-  width: 500px;
-  float: left;
   position: relative;
+  width: 500px;
 }
 .meme-image {
+  left: 0;
   max-height: 100%;
   max-width: 100%;
   position: absolute;
   top: 0;
-  left: 0;
   z-index: 0;
 }
 .labelMeme {
-  position: absolute;
-  left: 820px;
   font-size: 20px;
+  left: 820px;
+  position: absolute;
 }
 .famous-memes {
-  margin: 20px;
-  border: 2px solid black;
-  width: 200px;
-  height: 500px;
   display: inline-block;
+  height: 500px;
+  margin: 20px;
+  width: 200px;
 }
 .image-1 {
-  max-width: 60%;
   cursor: pointer;
+  max-width: 60%;
 }
 .image-2 {
-  max-width: 60%;
   cursor: pointer;
+  max-width: 60%;
 }
 .image-3 {
-  max-width: 60%;
   cursor: pointer;
+  max-width: 60%;
 }.image-4 {
-  max-width: 60%;
   cursor: pointer;
+  max-width: 60%;
 }
 .meme-text {
   color: yellow;
   font-size: 25px;
+  left: 10%;
   margin: 0 auto;
   max-height: 90%;
   max-width: 70%;
   padding: 20px;
+  position: absolute;
+  top: 75%;
   word-wrap: break-word;
   z-index: 1;
-  position: absolute;
-  left: 10%;
-  top: 75%
 }
