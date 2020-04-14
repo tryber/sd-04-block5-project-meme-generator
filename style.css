@@ -12,15 +12,7 @@ header {
   text-align: center;
   width: auto;
 }
-.conteudo {
-  align-items: center;
-  border: darkgreen solid 2px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 20px;
-}
+
 .meme-image-container {
   border: black solid 1px;
 }
