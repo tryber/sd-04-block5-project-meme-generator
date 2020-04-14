@@ -16,26 +16,35 @@
       <input type="text" id="text-input" class="text-input" name="text-input" oninput="writeOnImg();">
     </form>
   </div>
-  <!-- Image upload section  -->
-    <div class="meme-upload">
-      <form>
-        <label for="meme-insert">Choose your image</label><br>
-        <input type="file" id="meme-insert" class="meme-insert" name="meme-insert">
-      </form>
-    </div>
+<!-- Image upload section  -->
+  <div class="meme-upload">
+    <form>
+      <label for="meme-insert">Choose your image</label><br>
+      <input type="file" id="meme-insert" class="meme-insert" name="meme-insert">
+    </form>
+  </div>
 <!-- Border buttons -->
-    <div>
-      <label>Choose your border type</label><br>
-      <button id="button1" class="button1">Border 1</button>
-      <button id="button2" class="button2">Border 2</button>
-      <button id="button3" class="button3">Border 3</button>
-    </div>
+  <div>
+    <label>Choose your border type</label><br>
+    <button id="button1" class="button1">Border 1</button>
+    <button id="button2" class="button2">Border 2</button>
+    <button id="button3" class="button3">Border 3</button>
+  </div>
 <!-- Meme section -->
-  <section id="meme-image-container" class="meme-image-container">
-    <img id="meme-image" class="meme-image" src="" alt="User image">
-    <p id="meme-text" class="meme-text"></p>
-  </section>
-
+  <div class=container>
+    <label class="labelMeme">Use famous memes:</label><br>
+    <section id="meme-image-container" class="meme-image-container">
+      <img id="meme-image" class="meme-image" src="" alt="User image">
+      <p id="meme-text" class="meme-text"></p>
+    </section>
+<!-- Famous memes -->
+    <section class="famous-memes">
+      <img id="meme-1" class="image-1" src="meme1.jpeg" alt="Nazare thinking">
+      <img id="meme-2" class="image-2" src="meme2.jpeg" alt="Gavin boy">
+      <img id="meme-3" class="image-3" src="meme3.jpeg" alt="Girl laughing">
+      <img id="meme-4" class="image-4" src="meme4.jpeg" alt="Chloe">
+    </section>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
