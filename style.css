@@ -4,9 +4,7 @@ body {
 }
 
 .meme-image {
-  left: 48px;
   position: absolute;
-  top: 250px;
 }
 
 .meme-image-container {
