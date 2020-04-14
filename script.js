@@ -38,7 +38,8 @@ window.onload = function(){
 			// }
 
 
-
+		let img;
+		let imgpath;
     if (!img){
 			//alert('dentro de if !img');
     img = document.createElement("img");
