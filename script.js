@@ -17,6 +17,7 @@ window.onload = function(){
   let imgpath;
     function addImageToContainer(event){
     if (!img){
+			alert('dentro de if !img');
     img = document.createElement("img");
     img.id = "meme-image"
     img.className = "classNemeImage"
@@ -51,3 +52,21 @@ button3event.addEventListener('click',button3changestyle);
 		document.getElementById("meme-image-container").style.borderStyle = "groove";
 		document.getElementById("meme-image-container").style.borderWidth = '6px';
 	}
+	//function to display inside image the clicked meme pic
+	document.body.addEventListener('click', function (event) {
+		alert('click');
+	// 	if (!img){
+	// 		alert('dentro de if !img');
+    // img = document.createElement("img");
+    // img.id = "meme-image"
+	// 	img.className = "classNemeImage"
+		
+    //   }
+		const idname = event.target.id;
+		const imgage = document.getElementById("meme-image");
+		for (i = 1; i < 5; i += 1){
+			if (idname.includes('meme-' + i)) {
+				imgage.src = '/imgs/meme' + i + '.jpeg';
+			}
+		}	
+			})
