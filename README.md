@@ -104,7 +104,7 @@ Você deve criar um site que permita o upload de uma imagem e a inserção de um
 ## Dicas
 
 - Para fazer este trabalho, você deverá atribuir ao texto que vai sobre a imagem o estilo `position: absolute;`. Leia mais sobre ele [aqui](https://www.w3schools.com/css/css_positioning.asp).
-- Para receber os dados de quem usa o site, é preciso utilizar a tag [`<input>`](https://www.w3schools.com/tags/tag_input.asp). Ela faz parte do conteúdo sobre forms, que veremos mais adiante. Por hora, basta saber que você pode colocá-la dentro de um elemento `<form></form>` para que ela funcione. A partir daí, o desafio é fazer o resto! E [aqui](https://www.w3schools.com/html/html_form_input_types.asp) temos mais conteúdo sobre o `<input>`.
+- Para receber os dados de quem usa o site, é preciso utilizar a tag [`<input>`](https://www.w3schools.com/tags/tag_input.asp). Ela faz parte do conteúdo sobre forms, que veremos mais adiante. Por ora, basta saber que você pode colocá-la dentro de um elemento `<form></form>` para que ela funcione. A partir daí, o desafio é fazer o resto! E [aqui](https://www.w3schools.com/html/html_form_input_types.asp) temos mais conteúdo sobre o `<input>`.
 - Para colocar sua página no [GitHub Pages](https://pages.github.com/), não é necessário remover o conteúdo que já está lá, você pode apenas adicionar essa nova página. Para isso, todo o conteúdo desse projeto deve ser colocado na pasta `/projetos/meme-generator`.
 
 ---
