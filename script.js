@@ -29,3 +29,23 @@ button3.addEventListener('click', function() {
   let imageContainer = document.getElementById("meme-image-container");
   imageContainer.className = 'meme-image-container selectedThree';
 });
+
+let memeUm = document.getElementById("meme-1");
+memeUm.addEventListener('click', function() {
+  memeImage.src = "imgs/meme1.jpeg";
+});
+
+let memeDois = document.getElementById("meme-2");
+memeDois.addEventListener('click', function() {
+  memeImage.src = "imgs/meme2.jpeg";
+});
+
+let memeTres = document.getElementById("meme-3");
+memeTres.addEventListener('click', function() {
+  memeImage.src = "imgs/meme3.jpeg";
+});
+
+let memeQuatro = document.getElementById("meme-4");
+memeQuatro.addEventListener('click', function() {
+  memeImage.src = "imgs/meme4.jpeg";
+});
