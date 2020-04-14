@@ -22,7 +22,7 @@ footer {
   text-align: center;
 }
 
-.container {
+.meme-image-container {
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(0, 0, 0);
   height: 240px;
@@ -41,4 +41,28 @@ width: 240px;
   text-align: center;
   width: 100%;
   word-wrap: break-word;
+}
+
+.button1 {
+  background-color: rgb(255, 255, 255);
+  border: 3px dashed red;
+  height: 240px;
+  position: relative;
+  width: 240px;
+}
+
+.button2 {
+  background-color: rgb(255, 255, 255);
+  border: 5px double blue;
+  height: 240px;
+  position: relative;
+  width: 240px;
+}
+
+.button3 {
+  background-color: rgb(255, 255, 255);
+  border: 6px groove green;
+  height: 240px;
+  position: relative;
+  width: 240px;
 }
