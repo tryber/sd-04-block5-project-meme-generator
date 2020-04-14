@@ -10,14 +10,14 @@ window.onload = function(){
   const caixaImagem = document.querySelector('#meme-image-container');
   const memeinsertvalue = document.querySelector('#meme-insert');
   const buttonevent = document.querySelector('#buttonLoadImage');
-
+	let imageElement = document.querySelector('.classNemeImage');
   //buttonevent.addEventListener('click', addImageToContainer);
   memeinsertvalue.addEventListener('change',addImageToContainer);
   let img;
   let imgpath;
     function addImageToContainer(event){
     if (!img){
-			alert('dentro de if !img');
+			//alert('dentro de if !img');
     img = document.createElement("img");
     img.id = "meme-image"
     img.className = "classNemeImage"
@@ -54,7 +54,31 @@ button3event.addEventListener('click',button3changestyle);
 	}
 	//function to display inside image the clicked meme pic
 	document.body.addEventListener('click', function (event) {
-		alert('click');
+		//alert('click');
+		const caixaImagem = document.querySelector('#meme-image-container');
+		const idname = event.target.id;
+		
+		let imageElement = document.querySelector('.classNemeImage');
+			// 	if (!imageElement){
+
+			// console.log('existe PAS');
+			// 	}
+		if (!imageElement){
+			console.log('existe PAS');
+			img = document.createElement("img");
+			img.id = "meme-image"
+			img.className = "classNemeImage"
+			//img.src = '';
+			//img.src = '/imgs/meme1.jpeg';
+			caixaImagem.appendChild(img);
+		}
+		for (i = 1; i < 5; i += 1){
+			const imgage = document.getElementById("meme-image");
+			if (idname.includes('meme-' + i)) {
+				imgage.src = '/imgs/meme' + i + '.jpeg';
+			}
+		}	
+		})
 	// 	if (!img){
 	// 		alert('dentro de if !img');
     // img = document.createElement("img");
@@ -62,11 +86,6 @@ button3event.addEventListener('click',button3changestyle);
 	// 	img.className = "classNemeImage"
 		
     //   }
-		const idname = event.target.id;
-		const imgage = document.getElementById("meme-image");
-		for (i = 1; i < 5; i += 1){
-			if (idname.includes('meme-' + i)) {
-				imgage.src = '/imgs/meme' + i + '.jpeg';
-			}
-		}	
-			})
+		//
+
+		
