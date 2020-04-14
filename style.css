@@ -1,0 +1,26 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+}
+header {
+  background-color: darkgreen;
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+  height: 150px;
+  line-height: 2em;
+  text-align: center;
+  width: auto;
+}
+.conteudo {
+  align-items: center;
+  border: darkgreen solid 2px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+.meme-image-container {
+  border: black solid 1px;
+}
