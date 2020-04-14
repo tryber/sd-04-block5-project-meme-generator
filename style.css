@@ -1,0 +1,104 @@
+body {
+  background: rgb(124 , 97 , 243);
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px black;
+  margin: auto;
+  padding: 15px;
+  width: 500px;
+}
+
+footer {
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
+
+.meme-image-container {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  height: 240px;
+  position: relative;
+  width: 240px;
+}
+
+.meme-image {
+height: 240px;
+width: 240px;
+}
+
+.meme-text {
+  bottom: 50px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.button1 {
+  background-color: rgb(255, 255, 255);
+  border: 3px dashed red;
+  height: 240px;
+  position: relative;
+  width: 240px;
+}
+
+.button2 {
+  background-color: rgb(255, 255, 255);
+  border: 5px double blue;
+  height: 240px;
+  position: relative;
+  width: 240px;
+}
+
+.button3 {
+  background-color: rgb(255, 255, 255);
+  border: 6px groove green;
+  height: 240px;
+  position: relative;
+  width: 240px;
+}
+
+.imgUm {
+  bottom: 400px;
+  height: 50px;
+  left: 700px;
+  overflow: hidden;
+  position: absolute;
+  width: 50px;
+}
+
+.imgDois {
+  bottom: 400px;
+  height: 50px;
+  left: 780px;
+  overflow: hidden;
+  position: absolute;
+  width: 50px;
+}
+
+.imgTres {
+  bottom: 300px;
+  height: 50px;
+  left: 700px;
+  overflow: hidden;
+  position: absolute;
+  width: 50px;
+}
+
+.imgQuatro {
+  bottom: 300px;
+  height: 50px;
+  left: 780px;
+  overflow: hidden;
+  position: absolute;
+  width: 50px;
+}

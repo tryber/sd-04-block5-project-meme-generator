@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Projeto SD04 MG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Meme Generator</h1>
+    </header>
+    <section>
+        <form>
+            <input id="text-input" type="text" maxlength="60">
+            <input id="meme-insert" type="file" value="Selecione a Imagem" onchange="carregar(event)">
+        </form>
+        <div id="meme-image-container" class="meme-image-container">
+            <img id="meme-image" src="background.jpeg" class="meme-image">
+            <p id="meme-text" class="meme-text"></p>
+        </div>
+    </section>
+    <section>
+        <button id="button1">Opção 1</button>
+        <button id="button2">Opção 2</button>
+        <button id="button3">Opção 3</button>
+    </section>
+    <form>
+        <aside>
+            <img id="meme-1" class="imgUm" src="imgs/meme1.jpeg" alt="">
+            <img id="meme-2" class="imgDois" src="imgs/meme2.jpeg" alt="">
+            <img id="meme-3" class="imgTres" src="imgs/meme3.jpeg" alt="">
+            <img id="meme-4" class="imgQuatro" src="imgs/meme4.jpeg" alt="">
+        </aside>
+    </form>
+    <footer>
+        <p>Leonardo Xavier 04/2020</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
