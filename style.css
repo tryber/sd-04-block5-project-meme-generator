@@ -16,4 +16,5 @@ h1 {
 
 .meme-image-container {
   border: rgb(0 , 0 , 0) solid 1px;
+  background-color: rgb( 255 , 255 , 255);
 }
