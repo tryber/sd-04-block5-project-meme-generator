@@ -10,19 +10,44 @@
 
 <body>
 
-        <h1>Meme Generator</h1>
+    <header>Meme Generator</header>
+    <!--cabeçaçho-->
+    <section class="esquerda">
+        <!--input-->
+        <p>Estilo de borda:<br>
+            <button id="button1">Estilo 1</button>
+            <button id="button2">Estilo 2</button>
+            <button id="button3">Estilo 3</button>
+        
+        <form>
+            <label for="text-input">Texto:</label>
+            <input type="text" id="text-input" maxlength="60" autocomplete="off">
+            <br>
+            <label for="meme-insert">Upload imagem:</label>
+            <br>
+            <!--upload pelo usuario-->
+            <input type="file" id="meme-insert"><br>
+            <!--para usuario escolher-->
+            <div class="imgdb">
+                Ou escolha uma imagem da galeria:<br>
+                <img id="meme-1" class="little-image" onclick="openImage('imgs/meme1.jpeg')" src="imgs/meme1.jpeg">
+                <img id="meme-2" class="little-image" onclick="openImage('imgs/meme2.jpeg')" src="imgs/meme2.jpeg"><br>
+                <img id="meme-3" class="little-image" onclick="openImage('imgs/meme3.jpeg')" src="imgs/meme3.jpeg">
+                <img id="meme-4" class="little-image" onclick="openImage('imgs/meme4.jpeg')" src="imgs/meme4.jpeg">
+            </div>
 
-    <form>
-        <label for="text-input">Texto:</label>
-        <input type="text" id="text-input" maxlength="60" autocomplete="off">
+        </form>
+    </p>
+    </section>
+    <!--estilos-->
+    <section class="direita">
         <br>
-        <label for="meme-insert">Imagem:</label>
-        <input type="file" id="meme-insert">
-    </form>
-    <div id="meme-image-container" class="meme-image-container">
-        <img id="meme-image" class="meme-image" src="" alt="meme image">
-        <p id="meme-text" class="meme-text"></p>
-    </div>
+        <div id="meme-image-container" class="meme-image-container">
+            <img id="meme-image" class="meme-image" src="" alt="meme image">
+            <p id="meme-text" class="meme-text"></p>
+        </div>
+    </section>
+
 </body>
 
 </html>
