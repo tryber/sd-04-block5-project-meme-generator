@@ -17,11 +17,14 @@ imgInput.addEventListener('change', (event) => {
 });
 const btnAll = document.querySelectorAll('button');
 btnAll[0].addEventListener('click', () => {
-  imgContainer.classList.add('btn1');
+  imgContainer.classList.remove(...imgContainer.classList);
+  imgContainer.classList.add('meme-image-container', 'btn1');
 });
 btnAll[1].addEventListener('click', () => {
-  imgContainer.classList.add('btn2');
+  imgContainer.classList.remove(...imgContainer.classList);
+  imgContainer.classList.add('meme-image-container', 'btn2');
 });
 btnAll[2].addEventListener('click', () => {
-  imgContainer.classList.add('btn3');
+  imgContainer.classList.remove(...imgContainer.classList);
+  imgContainer.classList.add('meme-image-container', 'btn3');
 });
