@@ -1,5 +1,6 @@
 const upperTextInput = document.querySelector('#text-input');
 const lowerTextImput = document.querySelector('#lower-text-imput');
+const fontSize = document.querySelector('#font-size');
 const memeImageInput = document.querySelector('#meme-insert');
 const memeImage = document.querySelector('#meme-image');
 const borderBtnOne = document.querySelector('#button1');
@@ -30,6 +31,11 @@ borderBtnTwo.addEventListener('click', () => {
 });
 borderBtnThree.addEventListener('click', () => {
   changeBorder(memeContainer, 3);
+});
+
+fontSize.addEventListener('input', (e) => {
+  document.querySelector('#lower-text').style.fontSize = `${e.target.value}px`;
+  document.querySelector('#meme-text').style.fontSize = `${e.target.value}px`;
 });
 
 featuredImgs.forEach((img) => {
