@@ -2,13 +2,10 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 0;
 }
-.imgdb {
-  float: left;
-}
 .imgdb img{
-  width: 100px;
   height: 100px;
   justify-self: center;
+  width: 100px;
 }
 .meme-image {
   width: 400px;
@@ -30,12 +27,12 @@ form{
   margin: 15px 0 15px 0;
 }
 form input[type=text] {
-  width: 100%;
   box-sizing: border-box;
+  width: 100%;
 }
 button{
-  display: inline;
   align-items: center;
+  display: inline;
 }
 section .meme-image-container {
   background-color: rgb( 255 , 255 , 255);
