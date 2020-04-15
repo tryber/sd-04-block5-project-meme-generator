@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Meme Generator</h1>
+  </header>
+
+  <section class="meme-setup">
+    <form>
+      <input type="text" placeholder="Type something..." maxlength="60" id="text-input" class="text-input">
+      <label for="meme-insert" class="meme-insert-label">Choose an image</label>
+      <input type="file" name="meme-insert" id="meme-insert" class="meme-insert">
+    </form>
+    <div id="meme-image-container" class="meme-image-container">
+      <p id="meme-text" class="meme-text"></p>
+      <img id="meme-image" class="meme-image" alt="meme-image">
+    </div>
+  </section>
+
+  <section class="border-config">
+    <h2>Select a border</h2>
+    <div class="buttons">
+      <button id="button1" class="button1">Dashed Red</button>
+      <button id="button2" class="button2">Double Blue</button>
+      <button id="button3" class="button3">Groove Green</button>
+    </div>
+  </section>
+
+  <section class="meme-list">
+    <h2>Select a meme</h2>
+    <div class="meme-list-container">
+      <img src="./imgs/meme1.jpeg" alt="tom meme" id="meme-1" class="meme1">
+      <img src="./imgs/meme2.jpeg" alt="pingu meme" id="meme-2" class="meme2">
+      <img src="./imgs/meme3.jpeg" alt="stonks meme" id="meme-3" class="meme3">
+      <img src="./imgs/meme4.jpeg" alt="coffin dance meme" id="meme-4" class="meme4">
+    </div>
+  </section>
+
+  <script src="./script.js"></script>
+</body>
+</html>
