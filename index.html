@@ -14,15 +14,12 @@
     </header>
 
     <form>
-        <label for="text-input">Texto: </label>
+        <label for="text-input">Put your text here:</label>
+        <input type="text" id="text-input" maxlength="60" autocomplete="off">
         <br>
-        <input type="text" id="text-input" maxlength="60">
-        <br>
-        <label for="meme-insert">Imagem:</label>
-        <br>
+        <label for="meme-insert">Pick a image:</label>
         <input type="file" id="meme-insert">
     </form>
-
     <div id="meme-image-container" class="meme-image-container">
         <img id="meme-image" class="meme-image" src="" alt="meme image">
         <p id="meme-text" class="meme-text"></p>
