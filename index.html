@@ -10,25 +10,35 @@
 </head>
 
 <body>
-  <header>
-    <h1>The Memenator</h1>
-  </header>
   <main>
     <section id="meme" class="page-section flex">
-      <div id="meme-controls" class="meme-controls flex">
-        <form action="#">
-          <input id="text-input" type="text" maxlength="60">
-          <br>
-          <input id="lower-text-imput" type="text">
-          <br>
-          <label for="meme-insert">Inserir imagem</label>
-          <input type="file" id="meme-insert" maxlength="60">
-        </form>
-        <div>
+      <div class="full">
+        <header>
+          <h1>The <span>Memenator</span></h1>
+        </header>
+        <div id="meme-controls" class="meme-controls flex">
+          <form action="#">
+            <label for="meme-insert">Chose meme image</label>
+            <br><br>
+            <input type="file" id="meme-insert" maxlength="60">
+            <br><br>
+            <input id="text-input" type="text" maxlength="60" placeholder="Upper Text">
+            <br><br>
+            <input id="lower-text-imput" type="text" placeholder="Lower Text">
+          </form>
+          <div style="margin-right: 35px;">
+            Border style
+            <br><br>
+            <div>
+              <button id="button1">Borda 1</button>
+              <button id="button2">Borda 2</button>
+              <button id="button3">Borda 3</button>
+            </div>
+          </div>
           <div>
-            <button id="button1">Usar</button>
-            <button id="button2">Usar</button>
-            <button id="button3">Usar</button>
+            Font size
+            <br><br>
+            <input type="number" name="font-size" id="font-size" max="50" min="5" value="30">
           </div>
         </div>
       </div>
@@ -41,7 +51,7 @@
       </div>
     </section>
     <section id="featured-images" class="page-section">
-      <h2>Fetured Images</h2>
+      <h2>Fetured Memes</h2>
       <div class="flex">
         <img src="./imgs/meme1.jpeg" id="meme-1" class="meme-thumb">
         <img src="./imgs/meme2.jpeg" id="meme-2" class="meme-thumb">
