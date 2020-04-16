@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+      <form>
+        <label for="text-input"> Coloque seu texto aqui:</label>
+        <input id="text-input" class="text-input" type:"text" maxlength="60"></input><br>
+        <br>
+        <label for="meme-input"> Insira sua imagem</label>
+        <input type="file" id="meme-insert" class="meme-insert" ></input><br>
+        </form>
+        <div id="meme-image-container" class="meme-image-container">
+
+          <p id="meme-text" class="meme-text"></p>
+          <img id="meme-image" class="meme-image" src="./imgs/meme1.jpeg" alt="" />
+        </div>
+
+    <button id="meme-1"class="button-meme">Imagem 1</button>
+      <button id="meme-2"class="button-meme">Imagem 2</button>
+      <button id="meme-3"class="button-meme">Imagem 3</button>
+      <button id="meme-4"class="button-meme">Imagem 4</button>
+
+      <button id="button1">Moldura 1</button>
+      <button id="button2">Moldura 2</button>
+      <button id="button3">Moldura 3</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
