@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Faça um Meme você mesmo!</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <header id="header" class="header">Gerador de Meme</header>
+
+        <form id="form" class="form">
+            <label for="memeText"> Já sabe o que vai escrever? Insira aqui o texto do seu Meme: </label>
+            <input type="text" id="text-input" name="memeText" name="memeText" maxlength="60"><br>
+            <label for="memeImage"> Qual imagem você escolherá? </label>
+            <input type="file" id="meme-insert" name="memeImage"><br>
+        </form>
+
+        <section id="meme-image-container" class="meme-image-container">
+            <img src="" class="meme-image" id="meme-image" alt="meme image">
+            <p id='meme-text' class="meme-text"></p>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>
