@@ -30,8 +30,11 @@ btnAll[2].addEventListener('click', () => {
 });
 
 const imgAll = document.querySelectorAll('.thumb');
-for (let i = 0; i < 3; i += 1) {
+for (let i = 0; i < 4; i += 1) {
   imgAll[i].addEventListener('click', () => {
+    if (this.document.querySelector('#meme-image') != null) {
+      imgContainer.removeChild(document.querySelector('#meme-image'));
+    }
     const newImg = document.createElement('img');
     newImg.id = 'meme-image';
     newImg.className = 'meme-image';
