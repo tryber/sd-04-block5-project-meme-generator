@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MEME GENERATOR</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>MEME GENERATOR</h1>
+      </div>
+    </header>
+    <section class="container">
+      <div class="item">
+        <form>
+          <label for="text-input">Insert Meme Text!</label>
+          <input
+            type="text"
+            id="text-input"
+            placeholder="MEMEFY!"
+            maxlength="60"
+          />
+          <br>
+          <label for="meme-insert">Select Image File!</label>
+          <input
+            type="file"
+            class="meme-insert"
+            id="meme-insert"
+          />
+        </form>
+        <button id="button1" class="btn1">Frame Style 1</button>
+        <button id="button2" class="btn2">Frame Style 2</button>
+        <button id="button3" class="btn3">Frame Style 3</button>
+      </div>
+      <div id="meme-image-container" class="meme-image-container btn0">
+        <p class="meme-text" id="meme-text">MEMEFY!</p>
+      </div>
+      <div class="container imgs">
+        <img src="imgs/meme1.jpeg" alt="" id="meme-1" class="thumb">
+        <img src="imgs/meme2.jpeg" alt="" id="meme-2" class="thumb">
+        <img src="imgs/meme3.jpeg" alt="" id="meme-3" class="thumb">
+        <img src="imgs/meme4.jpeg" alt="" id="meme-4" class="thumb">
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p class="footer">MEME GENERATOR BY PEDRO T. PIRES FOR TRYBE COURSE</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
