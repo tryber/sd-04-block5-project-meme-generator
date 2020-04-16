@@ -28,3 +28,14 @@ btnAll[2].addEventListener('click', () => {
   imgContainer.classList.remove(...imgContainer.classList);
   imgContainer.classList.add('meme-image-container', 'btn3');
 });
+
+const imgAll = document.querySelectorAll('.thumb');
+for (let i = 0; i < 3; i += 1) {
+  imgAll[i].addEventListener('click', () => {
+    const newImg = document.createElement('img');
+    newImg.id = 'meme-image';
+    newImg.className = 'meme-image';
+    newImg.src = imgAll[i].getAttribute('src');
+    imgContainer.appendChild(newImg);
+  });
+}
