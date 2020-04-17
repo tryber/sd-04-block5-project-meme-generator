@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+  </head>
+
+  <body>
+    <h1 id="title" class="title">Meme Generator</h1>
+
+    <section id="container" class="container">
+      <form action="">
+        <label for="text-input">Insira o texto que você quer colocar no seu meme:</label><br>
+        <input id="text-input" type="text" maxlength="60"><br>
+
+        <label for="meme-image">Escolha a imagem para fazer o upload</label>
+        <input type="file" id="meme-insert">
+      </form>
+
+      <button id="button1">Borda Vermelha</button>
+      <button id="button2">Borda Azul</button>
+      <button id="button3">Borda Verde</button>
+      <br>
+      <button id="reset-btn" class="reset-btn">Resetar Borda</button>
+
+      <img src="imgs/meme1.jpeg" alt="Meme do Fry" id="meme-1" class="meme">
+      <img src="imgs/meme2.jpeg" alt="Meme do Willy Wonka" id="meme-2" class="meme">
+      <img src="imgs/meme3.jpeg" alt="Meme do Philosoraptor" id="meme-3" class="meme">
+      <img src="imgs/meme4.jpeg" alt="Meme do success kid" id="meme-4" class="meme">
+
+    </section>
+
+    <section id="meme-image-container" class="meme-image-container">
+      <img src="" alt="Imagem escolhida pelo usuário" id="meme-image" class="meme-image" width="300">
+      <p id="meme-text" class="meme-text"></p>
+    </section>
+
+
+    <script src="script.js"></script>
+  </body>
+
+</html>
