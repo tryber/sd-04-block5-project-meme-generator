@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(103, 112, 122);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    padding: 15px;
+    width: 1000px;
+}
+
+footer {
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
+.meme-image-container {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid black;
+    height: 500px;
+    width: 700px;
+}
+
+.meme-text {
+    color: black;
+    position: absolute;
+}
