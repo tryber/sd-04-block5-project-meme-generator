@@ -1,0 +1,23 @@
+div {
+  background-color: white;
+  border: 1px solid black;
+  clear: both;
+  margin-top: 55px;
+  overflow: auto;
+}
+
+p {
+  left: 14px;
+  position: absolute;
+  top: 172px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  float: left;
+  margin-right: 15px;
+}

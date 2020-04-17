@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meme Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <form>
+      <label for="img-input">Escolha a imagem do meme:</label><br>
+      <input type="file" name="meme-insert" id="meme-insert"><br><br>
+
+      <label for="text-input">Digite o texto do meme:</label><br>
+      <input type="text" name="text-input" id="text-input" maxlength="60">
+    </form>
+
+    <ul>
+      <li><button id="button1">3px - Dashed - Red</button></li>
+      <li><button id="button2">5px - Double - Blue</button></li>
+      <li><button id="button3">6px - Groove - Green</button></li>
+    </ul>
+
+    <ul>
+      <li><img src="imgs/meme1.jpeg" id="meme-1" alt="meme 1" width="50"></li>
+      <li><img src="imgs/meme2.jpeg" id="meme-2" alt="meme 2" width="50"></li>
+      <li><img src="imgs/meme3.jpeg" id="meme-3" alt="meme 3" width="50"></li>
+      <li><img src="imgs/meme4.jpeg" id="meme-4" alt="meme 4" width="50"></li>
+    </ul>
+
+    <div id="meme-image-container">
+      <img src="dog-mask.png" id="meme-image" alt="meme principal">
+
+      <p id="meme-text"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
