@@ -9,27 +9,30 @@ h1 {
   width: 100%;
 }
 #meme-image {
+  display: flex;
   height: 700px;
   margin: auto;
-  position: absolute;
-  width: 700px;
+  /*position: absolute;
+  width: 700px;*/
   z-index: 1;
 }
 #meme-image-container {
   background-color: rgb(255,255,255);
   border: 1px solid rgb(0, 0, 0);
-  height: 750px;
+  display: flex;
+  /*height: 750px;
   margin: auto;
   padding:2px;  
   position: relative;
   top: 20px;
-  width: 750px;
+  width: 750px;*/
 }
 #meme-text {
   color: white;
+  justify-content: center;
   font-family: Impact;
   font-size: 60px;
-  max-width: 750px;
+  width: 100%;
   position: absolute;
   text-shadow: 2px 2px 2px black;
   text-transform: uppercase;
