@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="app">
+    <header class="cabecalho">
+        <h1>Gerador de memes</h1>
+    </header>
+    <form class="form">
+        <label for="text-input"> Frase:</label>
+        <input type="text" id="text-input" maxlength="60"></input>
+        <label for="meme-insert">Escolha uma imagem:</label>
+        <input type='file' id="meme-insert" accept="image/*"></input>
+    </form>
+    <div id="meme-image-container" class="meme-image-container">
+      <img id="meme-image" class="meme-image" alt="meme">
+       <p id="meme-text" class="meme-text"></p>
+    </div>
+    <span class="bordas">
+      <button id="button1" class="button1"> Borda 1</button>
+      <button id="button2" class="button2"> Borda 2</button>
+      <button id="button3" class="button3"> Borda 3</button>
+    </span>
+    <span class="btmemes">
+      <button id="meme-1" class="meme-1"> meme-1</button>
+      <button id="meme-2" class="meme-2"> meme-2</button>
+      <button id="meme-3" class="meme-3"> meme-3</button>
+      <button id="meme-4" class="meme-4"> meme-4</button>
+    </span>
+</body>
+<script src="script.js"></script>
+</html>

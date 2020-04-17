@@ -1,0 +1,36 @@
+.bordas{
+  position: relative;
+  top: 10px;
+}
+
+.btmemes{
+  left: 10px;
+  position: absolute;
+  top:550px;
+}
+
+.meme-image{
+  height: 100%;
+  top: 50px;
+  width: 100%;
+}
+
+.meme-image-container{
+  background-color:rgb(255, 255, 255);
+  border: 1px solid black;
+  height: 400px;
+  position: relative;
+  width: 400px;
+}
+
+.meme-text{
+  bottom: 10%;
+  color: rgb(224, 34, 34);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  height: 50px;
+  position: absolute;
+  text-align: center;
+  top:300px;
+  word-break: break-all;
+}
