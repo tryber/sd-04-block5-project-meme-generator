@@ -1,0 +1,21 @@
+.image-preview {
+    width: 500px;
+    min-height: 200px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 15px;
+    background-color: white;
+        /*text*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+#meme-image {   
+    width:450px;
+    height: 450px;
+}
+#meme-text {
+    position: absolute;
+    max-width: 450px;
+    color: red;
+}
