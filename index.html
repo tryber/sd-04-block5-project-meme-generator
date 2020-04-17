@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+   <title>My awesome meme</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Gerador de memes!</h1>
+  <form>
+  <label for="text-input"> Coloque seu texto aqui:</label>
+  <input id="text-input" class="text-input" type:"text" maxlength="60"></input><br>
+  <br>
+  <label for="meme-input"> Insira sua imagem</label>
+  <input type="file" id="meme-insert" class="meme-insert" ></input><br>
+  </form>
+  <h2>Escolha sua borda</h2>
+  <button id='button1'>Borda Vermelha</button>
+  <button id='button2'>Borda Azul</button>
+  <button id='button3'>Borda Verde</button>
+
+  <div id="meme-image-container" class="meme-image-container">
+    <p id="meme-text" class="meme-text"></p>
+    <img id="meme-image" class = "meme-image"src='' alt=''></img>
+  </div>
+  <br>
+  <h3>Aqui temos algumas opções de imagem para você:</h3>
+  <img id="meme-1" class="small" onclick="openImage('imgs/meme1.jpeg')" src="imgs/meme1.jpeg">
+  <img id="meme-2" class="small" onclick="openImage('imgs/meme2.jpeg')" src="imgs/meme2.jpeg">
+  <img id="meme-3" class="small" onclick="openImage('imgs/meme3.jpeg')" src="imgs/meme3.jpeg">
+  <img id="meme-4" class="small" onclick="openImage('imgs/meme4.jpeg')" src="imgs/meme4.jpeg">
+  <script src="script.js"></script>
+</body>
+</html>
