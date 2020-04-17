@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+.memeImageContainer {
+  background-color: white;
+  border: 1px solid black;
+  box-sizing: border-box;
+  height: 450px;
+  width: 630px;
+}
+
+fieldset {
+  background-color: rgb(223, 226, 236);
+  border-radius: 4px;
+  font-weight: bold;
+  height: 75px;
+  padding-top: 10px;
+  position: relative;
+  width: 37%;
+}
+
+.botoesCamp {
+  float: left;
+}
+
+.superMemes img {
+  border: 1px solid #000;
+  height: 65px;
+  width: 65px;
+}
+
+.superMemes img:hover {
+  border: 2px solid aqua;
+}
+
+button {
+  background-color: rgba(36, 34, 34, 0.705);
+  border-radius: 6px;
+  color: white;
+  height: 40px;
+  margin: 5px;
+  transition: background-color 1.5s;
+  width: 140px;
+}
+
+.buttonUm:hover, .buttonDois:hover, .buttonTres:hover {
+  font-weight: bold;
+}
+
+.buttonUm:hover {
+  background-color: #f00;
+}
+
+.buttonDois:hover {
+  background-color: #00f;
+}
+
+.buttonTres:hover {
+  background-color: #0f0;
+}
+
+.memeImage {
+  display: none;
+  height: 100%;
+  max-height: 500px;
+  min-height: 200px;
+  width: 100%;
+}
+
+.memeImageContainer, .memeImage {
+  position: relative;
+}
+
+.memeText {
+  background-color: rgba(0 , 0 , 0 , 0.65);
+  bottom: 30px;
+  color: #fff;
+  font-family: 'Titillium Web', Helvetica, sans-serif;
+  font-size: 1.7em;
+  max-height: inherit;
+  position: absolute;
+  text-indent: 25px;
+  width: 100%;
+  z-index: 1;
+}
