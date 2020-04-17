@@ -1,0 +1,107 @@
+.main-container{
+    background-color: rgb(241, 241, 241);
+    border: 2px solid rgb(230, 230, 230);
+    height: 550px;
+    margin: auto;
+    margin-top: 10px;
+    width: 520px;
+}
+
+.thumb{
+    border: 2px solid rgb(230, 230, 230);
+    height: 190px;
+    margin-left: 500px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 280px;
+}
+
+.thumb img{
+    border: 1px solid black;
+    height: 37%;
+    margin: 5px 3px;
+    opacity: 0.5;
+    width: 45%;
+}
+
+.thumb img:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.meme-img-container{
+    background-color: white;
+    border: solid 1px black;
+    height: 450px;
+    margin: auto;
+    margin-top: 10px;
+    width: 470px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.forms{
+    display: block;
+    margin-left: 10px;
+}
+
+.forms label{
+    display: inline-block;
+    padding: 10px 1px;
+    width: 130px;
+}
+
+.meme-text{
+    color: white;
+    font-family: cursive;
+    font-size: 36px;
+    font-weight: bold;
+    height: 100px;
+    line-height: 32px;
+    margin-left: 5px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 3px 2px black;
+    top: 410px;
+    width: 460px;
+    z-index: 100;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.buttons{
+    float: left;
+    margin-top: 20px;
+    position: relative;
+    width: 80%;
+}
+
+.buttons legend{
+    font-weight: bold;
+}
+
+.buttons button{
+    background-color: white;
+    height: 30px;
+    margin-right: 10px;
+    width: 70px;
+}
+
+.buttons .button1{
+    background: url(imgs/dashed.png) center no-repeat;
+}
+
+.buttons .button2{
+    background: url(imgs/double.jpeg) center no-repeat;
+}
+
+.buttons .button3{
+    background: url(imgs/groove.jpeg) center no-repeat;
+}

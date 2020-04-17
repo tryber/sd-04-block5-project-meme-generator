@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container" class="main-container">
+        <div id="forms" class="forms">
+            <form id="meme-gen" action="">
+                <label><b>Select a Picture</b></label> <input type="file" id="meme-insert" onchange="setImage()">
+                <label><b>Meme Text</b></label> <input type="text" id="text-input" maxlength="60">
+            </form>
+        </div>
+        <div id="meme-image-container" class="meme-img-container">
+            <img id="meme-image">
+            <div id="meme-text" class="meme-text">
+            </div>
+            <div id="thumbnail" class="thumb">
+                <img id="meme-1" src="imgs/meme1.jpeg"  width="20px" alt="Meme 01 Thumbnail">
+                <img id="meme-2" src="imgs/meme2.jpeg"  width="20px" alt="Meme 02 Thumbnail">
+                <img id="meme-3" src="imgs/meme3.jpeg"  width="20px" alt="Meme 03 Thumbnail">
+                <img id="meme-4" src="imgs/meme4.jpeg"  width="20px" alt="Meme 04 Thumbnail">
+            </div>
+        </div>
+        <div id="buttons" class="buttons">
+            <form onsubmit="onSubmit()" id="form-buttons">
+                <fieldset>
+                    <legend>Add a border to the Image</legend>
+                    <button id="button1" class="button1"></button>
+                    <button id='button2' class="button2"></button>
+                    <button id='button3' class="button3"></button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
