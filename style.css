@@ -1,0 +1,46 @@
+.container {
+    width: 1366px;
+    height: 768px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.coluna-esquerda {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.coluna-direita {
+    display: inline-block;
+}
+
+
+#meme-image-container {
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+}
+
+#meme-image-container #meme-text {
+    width: 418px;
+    position: absolute;
+    font-size: 24px;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px white;
+    margin-top: 380px;
+    margin-left: 61px;
+    text-align: center;
+  
+}
+
+#meme-image {
+    width: inherit;
+}
