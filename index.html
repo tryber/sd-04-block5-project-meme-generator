@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meme Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="main">
+      <header class="container">
+        <h1>Meme Generator</h1>
+      </header>
+      <form>
+        <div id="file-upload" class="file-upload">
+          <label for="meme-image">Insira a imagem:</label>
+          <input type="file" id="meme-insert" class="meme-insert" />
+        </div>
+        <!--Caixa de texto-->
+        <div class="text-container">
+          <label for="text-input">Insira texto:</label>
+          <input
+            id="text-input"
+            class="text-input"
+            type="text"
+            maxlength="60"
+            placeholder="Escreva o texto"
+            autocomplete="off"
+          />
+        </div>
+      </form>
+      <!-- Botoes com opção de borda -->
+      <div class="containerButton">
+        <button id="button1">Border 1</button>
+        <button id="button2">Border 2</button>
+        <button id="button3">Border 3</button>
+        <button id="buttonReset">Reset Border</button>
+      </div>
+      <!-- Imagens pre prontas -->
+      <div class="expImg">
+        <img
+          id="meme-1"
+          class="memeMiniatura"
+          src="imgs/meme1.jpeg"
+          alt="pikachu surpreso"
+        />
+        <img
+          id="meme-2"
+          class="memeMiniatura"
+          src="imgs/meme2.jpeg"
+          alt="Willy Wonka"
+        />
+        <img
+          id="meme-3"
+          class="memeMiniatura"
+          src="imgs/meme3.jpeg"
+          alt="Gatinho sendo entrevistado"
+        />
+        <img
+          id="meme-4"
+          class="memeMiniatura"
+          src="imgs/meme4.jpeg"
+          alt="meme do faustão(feliz e triste)"
+        />
+      </div>
+      <!-- elemento da
+          imagem  -->
+      <div id="meme-image-container" class="meme-image-container">
+        <!-- elemento do texto -->
+        <p id="meme-text" class="meme-text"></p>
+        <!-- elemento onde é feito o upload da imagem -->
+        <img id="meme-image" class="meme-image" src="" alt="Imagem Preview" />
+      </div>
+    </div>
+    <footer>
+      <p>Produced by Alice Arruda Atalla</p>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
