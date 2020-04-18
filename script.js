@@ -7,10 +7,10 @@ var button1 = document.querySelector("#button1");
 var button2 = document.querySelector("#button2");
 var button3 = document.querySelector("#button3");
 
-var image1 = document.getElementById("preLoaded1");
-var image2 = document.getElementById("preLoaded2");
-var image3 = document.getElementById("preLoaded3");
-var image4 = document.getElementById("preLoaded4");
+var image1 = document.getElementById("meme-1");
+var image2 = document.getElementById("meme-2");
+var image3 = document.getElementById("meme-3");
+var image4 = document.getElementById("meme-4");
 
 var container = document.querySelector("#meme-image-container");
 
