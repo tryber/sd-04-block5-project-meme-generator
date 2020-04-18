@@ -1,0 +1,85 @@
+.container {
+  background-color: white;
+  border: 1px black solid;
+  box-sizing: border-box;
+  height: 300px;
+  margin: 2% auto 0 auto;
+  position: static;
+  width: 300px;
+  word-wrap: break-word;
+  }
+
+.pText {
+  bottom: 25%;
+  color: yellow;
+  font-weight: bolder;
+  margin-left: 3%;
+  position: relative;
+  text-shadow: 3px 4px 3px rgba(150, 0, 0, 1);
+}
+
+label {
+  color: white;
+}
+
+.memeImage {
+  height: 100%;
+  width: 100%;
+}
+
+.button1 {
+  border: 3px dashed red;
+}
+
+.button2 {
+  border: 5px double blue;
+}
+
+.button3 {
+  border: 6px groove green;
+}
+
+.header {
+  background-image: linear-gradient(blue, yellow);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.form {
+  align-items: center;
+  background-color: brown;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  margin: auto ;
+  width: 50%;
+}
+
+.form input {
+  margin: 2%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.buttons input {
+  background-color: brown;
+  color: white;
+  margin: 2%;
+}
+
+body {
+  background-color: indianred;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+}
+
+.preLoaded {
+  margin: 1%;
+  width: 70px;
+}
