@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>MEME-Generator</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&family=Comic+Neue&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Crie seu meme aqui</h1>
+    <form>
+        <label for="text-input">Digite aqui:<input id="text-input" class="text-input" type="text"
+                maxlength="60"></label>
+        <br>
+        <label for="meme-insert">Selecione alguma imagem</label>
+        <input type="file" id="meme-insert" class="meme-insert" name="meme-insert" accept="image/*">
+    </form>
+    <div id="meme-image-container" class="meme-image-container">
+        <p id="meme-text" class="meme-text">Seu texto aparece aqui</p>
+        <img id="meme-image" class="meme-image" src="" alt="imagem do meme">
+    </div>
+    <div id="meme-borders" class="meme-borders">
+        <h2>Bordas</h2>
+        <button id="button1">Dashed Red</button>
+        <button id="button2">Double Blue</button>
+        <button id="button3">Green Groove</button>
+    </div>
+    <div class="meme-pre">
+        <h2>Selecione uma imagem</h2>
+        <img id="meme-1" src="./imgs/meme1.jpeg" class="meme" alt="meme numero um">
+        <img id="meme-2" src="./imgs/meme2.jpeg" class="meme" alt="meme numero dois">
+        <img id="meme-3" src="./imgs/meme3.jpeg" class="meme" alt="meme numero tres">
+        <img id="meme-4" src="./imgs/meme4.jpeg" class="meme" alt="meme numero quatro">
+    </div>
+    <div id="send">
+        <button>Enviar</button>
+    </div>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
