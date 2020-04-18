@@ -14,7 +14,7 @@ window.onload = function() {
     
     submit.addEventListener('change', upImage);
     button1.addEventListener('click', borderCustomOne);
-    button2.addEventListener('click', borderCustomTwo);l
+    button2.addEventListener('click', borderCustomTwo);
     button3.addEventListener('click', borderCustomThree);
 
     for (meme of memes) {
