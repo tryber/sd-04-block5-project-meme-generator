@@ -1,0 +1,42 @@
+html, body{
+  margin: 10px;
+  padding: 0;
+}
+
+.setting{
+  display: block;
+  padding: 10px;
+}
+
+.meme-image-container{
+  background-color: white;
+  border: 1px solid black;
+  font-size: 35px;
+  height: 500px;
+  margin-top: 20px;
+  position: relative;
+  width: 500px;
+}
+
+.meme-image-container img{
+  height: 500px;
+  width: 500px;
+}
+
+.meme-text{
+  bottom: 2%;
+  color: yellow;
+  font-weight: bold;
+  left: 50%;
+  max-width: 500px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+  transform: translate(-50%);
+  word-wrap: break-word;
+}
+
+.meme-img{
+  height: 500px;
+  width: 500px;
+}

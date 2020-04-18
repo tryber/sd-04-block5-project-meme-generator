@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Project Meme Generator - leandromarten1</title>
+</head>
+<body>
+  <header>
+    <h1>leandromarten1 - Meme Generator</h1>
+  </header>
+  <section id="setting" class='setting'>
+    <form>
+      <label>Texto do MEME:</label><br>
+      <input autocomplete="off" type="text" id="text-input" maxlength="60"><br><br>
+      <label>Imagem Escolhida:</label><br>
+      <input type="file" id="meme-insert"><br><br>
+      <!-- <button id="btnGerar">Gerar MEME</button> -->
+    </form>
+    <!--BONUS 4-->
+    <button id="button1">Borda 1</button>
+    <button id="button2">Borda 2</button>
+    <button id="button3">Borda 3</button>
+    <br><br>
+    <!--BONUS 5-->
+  </section>
+  <section id="meme-image-container" class='meme-image-container'>
+    <!-- <img src="https://picsum.photos/200" class="meme-img" id="meme-img"> -->
+    <p id="meme-text" class="meme-text"></p>
+  </section>
+  <footer>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
