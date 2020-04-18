@@ -25,16 +25,16 @@ image3.addEventListener("click", img3Insert);
 image4.addEventListener("click", img4Insert);
 
 function img1Insert() {
-  imageDisplay.src = "./imgs/meme1.png"
+  imageDisplay.src = "./imgs/meme1.jpeg"
 }
 function img2Insert() {
-  imageDisplay.src = "./imgs/meme2.webp"
+  imageDisplay.src = "./imgs/meme2.jpeg"
 }
 function img3Insert() {
-  imageDisplay.src = "./imgs/meme3.png"
+  imageDisplay.src = "./imgs/meme3.jpeg"
 }
 function img4Insert() {
-  imageDisplay.src = "./imgs/meme4.png"
+  imageDisplay.src = "./imgs/meme4.jpeg"
 }
 
 function insertText() {
