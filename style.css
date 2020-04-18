@@ -39,12 +39,13 @@ body {
 #meme-image {
   display: none;
   width: 450px;
+  height: 450px;
 
 }
 
-/* #meme-borders {
-    
-} */
+.meme-borders {
+    margin: 16px;
+}
 
 button {
   background-color: rgb(34, 85, 179);
@@ -55,6 +56,11 @@ button {
 
 button:hover {
   background-color: rgb(99, 154, 255);
+}
+
+.meme {
+  width: 300px;
+  height: 300px;
 }
 
 
