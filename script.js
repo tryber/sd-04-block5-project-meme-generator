@@ -2,6 +2,7 @@ window.onload = function (){
   //Coletando as variáveis de entrada:
   let img = document.getElementById('meme-image');
   let text = document.getElementById('text-input');
+  let container = document.getElementById('meme-image-container')
   text.addEventListener('keyup',function(){
     let caps = text.value;
     document.getElementById('meme-text').innerHTML = caps;
@@ -11,4 +12,21 @@ window.onload = function (){
   function save(){
     img.src = URL.createObjectURL(image.files[0]);
   }
+  const button1 = document.getElementById('button1');
+  button1.addEventListener("click", function () {
+    container.style.border = '';
+    container.className.add = 'button1';
+  })
+
+  const button2 = document.getElementById('button1');
+  button2.addEventListener("click", function () {
+    container.style.border = '';
+    container.className.add = 'button2';
+  })
+
+  const button3 = document.getElementById('button1');
+  button3.addEventListener("click", function () {
+    container.style.border = '';
+    container.className.add = 'button3';
+  })
 }

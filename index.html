@@ -8,18 +8,21 @@
 
   </head>
   <body>
-    <header id="header">
-      <form>
-        <h1>Meu meme Pessoal!</h1>
-        <label for="text">Digite o texto do seu meme:</label>
-          <input type="text" id="text-input" name='text' size='4' maxlength="60"><br>
-        <label for='meme'>Adicione a Imagem para seu meme!</label>
-          <input type="file" id='meme-insert' name='meme' multiple accept="image/*" size='4'>
-      <form>
-      </header>
-      <div id='meme-image-container'>
-        <img id="meme-image" src="" alt="your image">
-        <h2 id='meme-text'></h2>
+    <header id="header" class='header'>
+       <h1>Meu meme Pessoal!</h1>
+      <label for="text">Digite o texto do seu meme:</label>
+        <input type="text" id="text-input" name='text' size='4' maxlength="60"><br>
+      <label for='meme'>Adicione a Imagem para seu meme!</label>
+        <input type="file" id='meme-insert' name='meme' multiple accept="image/*" size='4'>
+      <div class='estilo-borda'>
+        <button id='button1' class='button1'>Borda 1</button>
+        <button id='button2' class='button2'>Borda 2</button>
+        <button id='button3' class='button3'>Borda 3</button>
+      </div>
+    </header>
+      <div id='meme-image-container' class='meme-image-container'>
+        <img id="meme-image" class='meme-image' src="" alt="your image">
+        <h2 id='meme-text' class='meme-text'></h2>
 
       </div>
   </body>
