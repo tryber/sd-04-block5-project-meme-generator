@@ -1,5 +1,12 @@
 body {
-    background-color: rgba(250, 249, 249, 0.582);
+    background-color: white;
+    font-family: "Inter", sans-serif;
+    color: black;
+    text-align: justify;
+}
+
+form {
+    background-color: white;
     font-family: "Inter", sans-serif;
     color: black;
     text-align: justify;
@@ -25,4 +32,8 @@ h1 {
         
 #rodape {
     position: unset;
+}
+
+.moldura {
+	border:1px solid black;
 }

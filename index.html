@@ -17,16 +17,34 @@
 </header>
 
 <body>
+    <div class="moldura">
 <article>
     <h1> Meme generator</h1>
-<br>
-
 <section>
+<form action="http://127.0.0.1:5500/index.html" method="GET">
+
+<div id=meme-image-container>
+    <div id=meme-text>
+    <label for="text">Escreva o texto que vai aparecer na imagem do meme:
+    <input required="required" type="text" id="text-input">
+    </label>
+    </div>
+<br>
+    <label for="image">Escolha a imagem para o meme:
+    <input required="required" type="file" id="meme-insert">
+    <img id="meme-image"/>
+    </label>
+</div>
+
+<br>
+<button type="submit">Crie o meme!</button>
+</form>
 </section>
 </article>
-
 </body>
-
+<br>
+</div>
+<br>
 <footer id= "rodape">
 Este conteúdo está (literalmente) <strong> em constante desenvolvimento</strong>.
 <br>
