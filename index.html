@@ -1,45 +1,45 @@
 <!DOCTYPE html>
-<html lang= "en">
+<html lang="en">
 
 <head>
-<meta charset= "UTF-8">
+<meta charset="UTF-8">
 <title>Meme generator</title>
 
-<link href= "https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
-<link href= "style.css" rel="stylesheet">
-
-<script src="js/script.js"></script>
-
+<link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
 </head>
 
-<header id= "cabecalho">
+<header id="cabecalho">
 <p><em> #womanwhocode</em></p>
 </header>
 
 <body>
 <article>
-    <h1> Meme generator</h1>
+    <h1>Meme generator</h1>
 <section>
 <div class="meme">
-<p> Escreva o texto que vai ser colocado no meme:<br>
-    <textarea id="text-input" maxlength="30"></textarea>
+<p>Escreva o texto que vai ser colocado no meme:<br>
+    <input id="text-input" maxlength="30">
 </p>
-<p> Escolha a imagem do seu meme:<br>
+<p>Escolha a imagem do seu meme:<br>
     <input id="meme-insert" type="file" accept="image/*">
 </p>
 <p>
     <button id="meme-generate">Crie seu meme!</button>
-</p>
-<div class="meme-image-container">
-    imagem id=meme-image
-</div></div>
+</p></div>
+<div id="meme-image-container">
+    <img id="meme-image" src="" alt="your image">
+    <h2 id='meme-text'></h2>
+</div>
 </section>
 </article>
+<script src="js/script.js"></script>
 </body>
-<br>
 
 <br>
-<footer id= "rodape">
+<br>
+
+<footer id="rodape">
 Este conteúdo está (literalmente) <strong> em constante desenvolvimento</strong>.
 <br>
 Envie seu feedback via Slack.
