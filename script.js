@@ -15,18 +15,18 @@ window.onload = function (){
   const button1 = document.getElementById('button1');
   button1.addEventListener("click", function () {
     container.style.border = '';
-    container.className.add = 'button1';
+    container.className = 'button1';
   })
 
-  const button2 = document.getElementById('button1');
+  const button2 = document.getElementById('button2');
   button2.addEventListener("click", function () {
     container.style.border = '';
-    container.className.add = 'button2';
+    container.className = 'button2';
   })
 
-  const button3 = document.getElementById('button1');
+  const button3 = document.getElementById('button3');
   button3.addEventListener("click", function () {
     container.style.border = '';
-    container.className.add = 'button3';
+    container.className = 'button3';
   })
 }
