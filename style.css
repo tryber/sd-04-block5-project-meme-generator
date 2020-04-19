@@ -1,48 +1,83 @@
-body {
-  width: 100%;
+html, body {
+  background-color: rgb(214, 205, 205);
   margin: 0;
   padding: 0;
-  background-color: rgb(173 , 187 , 201);
+  box-sizing: border-box;
 }
 
 .cabecalho {
-  width: 100%;
+  display: flex;
+  justify-content: center;
   background-color: rgb(68 , 91 , 114);
   color: white;
-  font-weight: 200;
   font-family: 'Comic Sans MS', cursive;
-  text-align: center;
-  top: 0;
+  font-weight: 300;
+  padding: 20px 0;
 }
 
 .insert-box {
-  width: 50%;
-  height: 150px;
   display: flex;
+  margin: 10px;
+  padding-top: 40px;
+}
+
+.text-input {
+  display: flex;
+  width: 500px;
+  padding: 3px;
 }
 
 .meme-image-container {
-  width: 95%;
-  height: 600px;
-  border: 1px solid black;
   background-color: white;
-  text-align: center;
-  display: flex;
-  justify-content: center;
+  border: 1px solid black;
+  margin: 30px;
+  height: 300px;
 }
 
 .meme-image {
-  width: 100%; 
-  height: 600px;
+  height: 300px;
+  width: 100%;
 }
 
 .meme-text {
-  position: absolute;
-  color: red;
+  color: rgb(253, 135, 0);
   font-size: 40px;
   font-weight: 200;
-  max-width: 600px;
+  margin: 20px;
+  position: absolute;
+  word-wrap: break-word;
+  max-width: 80%;
+}
+
+.botoes-borda {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.button1 {
+  border: 3px dashed red;
+  cursor: pointer;
+}
+
+.button2 {
+  border: 5px double blue;
+  cursor: pointer;
+}
+
+.button3 {
+  border: 6px groove green;
+  cursor: pointer;
+}
+
+.imagens-prontas {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.meme-1, .meme-2, .meme-3, .meme-4 {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
 }
