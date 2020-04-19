@@ -55,7 +55,7 @@ window.onload = function () {
     meme_3.addEventListener('click', meme3);
 
     function meme4() {
-        memeImage.src = meme_1.src;
+        memeImage.src = meme_4.src;
     }
     meme_4.addEventListener('click', meme4);
 }
