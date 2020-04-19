@@ -1,0 +1,28 @@
+body {
+    background-color: rgba(250, 249, 249, 0.582);
+    font-family: "Inter", sans-serif;
+    color: black;
+    text-align: justify;
+}
+    
+#cabecalho {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    text-decoration: bold;
+    text-align: left;
+    color: black;
+}
+    
+h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+    text-decoration: bold;
+    text-align: left;
+    color: black;
+    line-height: 0em;
+    transition: opacity 0.9s ease-in-out;
+}
+        
+#rodape {
+    position: unset;
+}
