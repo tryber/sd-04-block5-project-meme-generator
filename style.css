@@ -47,7 +47,7 @@ h1 {
   text-shadow: 2px 2px 2px black;
   text-transform: uppercase;
   top: 80%;
-  width: 100%;
+  width: 750;
   word-break : break-all;
   z-index: 2;
 }
