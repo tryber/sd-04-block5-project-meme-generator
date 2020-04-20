@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator Project</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <form>
+    <label for="text-input">Type something funny </label>
+    <input maxlength="60" type="text" id="text-input" placeholder="here.">
+    <input type="file" id="meme-insert" multiple accept="image/*">
+  </form>
+  <div class="meme-image-container" id="meme-image-container">
+
+    <img src='' class="meme-image" id="meme-image">
+    <p class="meme-text" id="meme-text"></p>
+  </div>
+  <div class="buttons">
+    <button id="button1">Borda 1</button>
+    <button id="button2">Borda 2</button>
+    <button id="button3">Borda 3</button>
+  </div>
+  <div class="thumbnailsContainer">
+    <h3>Do you want a little help? Here we have some popular meme images for you to try!</h3>
+    <img class="thumbmeme" id="meme-1" src="imgs/meme1.jpeg" alt="A badass kid">
+
+    <img class="thumbmeme" id="meme-2" src="imgs/meme2.jpeg" alt="Sponge Bob">
+
+    <img class="thumbmeme" id="meme-3" src="imgs/meme3.jpeg" alt="Neil Degrasse Tyson's meme">
+
+    <img class="thumbmeme" id="meme-4" src="imgs/meme4.jpeg" alt="Dr. Bean">
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
