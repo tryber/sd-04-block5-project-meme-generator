@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projeto curso Trybe, desenvolvido por Juliana">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <title>Meme-generator</title>
+</head>
+
+<body>
+    <header>
+        <h1>Crie seu meme, Let's go! </h1>
+    </header>
+    <div class="container-left">
+        <section>
+            <h1 class="font-zero">Digite o texto e escolha uma imagem</h1>
+
+            <label for="">Digite o texto para seu meme</label>
+            <input type="text" class="file text" id="text-input" name="textImput" maxlength="60">
+            <input type="file" class="fileImage" id="meme-insert" name="memeInsert">
+            <label class="btn btnBluePadrao" for="meme-insert"> Selecione uma imagem</label>
+        </section>
+
+        <section>
+            <h1 class="font-zero">Alterar borda do meme</h1>
+            <div>
+                <label>Você pode alterar a borda de seu meme:</label>
+                <input type=button id="button1" class="btn btnRed" value="Vermelho">
+                <input type=button id="button2" class="btn btnBlue" value="Azul">
+                <input type=button id="button3" class="btn btnGreen" value="verde">
+            </div>
+        </section>
+
+        <section>
+            <h1 class="font-zero">Escolher modelo do meme</h1>
+            <label>Você pode escolher um modelo de meme:</label>
+            <input type="image" id="meme-1" alt="Inserir desc aqui" class="smallImage" src="./imgs/meme1.jpeg">
+            <input type="image" id="meme-2" alt="Inserir desc aqui" class="smallImage" src="./imgs/meme2.jpeg">
+            <input type="image" id="meme-3" alt="Inserir desc aqui" class="smallImage" src="./imgs/meme3.jpeg">
+            <input type="image" id="meme-4" alt="Inserir desc aqui" class="smallImage" src="./imgs/meme4.jpeg">
+
+        </section>
+    </div>
+
+    <section class="container-rigth">
+        <h1 class="font-zero">Visualização do Meme-generator</h1>
+        <div id="meme-image-container" class="meme-image-container">
+            <img id="meme-image" src="./imgs/meme1.jpeg" alt="Imagem escolhida para fazer o meme" class="image">
+            <p id="meme-text" class="text-image"></p>
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+body {
+  color: rgb(208, 205, 175);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h1 {
+  color: rgb(47, 50, 80);
+  font-size: 5em;
+  margin: 5px;
+  padding: 5px;
+  text-shadow: 0.1em 0.1em 0.15em;
+}
+
+label {
+  display: flex;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+label:last-of-type {
+  margin-bottom: 6px;
+  margin-top: 15px;
+}
+
+.font-zero {
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.container-rigth {
+  float: right;
+  position: relative;
+  text-align: right;
+  width: 63%;
+}
+
+.meme-image-container {
+  margin: 20px;
+  min-height: 150px;
+  position: relative;
+  text-align: center;
+  width: 600px;
+}
+
+.meme-image-container img {
+  width: 100%;
+}
+
+.container-left {
+  float: left;
+  margin: 20px;
+  position: relative;
+  width: 31%;
+}
+
+.text-image {
+  bottom: 40px;
+  font-family: 'Anton', sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  margin: 0 auto;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+}
+
+.image {
+  z-index: 0;
+}
+
+.fileImage {
+  display: none;
+}
+
+.file {
+  border: 1px solid rgb(208, 205, 175);
+  box-sizing: border-box;
+  color: rgb(184, 182, 165);
+  font-size: 15px;
+  height: 30px;
+  line-height: 30px;
+  padding: 5px;
+  vertical-align: middle;
+  width: 301px;
+}
+
+.text {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.btnBluePadrao {
+  background-color: rgb(47, 50, 80);
+  margin: 0 auto;
+}
+
+.btnRed {
+  background-color: red;
+}
+
+.btnBlue {
+  background-color: blue;
+}
+
+.btnGreen {
+  background-color: green;
+}
+
+.btn {
+  border: none;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  height: 32px;
+  padding: 7px 11px;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.btn:hover {
+  color: yellow;
+}
+
+.smallImage {
+  height: 80px;
+  width: 100px;
+}
+
+.smallImage:hover {
+  height: 85px;
+  width: 102px;
+}
