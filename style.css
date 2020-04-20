@@ -28,10 +28,10 @@ h1 {
 }
 
 .meme-image {
-  height: 700px;
+  height: 750px;
   margin: auto;
   position: absolute;
-  width: 700px;
+  width: 750px;
   z-index: 1;
 }
 .meme-image-container {
