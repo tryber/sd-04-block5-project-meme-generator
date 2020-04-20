@@ -1,5 +1,3 @@
-window.onload = function (){
-
 let img = document.getElementById('meme-image');
 let text = document.getElementById('text-input');
 
@@ -13,5 +11,4 @@ image.addEventListener ("change", save)
 
 function save (){
     img.src = URL.createObjectURL(image.files[0]);
-}
 }

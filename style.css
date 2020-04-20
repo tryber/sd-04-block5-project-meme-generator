@@ -22,21 +22,21 @@ h1 {
     line-height: 0em;
     transition: opacity 0.9s ease-in-out;
 }
-        
-#rodape {
-    position: unset;
-}
 
 #meme-image-container {
-    border:1px solid black;
+    border: 1px solid black;
     background-color: rgb(255, 255, 255);
 }
 
+#meme-img {
+    z-index: 1;
+}
+      
 #meme-text {
     position: absolute;
     z-index: 2;
 }
-    
-#meme-img {
-    z-index: 1;
+
+#rodape {
+    position: unset;
 }
