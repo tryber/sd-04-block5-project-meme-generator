@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>My awesome meme</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header id="header" class='header'>
+      <form>
+        <h1>Meu meme Pessoal!</h1>
+        <label for="text-input">Digite o texto do seu meme:</label>
+          <input type="text" id="text-input" name='text' size='4' maxlength="60"><br>
+        <label for='meme-insert'>Adicione a Imagem para seu meme!</label>
+          <input type="file" id='meme-insert' name='meme' multiple accept="image/*" size='4'>
+      </form>
+      <div class='estilo-borda'>
+        <button id='button1' class='button1'>Borda 1</button>
+        <button id='button2' class='button2'>Borda 2</button>
+        <button id='button3' class='button3'>Borda 3</button>
+      </div>
+    </header>
+      <div id='meme-image-container' class='meme-image-container init'>
+        <img id="meme-image" class='meme-image' src="" alt="your image">
+        <h2 id='meme-text' class='meme-text'></h2>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>

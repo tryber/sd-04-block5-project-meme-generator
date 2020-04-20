@@ -1,0 +1,57 @@
+h1 {
+  text-align: center;
+}
+
+.button1 {
+  border: 3px dashed rgb(255, 0, 0);
+}
+
+.button2 {
+  border: 5px double blue;
+}
+
+.button3 {
+  border: 6px groove green;
+}
+
+.header {
+  background-color: cornsilk;
+  margin: 3px;
+  position: relative;
+  text-align: center;
+  top: 10px;
+  width: 100%;
+}
+
+.init {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.meme-image {
+  height: 750px;
+  margin: auto;
+  position: absolute;
+  width: 750px;
+  z-index: 1;
+}
+.meme-image-container {
+  background-color: rgb(255,255,255);
+  height: 750px;
+  margin: auto;
+  padding: 2px;  
+  position: relative;
+  top: 20px;
+  width: 750px;
+}
+.meme-text {
+  color: white;
+  font-family: Impact;
+  font-size: 60px;
+  position: absolute;
+  text-shadow: 2px 2px 2px black;
+  text-transform: uppercase;
+  top: 80%;
+  width: 750;
+  word-break : break-all;
+  z-index: 2;
+}
