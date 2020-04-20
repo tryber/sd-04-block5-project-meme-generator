@@ -14,8 +14,8 @@ h1 {
 }
 
 label {
-  font-style: italic;
   display: flex;
+  font-style: italic;
   margin-bottom: 5px;
 }
 
