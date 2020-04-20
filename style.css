@@ -22,6 +22,11 @@ h1 {
   top: 10px;
   width: 100%;
 }
+
+.init {
+  border: 1px solid rgb(0, 0, 0);
+}
+
 .meme-image {
   height: 700px;
   margin: auto;
@@ -31,7 +36,6 @@ h1 {
 }
 .meme-image-container {
   background-color: rgb(255,255,255);
-  border: 1px solid rgb(0, 0, 0);
   height: 750px;
   margin: auto;
   padding: 2px;  

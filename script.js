@@ -13,18 +13,21 @@ function save(){
 }
 const button1 = document.getElementById('button1');
 button1.addEventListener("click", function () {
+  container.className = "meme-image-container";
   container.style.border = '';
-  container.className = 'button1';
+  container.classList.add('button1');
 })
 
 const button2 = document.getElementById('button2');
 button2.addEventListener("click", function () {
+  container.className = "meme-image-container";
   container.style.border = '';
-  container.className = 'button2';
+  container.classList.add('button2');
 })
 
 const button3 = document.getElementById('button3');
 button3.addEventListener("click", function () {
+  container.className = "meme-image-container";
   container.style.border = '';
-  container.className = 'button3';
+  container.classList.add('button3');
 })
