@@ -11,7 +11,7 @@
     let meme2 = document.getElementById("meme-2");
     let meme3 = document.getElementById("meme-3");
     let meme4 = document.getElementById("meme-4");
-   
+
     function readImage(input) {
         setIMG(URL.createObjectURL(input.files[0]));
     }

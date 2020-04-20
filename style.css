@@ -15,6 +15,13 @@ h1 {
 
 label {
   font-style: italic;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+label:last-of-type {
+  margin-bottom: 6px;
+  margin-top: 15px;
 }
 
 .font-zero {
@@ -31,11 +38,11 @@ label {
 }
 
 .meme-image-container {
-  width: 400px;
   margin: 20px;
   min-height: 150px;
   position: relative;
   text-align: center;
+  width: 600px;
 }
 
 .meme-image-container img {
@@ -88,6 +95,7 @@ label {
 
 .btnBluePadrao {
   background-color: rgb(47, 50, 80);
+  margin: 0 auto;
 }
 
 .btnRed {
