@@ -14,36 +14,44 @@
     <header>
         <h1>Crie seu meme, Let's go! </h1>
     </header>
-    <section>
-        <h1 class="font-zero">Escolha da estilização do meme</h1>
-        <div class="container-left">
-            <input type="text" class="file text" id="text-input" name="textImput" maxlength="60"
-                placeholder="Digite o texto do seu meme">
+    <div class="container-left">
+        <section>
+            <h1 class="font-zero">Digite o texto e escolha uma imagem</h1>
+
+            <label for="">Digite o texto para seu meme</label>
+            <input type="text" class="file text" id="text-input" name="textImput" maxlength="60">
             <input type="file" class="fileImage" id="meme-insert" name="memeInsert">
-            <input type="text" name="file" id="file" class="file" placeholder="Selecione uma imagem" readonly="readonly">
+            <input type="text" name="file" id="file" class="file" placeholder="Selecione uma imagem"
+                readonly="readonly">
             <label class="btn btnBluePadrao" for="meme-insert"> Selecionar</label>
-   
+        </section>
+
+        <section>
+            <h1 class="font-zero">Alterar borda do meme</h1>
             <div>
-                <p>Você pode alterar a borda de seu meme:</p>
+                <label>Você pode alterar a borda de seu meme:</label>
+                <br>
                 <input type=button id="button1" class="btn btnRed" value="Vermelho">
                 <input type=button id="button2" class="btn btnBlue" value="Azul">
                 <input type=button id="button3" class="btn btnGreen" value="verde">
             </div>
-  
-            <div>
-                <p>Você pode escolher um modelo de meme:</p>
-                <input type="image" id="meme-1" alt="Inserir desc aqui" class="smallImage" src="./imgs/meme1.jpeg">
-                <input type="image" id="meme-2" alt="Inserir desc aqui" class="smallImage" src="./imgs/meme2.jpeg">
-                <input type="image" id="meme-3" alt="Inserir desc aqui" class="smallImage" src="./imgs/meme3.jpeg">
-                <input type="image" id="meme-4" alt="Inserir desc aqui" class="smallImage" src="./imgs/meme4.jpeg">
-            </div>
-        </di>
-    </section>
+        </section>
+
+        <section>
+            <h1 class="font-zero">Escolher modelo do meme</h1>
+            <label>Você pode escolher um modelo de meme:</label> </br>
+            <input type="image" id="meme-1" alt="Inserir desc aqui" class="smallImage" src="./imgs/meme1.jpeg">
+            <input type="image" id="meme-2" alt="Inserir desc aqui" class="smallImage" src="./imgs/meme2.jpeg">
+            <input type="image" id="meme-3" alt="Inserir desc aqui" class="smallImage" src="./imgs/meme3.jpeg">
+            <input type="image" id="meme-4" alt="Inserir desc aqui" class="smallImage" src="./imgs/meme4.jpeg">
+
+        </section>
+    </div>
 
     <section class="container-rigth">
         <h1 class="font-zero">Visualização do Meme-generator</h1>
         <div id="meme-image-container" class="meme-image-container">
-            <img id="meme-image" src="" alt="Imagem escolhida para fazer o meme" class="image">
+            <img id="meme-image" src="./imgs/meme1.jpeg" alt="Imagem escolhida para fazer o meme" class="image">
             <p id="meme-text" class="text-image"></p>
         </div>
     </section>

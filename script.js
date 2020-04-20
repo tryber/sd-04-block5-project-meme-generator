@@ -1,4 +1,3 @@
-window.onload = function () {
     let textInput = document.getElementById("text-input");
     let memeImage = document.getElementById("meme-insert");
     let memeContainer = document.getElementById("meme-image-container");
@@ -12,9 +11,7 @@ window.onload = function () {
     let meme2 = document.getElementById("meme-2");
     let meme3 = document.getElementById("meme-3");
     let meme4 = document.getElementById("meme-4");
-
-    SetBorder(0);
-
+   
     function readImage(input) {
         setIMG(URL.createObjectURL(input.files[0]));
     }
@@ -101,4 +98,8 @@ window.onload = function () {
                 break;
         }
     }
-}
+
+    window.onload = function () {
+        SetBorder(0);
+        configureBorder();
+    }
