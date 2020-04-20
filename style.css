@@ -4,13 +4,6 @@ body {
     color: black;
     text-align: justify;
 }
-
-form {
-    background-color: white;
-    font-family: "Inter", sans-serif;
-    color: black;
-    text-align: justify;
-}
     
 #cabecalho {
     font-family: "Inter", sans-serif;
@@ -40,6 +33,7 @@ h1 {
 }
 
 #meme-text {
+    position: absolute;
     z-index: 2;
 }
     
