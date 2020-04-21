@@ -1,0 +1,83 @@
+html, body {
+  background-color: rgb(214, 205, 205);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.cabecalho {
+  background-color: rgb(68 , 91 , 114);
+  color: white;
+  display: flex;
+  font-family: 'Comic Sans MS', cursive;
+  font-weight: 300;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.insert-box {
+  display: flex;
+  margin: 10px;
+  padding-top: 40px;
+}
+
+.text-input {
+  display: flex;
+  padding: 3px;
+  width: 500px;
+}
+
+.meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 300px;
+  margin: 30px;
+}
+
+.meme-image {
+  height: 300px;
+  width: 100%;
+}
+
+.meme-text {
+  color: rgb(253, 135, 0);
+  font-size: 40px;
+  font-weight: 200;
+  margin: 20px;
+  max-width: 80%;
+  position: absolute;
+  word-wrap: break-word;
+}
+
+.botoes-borda {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.button1 {
+  border: 3px dashed red;
+  cursor: pointer;
+}
+
+.button2 {
+  border: 5px double blue;
+  cursor: pointer;
+}
+
+.button3 {
+  border: 6px groove green;
+  cursor: pointer;
+}
+
+.imagens-prontas {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.meme-1, .meme-2, .meme-3, .meme-4 {
+  cursor: pointer;
+  height: 100px;
+  width: 100px;
+}
