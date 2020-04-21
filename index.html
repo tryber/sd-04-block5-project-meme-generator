@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Memes Generator</h1>
+    </header>
+    <nav id="menu-container" class="menu-container">
+        <form>
+            <label for="meme-insert"> Escolha uma imagem: </label>
+            <input id="meme-insert" type="file" accept="image/*"><br><br>
+            <label for="text-input">Insira o texto do meme: </label>
+            <input id="text-input" type="text" maxlength="60"><br><br>
+            <h3>Bordas Estilizadas</h3>
+            <button id="button1">Borda 1</button>
+            <button id="button2">Borda 2</button>
+            <button id="button3">Borda 3</button><br>
+            <h3>Memes Padrões</h3>
+            <img src="./imgs/meme1.jpeg" class="meme-button" id="meme-1" alt="imagem do meme padrão 1">
+            <img src="./imgs/meme2.jpeg" class="meme-button" id="meme-2" alt="imagem do meme padrão 2">
+            <img src="./imgs/meme3.jpeg" class="meme-button" id="meme-3" alt="imagem do meme padrão 3">
+            <img src="./imgs/meme4.jpeg" class="meme-button" id="meme-4" alt="imagem do meme padrão 4"><br>
+        </form>
+    </nav>
+    <section id="meme-container" class="meme-container">
+        <div id="meme-image-container" class="meme-image-container">
+            <img id="meme-image" class="meme-image" src="" alt="imagem do meme">
+            <p id="meme-text" class="meme-text"></p>
+        </div>
+    </section>
+</body>
+
+</html>

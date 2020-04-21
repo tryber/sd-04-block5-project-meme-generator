@@ -1,0 +1,44 @@
+body {
+  background-color: burlywood;
+  text-align: center;
+}
+form {
+  position: relative;
+}
+.meme-container{
+  display: flex;
+  justify-content: center;
+}
+.meme-image-container {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  height: 768px;
+  justify-content: center;
+  width: 1366px;
+}
+.meme-image {
+  height: 768px;
+  visibility: visible;
+  width: 1366px;
+  z-index: 1;
+}
+.meme-text {
+  bottom: -350px;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0);
+  visibility: visible;
+  word-break: keep-all;
+  word-wrap: break-word;
+  z-index: 2;
+}
+.meme-button {
+  height: 100px;
+  width: 100px;
+}
+.menu-container {
+  display: flex;
+  justify-content: center;
+}
