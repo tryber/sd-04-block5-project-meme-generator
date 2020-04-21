@@ -11,9 +11,7 @@ form {
 
 #meme-image-container {
   background-color: rgb(255, 255, 255);
-  border-color: rgb(0, 0, 0);
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid rgb(0, 0, 0);
   position: relative;
   text-align: center;
   height: 768px;
