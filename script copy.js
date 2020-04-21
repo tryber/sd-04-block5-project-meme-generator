@@ -16,7 +16,7 @@ memeinsertvalue.addEventListener('change',addImageToContainer);
 
 //const memeinsertvalue = document.querySelector('#meme-insert');
 function addImageToContainer(event){
-  const caixaImagem = document.querySelector('.classMemeImage');
+  const caixaImagem = document.querySelector('#meme-image-container');
   
   // test of a different code for adding an image but create cypress error
   // const imgage = document.getElementById("meme-image");
@@ -37,16 +37,16 @@ function addImageToContainer(event){
   // }
   let img;
   let imgpath;
-  // if (!img) {
-  // img = document.createElement("img");
-  // img.id = "meme-image"
-  // img.className = "classMemeImage"
-  // }
+  if (!img) {
+  img = document.createElement("img");
+  img.id = "meme-image"
+  img.className = "classMemeImage"
+  }
   imgpath = memeinsertvalue.files[0].name;
-  // console.log(imgpath);
-  caixaImagem.src = imgpath;
-  // console.log("hello creat");
-  // caixaImagem.appendChild(img);
+  console.log(imgpath);
+  img.src = imgpath;
+  console.log("hello creat");
+  caixaImagem.appendChild(img);
   }
 //function to display inside image the clicked meme pic
 document.body.addEventListener('click', function (event) {
@@ -55,18 +55,18 @@ const idname = event.target.id;
 let imageElement = document.querySelector('.classMemeImage');
 let img;
 let imgpath;
-// if (!img){
-// console.log('existe PAS');
-// img = document.createElement('img');
-// img.id = 'meme-image'
-// img.className = 'classMemeImage'
-// caixaImagem.appendChild(img);
-// }
+if (!img){
+console.log('existe PAS');
+img = document.createElement('img');
+img.id = 'meme-image'
+img.className = 'classMemeImage'
+caixaImagem.appendChild(img);
+}
 for (i = 1; i < 5; i += 1){
-const imgage = document.querySelector('.classMemeImage');
-  if (idname.includes('meme-' + i)) {
-  imgage.src = '/imgs/meme' + i + '.jpeg';
-  }
+const imgage = document.getElementById('meme-image');
+if (idname.includes('meme-' + i)) {
+imgage.src = '/imgs/meme' + i + '.jpeg';
+}
 }
 })
 } //End window.onload
