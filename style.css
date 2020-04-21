@@ -5,40 +5,40 @@ body {
 form {
   position: relative;
 }
-#meme-container{
+.meme-container{
   display: flex;
   justify-content: center;
 }
-#meme-image-container {
+.meme-image-container {
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(0, 0, 0);
-  height: 768px;
-  width: 1366px;
   display: flex;
-  justify-content: center;
-}
-#meme-image {
   height: 768px;
+  justify-content: center;
   width: 1366px;
+}
+.meme-image {
+  height: 768px;
   visibility: visible;
+  width: 1366px;
   z-index: 1;
 }
-#meme-text {
+.meme-text {
+  bottom: -350px;
   font-size: 40px;
   font-weight: bold;
   position: absolute;
   text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0);
   visibility: visible;
-  z-index: 2;
-  word-wrap: break-word;
   word-break: keep-all;
-  bottom: -350px;
+  word-wrap: break-word;
+  z-index: 2;
 }
 .meme-button {
-  width: 100px;
   height: 100px;
+  width: 100px;
 }
-#menu-container {
+.menu-container {
   display: flex;
   justify-content: center;
 }
