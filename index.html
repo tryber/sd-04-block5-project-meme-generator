@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memetizando</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div>
+            <label>Coloque aqui um texto para ser inserido na imagem do meme : </label>
+            <input type=text id="text-input" class="text-input" maxlength="60"><br><br>
+        </div>
+        <div>
+            <label>Faça o upload de uma imagem</label>
+            <input type=file id="meme-insert" class="meme-insert"><br><br>
+        </div>
+        <div>
+            <input type="image" id="meme-1" alt="Meme de fácil acesso 1" class="memes-faceis" src="./imgs/meme1.jpeg">
+            <input type="image" id="meme-2" alt="Meme de fácil acesso 2" class="memes-faceis" src="./imgs/meme2.jpeg">
+            <input type="image" id="meme-3" alt="Meme de fácil acesso 3" class="memes-faceis" src="./imgs/meme3.jpeg" >
+            <input type="image" id="meme-4" alt="Meme de fácil acesso 4" class="memes-faceis" src="./imgs/meme4.jpeg">
+        </div>
+        <div>
+            <p>Mude a borda do meme : </p>
+            <label><span class="vermelho">Vermelho :</span></label>
+            <input type=button id="button1" class="borda-buttons">
+            <label>&nbsp;&nbsp;&nbsp;<span class="azul">Azul :</span></label>
+            <input type=button id="button2" class="borda-buttons">
+            <label>&nbsp;&nbsp;&nbsp;<span class="verde">Verde :</span></label>
+            <input type=button id="button3" class="borda-buttons">
+        </div>
+    </section>
+    <section>
+        <div id="meme-image-container" class="meme-image-container">
+            <img id="meme-image" class="meme-image" src="" alt="Meme aparecerá aqui">
+            <div id="div-meme" class="div-meme">
+                <p id="meme-text" class="meme-text"></p>
+            </div>
+        </div>
+    </section>
+    <script src="script.js">
+        window.onload = function (){}
+    </script>
+</body>
+</html>

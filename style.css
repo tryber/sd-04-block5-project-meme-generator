@@ -1,0 +1,71 @@
+body
+{
+    background-color: #FFECDE;
+}
+
+.text-input
+{
+    line-height: 20px;
+    width: 30%;
+}
+
+.meme-text
+{
+    background-color: rgba(255, 255, 255, 0.212);
+    color: rgb(32, 0, 173);
+    font-size: 28px;
+    word-wrap: break-word;
+}
+
+.div-meme
+{
+    bottom: 8px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -8px);
+}
+
+.meme-image
+{
+    max-height: 500px;
+    max-width: 800px;
+}
+
+.meme-image-container
+{
+    background-color: white;
+    border: 1px solid black;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    width: 300px;
+}
+
+.borda-buttons
+{
+    width: 50px;
+}
+
+.vermelho
+{
+    color: red;
+}
+
+.azul
+{
+    color: blue;
+}
+
+.verde
+{
+    color: green;
+}
+
+.memes-faceis
+{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+}
